@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sandra-jogeva.netlify.app/pages/cv-english/</loc>
+    <lastmod>2014-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/cv-estonian/</loc>
+    <lastmod>2014-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/</loc>
+    <lastmod>2014-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/</loc>
     <lastmod>2014-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,6 +28,9 @@
   </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/collected-territorial-wars/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/contact-4/</loc>
+    <lastmod>2012-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/krahl/</loc>
     <lastmod>2012-06-11T00:00:00+00:00</lastmod>
@@ -41,7 +53,16 @@
     <loc>https://sandra-jogeva.netlify.app/portfolio/ars-longa/</loc>
     <lastmod>2012-06-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/bio/</loc>
+    <lastmod>2012-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/blog/</loc>
+    <lastmod>2012-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/born-free-born-equal/</loc>
+    <lastmod>2012-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/cv/</loc>
     <lastmod>2012-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/paper-shredder/</loc>
@@ -78,6 +99,9 @@
     <lastmod>2012-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/feministic-identity-crisis/</loc>
+    <lastmod>2012-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sandra-jogeva.netlify.app/pages/press-releases/</loc>
     <lastmod>2012-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sandra-jogeva.netlify.app/portfolio/serving-trolley/</loc>
