@@ -1,0 +1,28 @@
+baseURL = "https://sandra-jogeva.netlify.app/"
+languageCode = "et"
+title = "Sandra Jõgeva"
+
+[params]
+  description = "Sandra Jõgeva – Estonian artist, writer and curator"
+
+[menu]
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 1
+  [[menu.main]]
+    name = "Bio"
+    url = "/pages/bio/"
+    weight = 2
+  [[menu.main]]
+    name = "CV"
+    url = "/pages/cv-english/"
+    weight = 3
+  [[menu.main]]
+    name = "Press"
+    url = "/pages/press-releases/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/pages/contact-4/"
+    weight = 5

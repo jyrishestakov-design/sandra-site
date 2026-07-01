@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="single-page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if eq .Type "portfolio" }}
+    <span class="page-date">{{ .Date.Format "2006" }}</span>
+    {{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+  {{ if eq .Type "portfolio" }}
+  {{ if .Params.images }}
+  <div class="portfolio-images">
+    {{ range .Params.images }}
+    <img src="/images/{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+</article>
+{{ end }}

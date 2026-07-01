@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="home">
+  <div class="home-intro">
+    <h1>Sandra Jõgeva</h1>
+    <p class="tagline">Artist · Writer · Curator</p>
+  </div>
+  <div class="portfolio-grid">
+    {{ range where .Site.RegularPages "Type" "portfolio" }}
+    <a href="{{ .RelPermalink }}" class="portfolio-item {{ if .Params.images }}has-image{{ end }}"
+      {{ if .Params.images }}style="background-image: url('/images/{{ index .Params.images 0 }}')"{{ end }}>
+      <div class="portfolio-thumb">
+        <span class="portfolio-title">{{ .Title }}</span>
+        <span class="portfolio-date">{{ .Date.Format "2006" }}</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
