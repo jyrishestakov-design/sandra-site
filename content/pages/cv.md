@@ -1,0 +1,297 @@
+---
+title: "CV"
+date: 2012-06-06
+slug: "cv"
+type: page
+draft: false
+---
+
+**Sandra Jõgeva**
+Sündinud 1976
+E-mail: sandrajogeva@gmail.com
++ 372 5543961
+ 
+**Haridus**
+2009 Tartu Ülikooli Haridusteaduskond, pedagoogika kursus
+2002 Eesti Kunstiakadeemia, interdistsiplinaarsed kunstid, MA
+2000 Eesti Kunstiakadeemia, maal, BA
+1995-96 Eesti Humanitaarinstituut
+ 
+**Kuuluvus**
+2008 MTÜ Kunstikonteiner (juhatuse liige)
+2008 MTÜ Polymer
+2004 Eesti Kunstnike Liit
+2001 Eesti Eesti Autorite Ühing
+ 
+**Kunstirühmitused**
+2001 — 2006 Avangard (Sandra Jõgeva, Margus Tamm)
+2003 — 2006 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Margus Tamm)
+2006 — 2007 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Aino Ingrid Sepp, Kaarel Sammet)
+2009 – Art Container (Tanel Saar, Erik Alalooga, Sandra Jõgeva, Mai Sööt, Janno Bergmann, Kilian Ochs (Saksamaa) jt.)
+ 
+**Isiknäitused**
+2014 „Teine mina“, Luunja Kultuurimaja
+2014  „Nimeta“, Tam galerii, Tallinn
+2012 “Kogutud territooriumisõjad”, Tallinna Linnagalerii, Tallinn
+2012 “Seintel on kõrvad”. Galerii Metropol, Tallinn
+2011 “Kontaktimprovisatsioon”. Pärnu Kunstnike Maja, Pärnu
+2010 “Meeleparandus”. Draakoni galerii, Tallinn
+2009 „Human Touch. Divine Touch“. Grace Exhibition Space, Brooklyn, New York
+2008 „Draamapunkt“. NG Kunstikonteiner, Kultuuritehas Polymer, Tallinn
+2008 „Seisused“ (koos Kaarel Sammetiga), Hobusepea galerii, Tallinn
+2007 „Ars Longa“. Tallinna Linnagalerii, Tallinn
+2007 “Kolmas silm” (Pink Punk). Ville Karel Ghetto Space , Pärnu
+2007 “Pink Punk is dead!” (Pink Punk). Draakoni galerii, Tallinn
+2006 “Must turg”. Y-Galerii, Tartu
+2006 “Leave like a Lady” (koos Kristin Kalamehega). Draakoni galerii keldrisaal, Tallinn
+2006 “Guestbook of the Heart/Südame külalisraamat” Eesti Kunstiakadeemia Galerii
+2005 “Bomb” (Avangard). Enjoy Gallery, Wellington, Uus-Meremaa
+2005 “Avant-Garde or Death” (Avangard/Pink Punk). The Gus Fisher Gallery, Auckland, Uus-Meremaa
+2004 “Bomb”(Avangard). Tallinna Linnagalerii, Tallinn
+2003 “Up and Down” (Avangard). Kuku klubi, Tallinn
+2002 “Smells like Teen Spirit”. Rakvere Muuseum, Rakvere
+2002 „Avangard esitleb: Klassika“ (Avangard). Tallinna Linnagalerii, Tallinn
+1998 „Animaalia“. Raatuse galerii, Tallinn
+ 
+**Kuraatoriprojektid**
+2012 “´Õhtusöök viiele”, Luunja Kultuurimaja, Tartumaa
+2009 “New Age”. Y-galerii, festival Eclectica, Tartu
+2009 „Loomakari/ Animal Collective“.Tallinna Kunstihoone, Tallinn
+2009 „Fair Trade“(Krista Sokolovaga kureeritud joonistuste näitus). IN Graafika festival, Pärnu
+2006 „Unfurled“ (koos Maria Jahniga), Kultuurikatel, Tallinn
+ 
+**Ühisnäitused, festivalid, messid** 
+2014 „Art Container“, retrospektiivnäitus, Pärnu Linnagalerii
+2012 Dimanche Rouge, Kultuuritehas Polymer, Tallinn
+2012 ESTOMANIA. Kuraator: Johanna Sipilä. Galleri Bergman, Helsinki
+2012 CREATurE, Kaunas, Leedu
+2012 Global Container XXIV, Totaldobze, Riia
+2012 Kunstimess “Supermarket 2012” (koos Art Containeriga). Stockholm
+2012 “Ema ja tütar”. Kuraator: Reet Varblane. Tartu Kunstnike Maja, Tartu
+2011 “Global Container XVII”. Kultuurikeskus Not Quite, Fengersfors (Rootsi)
+2011 “Honor thy Father and thy Mother”. XVI Mänttä Art Festival, kuraator Otso Kantokorpi, Mänttä (Soome)
+2011 “Perekond”. Kuraatorid: Anna-Stina Treumund ja Jaanus Samma. Projektiruum März, Tallinn
+2010 “Provoktsioonid ja konfrontatsioonid. Sissevaade eesti kunsti”. Kuraator Eha Komissarov, Szczecini Rahvusmuusemi kaasaegse kunsti filiaal, Szczecin, (Poola)
+2010 Brisbane Festival, Austraalia
+2010 “Edela-Eesti koolkond”. Kuraator: Mari Kartau. Galerii pART, Põltsamaa
+2009 Fountain Art Fair, Miami
+2009 “Global Container VIII”. Kultuuritehas Polymer, Tallinn
+2009 “Loomakari”. Tallinna Kunstihoone, Tallinn
+2008 „Paradise is Not Lost“. Kuraator: Eha Komissarov. Zurab Tsereteli galerii, Moskva
+2008 „Abi kosmosest“. NG Ferrodrum, Tartu
+2008 „IX Läänemeremaade Graafikatriennaal”. Kaliningrad
+2008 „Now Art Now Future“. Vilniuse II Rahvusvaheline Graafikabiennaal, Vilnius
+2008 „Vabaduse väljak“. Tallinna Kunstihoone, Tallinn
+2008 IN Graafika, Pärnu Kunstnike Maja
+2007 „New York Blood Cnopt“ (koos rühmitus Cnoptiga). Grace Space, Brooklyn, New York
+2007 ” Uus laine, 21. sajandi Eesti kunst”. Non Grata Kunstikonteiner, Kultuuritehas Polymer, Tallinn
+2007 “Elamise kunst”. Tallinna Kunstihoone, Tallinn
+2007 “Kehaturg/ Sex Market”. Tallinna Kunstihoone, Tallinn
+2007 “Tekstist Masinani”. Rael Artel Gallery, Tartu
+2006 “Empty Spaces and their Occupants”. XII Rahvusvaheline Eksperimentaalkunsti Festival. Peterburi Maneezh, Peterburi
+2006 “Tehnobia”. Tallinna Kunstihoone, Tallinn
+2005 “Break the ICE”. Reykjaviki Energia galerii. Reykjavik
+2005 “Version 05” (Avangard). Chicago
+2005 “Identiteedid”. Tallinna Kunstihoone, Tallinn
+2004 “InPort”. Tallinn
+2004 “Images of Violence” (Avangard). Bukarest
+2004 “Version 04” (Pink Punk). Chicago
+2004 “Alle gegen Alles” (Avangard, PinkPunk). Berliini Kunstiinstituudi galerii, Berliin
+2004 ”Sweetest Taboo”. Leuven (Belgia)
+2004 “Historiaa nopeammin” (Pink Punk). Kiasma, Helsingi
+2003 “stART: Breaking News” (PinkPunk). Judson Memorial Church, New York
+2003 “Performance Art Festival+Archives” (Pink Punk). Cleveland, Ohio
+2003 „Mina ja teine” (Avangard). Tallinna Kunstihoone, Tallinn
+2003 „Inport”(Avangard). Kanuti Gild, Tallinn
+2003 “Fair Deal”(Pink Punk). Cleveland Performance Art Festival. Cleveland, Ohio
+2003 “Trampoline”. Prater, Berlin
+2003 “Painting Paradise”. Gallery 008, Tallinn
+2003 “Clash of the Civilizations”. Pärnu Kontserdimaja, Pärnu
+2002 “BREATH”. The Ludwig Museum, Budapest
+2002 „Nagu aamen kirikus“(Avangard). St Nicholas Church, Tallinn
+2001 „Estonian Art Since 1990“. Faulconer Gallery, Grinnell College, Iowa
+2001 „Leiubüroo“. Hansapanga Galerii, Tallinn
+2001 IV annual exhibition of the group YDI. Eesti Rahvusraamatukogu, Tallinn
+2001 Festival KanaNahk/”GooseFlesh” (Avangard).
+2001 Akvarellibiennaal. Fulda (Saksamaa)
+2001 “Young British Art”. Tallinna Kunstihoone, Tallinn
+2001 “Kapitalism varemetes”. Tänavaaktsioonide üritus, Tallinn
+2001 “Kõrvalhüpe”. Pärnu Linnagalerii, Pärnu
+2001 Baltic Watercolour Triennal. Arsenals, Riia
+2000 “Diplom 2000”. Rotermanni Soolaladu, Tallinn
+1999 “H2O”. Haapsalu Linnagalerii, Haapsalu
+1999 “Tüdrukud Marsilt” (koos Mirja-Mari Smidtiga), Eesti Kunstiakadeemia galerii, Tallinn
+1997 “Movemus!”. Rotermanni Soolaladu, Tallinn
+1997 “Vesi ja värv”. Rotermanni Soolaladu, Tallinn
+1997 “Maal ’97”. Tallinn Kunstihoone, Tallinn
+1997 “Igavesti Koos”. Tammsaare muuseum, Tallinn
+1996 “Abstraktsioon”. Tallinna Kunstihoone, Tallinn
+ 
+**Performance`id**
+2014 „Ando ja mina“, Patarei Kultuuritolm, Tallinn
+2014 „Post Polymer”, Global Container XXIX, Okasroosikese Loss, Tallinn
+2014 „Kaja Kann”, MAde in Estonia Marathon, Kanuti Gildi Saal, Tallinn
+2014 „Hüljatud. 200 aastat hiljem”, galerii Metropol, Tallinn
+2014 „Brutaalne muutumine”, 8. märtsi performance `iestival, galerii Metropol, Tallinn
+2013 „Politiiline karjäär: järg II”, Eesti Naistoimetajate Liidu aastapäev, Euroopa Liidu Maja Tallinn
+2013 „Poliitiline karjäär: järg”, Patarei Kultuuritolm, Tallinn
+2013 „Polititiline karjäär”, Made in Estonia Marathon, Kanuti Gildi Saal, Tallinn
+2012  “About Cultural Differences and Supersticious Minds”, Dimanche Rouge, Kultuuritehas Polymer, Tallinn
+2012 “9/11″, Tallinn Tuesday, TAM galerii, Tallinn
+2012  “Köyhyydestä”, ESTOMANIA. Kuraator: Johanna Sipilä. Galleri Bergman, Helsinki
+2012 “Untitled”, CREATurE, Kaunas, Leedu
+2012 “Untitled”, Global Container XXIV, Totaldobze, Riia
+2012 “Nimeta”, Global \*Container XXII, Genialistide klubi, Tartu
+2011 “Raha”. Diletantide Avangard. Telliskivi Loomelinnak, Tallinn
+2011 “How to properly love/ destroy something”. Grupiperformance koos Mai Söödi, Tiina Söödi, Julischka Stengele, Teresa Novotny, Cizzy Consalezi, Olivia Verevi ja Epp Kubuga. Kultuuritehase Festival. Polymeri Kultuuritehas, Tallinn; Flutgraben, Berliin; Friedrichstadtzentral, Dresden; LABfactory, Viin
+2011 “Ema õpetussõnad”. Ladyfest. Projektiruum März, Tallinn
+2011 “Kontaktimprovisatsioon / Kiss & Tell”. Made In Estonia Marathon. Kanuti Gild, Tallinn
+2011 “Eesti kultuuripäevad” (koos Art Containeriga). Grace Exhibition Space, New York
+2011 “Kümblejad” (koos Art Containeriga). MEME Gallery, Boston
+2011 “Kümblejad” (koos Art Containeriga). MarketPlace Gallery, Albany (USA)
+2010 “Kümblejad” (koos Art Containeriga). Brisbane Festival Austraalias
+2009 “Kümblejad” koos Art Containeriga. Fountain Art Fair, Miami
+2009 “Born Free, Born Equal”. Global Container VIII. Kultuuritehas Polymer, Tallinn
+2009 „Do It Yourself –S&M”, Grace Exhibition Space, New York
+2008 „Rahu südamesse“ (koos Erik Alalooga, Tanel Saare jt.-ga), Kultuuritehas Polymer, Tallinn
+2008 „Draamapunkt“. NG Kunstikonteiner, Kultuuritehas Polymer, Tallinn
+2008 „Voice of God, Karaoke Version“, „Abi kosmosest“. NG Ferrodrum, Tartu
+2008 „Pink Brain, Big Hair“. Burning Man festival, Nevada kõrb
+2008 „Haigused ja seisundid“. Draw-mathon. Jack the Pelican Presents, Brooklyn, New York
+2008 „ Talk show“. NG Kunstikonteiner, Tallinn
+2008 „Intervjuu“. Horse Guards Parade, London
+2008 „Valgus ja vari“(koos Sorge ja Fideelia-Signe Roots´iga). Niguliste kirik, Tallinn
+2007 „Nirvaana“ (koos Elo Masinguga). Vene Draamateater, Tallinn
+2007 „Voice of God, Karaoke Version“. Fastlagerhalle, Open Space Festival of Free Arts, Berliin
+2007 „Rabbit`s Funeral“ (koos rühmitusega Cnopt). Grace Space, New York
+2007 „American Idol“. (koos rühmitusega Cnopt). Grace Space, New York
+2007 ” VOX DEI: Karaoke Version”. Alytuse Biennaal II, Alytus
+2007 “Jumalan Ruoska”. Diverse Universe III, Lahti
+2007 “Kadalipp”. Tallinna Kunstihoone, Tallinn
+2007 “Kolmas silm” (Pink Punk). Big Performance. Pärnu Kontserdimaja, Pärnu
+2007 “Entertainment”( koos rühmitusega Cnopt). Salme Kultuurikeskus, Tallinn
+2006 Performance koos Pink Punki, Cnopti ja Meeland Sepaga. XII Rahvusvaheline Eksperimentaalkunsti Festival. Peterburi Maneezh, Peterburi
+2006 “Fair Deal”. Peterburi
+2006 “Lucid Dreaming” (koos rühmitusega Cnopt). Von Krahli teater, Tallinn
+2006 “Cinema Verite” (Pink Punk). Pärnu Fideo-ja Vilmifestival, Pärnu Mudaravila, Pärnu
+2006 “The Rocky Horror Picture Show” (Pink Punk). RaKunst, Rakvere
+2006 “Wooligans”(Pink Punk). Diverse Universe II , Tallinna Kunstihoone, Tallinn
+2006 “Live Fast, Die Old” (Pink Punk). IN Graafika, Pärnu Muuseumiait, Pärnu
+2005 “Sleeping Beauties” (Pink Punk). Elavad Skulptuurid, Tallinna Kunstihoone, Tallinn
+2005 “Give the Hate a Chance” (Avangard koos Marianne Männiga). Kultuuritehas Tyszraktar , Budapest
+2005 “Guestbook of the Heart”. Living Art Museum, Reykjavik, Island
+2005 “Fashion”., Polymer, Tallinn
+2005 “Love Lounge” (Avangard). PostsovkhoZ 5, Mooste
+2005 “I COULD BE YOUR MOTHER!” (Pink Punk). Auckland, Uus-Meremaa
+2005 “Fair Deal” (Pink Punk). Wellington ja Auckland, Uus-Meremaa
+2004 “Chicks on Speed” (Avangard). Eclectica, Tartu
+2004 “City lights” (Pink Punk). PostsovkhoZ 4, Mooste
+2004 “Art is Great!” (Pink Punk). Paide, Estonia
+2004 “I COULD BE YOUR MOTHER!” (Pink Punk). Version04, Chicago
+2004 “Fair Deal” (Pink Punk). Version04, Chicago
+2004 “I COULD BE YOUR MOTHER!” (Pink Punk). “Alle gegen Alles”, Berliini Kunstiakadeemia galerii, Berliin
+2004 “Fair Deal” (Pink Punk). Kiasma, Helsingi
+2003 “Black Sabbath” (Pink Punk). Tallinn
+2003 “Fear Deal” (Pink Punk). stART: Breaking News, Judson Memorial Church, New York
+2003 “Leave Home” (Pink Punk). Mooste
+2003 “This is Hardcore” (Pink Punk). Tallinn
+2003 “Fair Deal” (Pink Punk). Cleveland, Ohio, USA; Tallinn
+2003 “Hot Art Chat Line” (Pink Punk). Tallinn
+2002 “Smells like Teen Spirit”. Rakvere Muuseum, Rakvere
+2002 “Visitors from Future”(Avangard). Festival “KanaNahk”/ “GooseFlesh”, Haapsalu
+2002 “Happy Holocaust” (Avangard). “KanaNahk”, Haapsalu
+2002 „War and Money“(Avangard). Niguliste kirik, Tallinn
+2002 „Stravinsky`s Angels: Back With Vengeance“ (Avangard). DMX Krew kontsert, Tallinn
+2001 „Self-portrait as A Man“. Tallinna Kaubamaja
+2001 „Give the Kid Some Money, Give the Kid A Chance“. Viru tn, Tallinn
+2000 „Eastern European“. Turu
+ 
+**Videod**
+2012 “Keskeakriis”
+2012 “Untitled”
+2012 “About Money”
+2011 “Contact Improvisation/ Kiss & Tell”
+2011 “Hypochondriac”
+2011 “Mother`s Words of Wisdom”
+2007 „Ars Longa“
+2007 „News“
+2007 „International“
+2007 “His Masters Voice”
+2007 “Gauntlet”
+2005 “Guestbook of the Heart”
+2003 “Up and Down” (Avangard)
+2003 “Hot Art Chat Line” (Pink Punk)
+2002 “Satanic Dancer” (Avangard)
+2002 “Smells like Teen Spirit” (Avangard)
+2002 “Visitors from Future” (Avangard)
+2002 “I am the Resurrection and the Life” (Avangard)
+2001 „Self-portrait as a Man“
+2001 „Give the Kid Some Money, Give the Kid A Chance“
+2001 „Eastern European“
+ 
+**Publikatsioonid (valik)**
+**Raamatud**
+Jõgeva, Sandra. Draamapunkt. Tartu: Võluri tagasitulek, 2008
+22+ Noored Eesti kunstnikud /Young Estonian Artists (intervjuud). Tallinn: Eesti Kunstiakadeemia, 2005
+**Artiklid**
+Sandra Jõgeva, I am going to Miami, Welcome to Miami – KUNST.EE 2010, 1-2
+Sandra Jõgeva, Kirjad isale Ameerikast – KUNST.EE 2011, 1-2
+Sandra Jõgeva, Minu kõige räpasem saladus – KUNST.EE 2006, 4
+ 
+**Kriitika**
+Siram, „Täiesti normaalsed üksikud inimesed“, sirp, 24.04.2014
+Marian Kivila, Veel üks katse liigitada tegevuskunsti, Sirp, 02.11. 2012
+Marian Kivila, Tragöödia sünd performance`i vaimust ehk Sandra Jõgeva kogutud territooriumisõjad, Sirp, 02.08. 2012
+Margus Kiis, Terve mõistuse tragöödia, Kunst.ee 3/2012
+Reet Varblane, Andri Kseonofontov, Jalutuskäik galeriides – Sirp 16.03. 2012
+Kaisa Eiche, Kuhu küll kõik neiud jäid, mis on neist nüüd saanud? – Sirp 09.03. 2012
+Martin Rünk, Tegevuskunsti masinavärk Polymeris – Sirp, 06.01.2012
+Tiina Sööt, Polymeri utoopia sarnanes küberpungiga – Sirp, 09.09.2011
+Rebeka Põldsam, Vastuoluline ja südamlik Sandra Jõgeva – Sirp, 06.01.2011
+Rebeka Põldsam, Võrdlev analüüs: Seanahk, Global Container VIII – KUNST.EE 2009, 3-4
+Ernest Truely, Loomakari kui uue ühiskonnakorralduse näide – Sirp, 04.04.2009
+Marek Volt, „Kehaturg“ Kunstihoones. Prostitutsioonivaidluse järelkahtlusi – KUNST.EE 2007, 2
+Mari Saat, Etenduskunsti poleemikast – KUNST.EE 2007, 2
+Heie Treier, Poolt või vastu? – Eesti Ekspress/Areen, 15.02 2007
+Krister Kivi, Pehme, punane ja veidi võigas – Eesti Ekspress, 8.02 2007
+Mari Kartau, Utoopia ja kurjuse valguses – KUNST.EE 2006, 3
+Reet Varblane, Surm kevadises Tallinnas ehk kunstnike valuline reaktsioon meie ajale – Sirp 21.04.2006
+Andri Ksenofontov, Kultuurioomm: Surma ilu olemus on elu – Postimees,
+15.04.2006
+Teet Veispak, Sure nagu daam, lahku nagu korjus – Postimees, 11.04.2006
+Markus Williams, In the de-militarized zone – KUNST.EE 2005, 2
+Anneli Porri, Skulptuur ja tema teisik – Vikerkaar 2005, 12
+Andrew Clifford, Lactic Acid on Streets – New Zealand Herald, 23.03.2005
+Kate Nicholson, Art World is not Enough – Pulp Magazine, Feb/March 2005
+Marko Miigi, Avangard pani pommi – Eesti Ekspress 9.12 2005
+Linda Kaljundi, Kiire ja kompaktne ajalookursus Helsingis – Postimees 12.02.2004
+Rainer Vilumaa, Aga kui räägiksime hoopis kunstist? – KUNST.EE 2003, 2
+Marion Pajumets, Lipstick-feminismi tulek Eesti kunsti: hundid lambanahas – Eesti Ekspress, 15.05.2003
+Janno Zõbin Sinimustvalge junn… no mis kunst see ka on?! – Eesti Päevaleht, 02.05.2003
+Teet Veispak, Avangard smells like teen spirit – Sirp, 27.10.2002
+Marko Mergi, Avangard muuseumis! – Eesti Ekspress (Areen), 12.10.2002
+Katrin Kivimaa – Mis kujuga on kananahk? – KUNST.EE 2002, 3
+Triin Mannik, Kulgemise viisid „KanaNahal” – Sirp, 2.08. 2002
+Harry Liivrand, „KanaNahk” teelahkmel – Eesti Ekspress (Areen) 1.08.2002
+Ants Juske, „KanaNahk” ajab endiselt kananahka ihule – Postimees 29.07.2002
+Heie Treier, Kiita v6i tappa – Eesti Ekspress (Areen), 23.01.2002
+Tööd muuseumides
+Tartu Kunstimuuseum
+ 
+**Auhinnad**
+2004 Kultuurkapitali kujutava ja rakenduskunsti sihtkapitali preemia (koos Margus Tammega rühmituse Avangard tegevuse eest)
+2009 Betti Alveri debüüdipreemia novellikogu “Draamapunkt” eest
+**Residentuurid**
+2007 Galerii Grace Space residentuur Brooklynis New Yorgis
+**Muu tegevus**
+2011 Valikkursus EKA magistrandidele (“Kohtu kuulsusega”)
+2011 Polymeri workshoppide programmi Polykool koordineerimine
+2011 Kultuuritehase Festivali korraldamine (koos Jaanika Kuklase ja Jane Paadimeistriga)
+2010- 2010 Saade “Kultuuritehas” Tallinna TV-s (saatejuht ja toimetaja)
+2010 Kunstioksjoni korraldamine Kultuuritehas Polymeri toetuseks
+2008 Rahvusvahelise üritusteseeria Global Container kureerimine Kultuuritehases Polymer (koos Tanel Saare ja Erik Alaloogaga)
+2008 Novellikogu „Draamapunkt“ (kirjastus Võluri Tagasitulek)
+2008 „Üks hullem kui teine“, kirjanduslike kohtumiste seeria Kunstikonteineris
+2007 Kunstiruumi Art Container/Kunstikonteiner koordinaator Kultuuritehases Polymer
+2000 Kuraatori assistent suure eesti kunsti ülevaatenäituse „Estonian Art since 1990“ juures Grinnell College`i galeriis Iowa osariigis USA-s (kuraator Kay Jenkins)
+1998 Kaastööd erinevatele väljaannetele (Kunst.ee, Sirp, EPL, Eesti Ekspress, Delfi, Postimees, Kunst.ee jt)
