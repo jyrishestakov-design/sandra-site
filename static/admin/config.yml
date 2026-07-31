@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: jyrishestakov-design/sandra-site
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+locale: et
+site_url: https://sandra-jogeva.netlify.app
+
+collections:
+  # ------- PORTFOLIO -------
+  - name: portfolio
+    label: "Portfoolio tööd"
+    label_singular: "Töö"
+    folder: "content/portfolio"
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} ({{year}})"
+    sortable_fields: [title, date]
+    fields:
+      - { label: "Pealkiri", name: title, widget: string }
+      - { label: "Aasta / kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: "Slug (URL)", name: slug, widget: string, required: false, hint: "Muutmisel muutub veebiaadress" }
+      - { label: "Tüüp", name: type, widget: hidden, default: portfolio }
+      - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
+      - label: "Pildid"
+        name: images
+        widget: list
+        required: false
+        field: { label: "Pilt", name: image, widget: image }
+      - { label: "Kirjeldus", name: body, widget: markdown }
+
+  # ------- LEHED -------
+  - name: pages
+    label: "Lehed (Bio, CV, Press, Kontakt)"
+    label_singular: "Leht"
+    folder: "content/pages"
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Pealkiri", name: title, widget: string }
+      - { label: "Kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
+      - { label: "Slug (URL)", name: slug, widget: string, required: false }
+      - { label: "Tüüp", name: type, widget: hidden, default: page }
+      - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
+      - { label: "Sisu", name: body, widget: markdown }

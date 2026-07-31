@@ -13,7 +13,8 @@
   {{ if .Params.images }}
   <div class="portfolio-images">
     {{ range .Params.images }}
-    <img src="/images/{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    {{ $s := . }}{{ if not (hasPrefix $s "/") }}{{ $s = printf "/images/%s" $s }}{{ end }}
+    <img src="{{ $s }}" alt="{{ $.Title }}" loading="lazy">
     {{ end }}
   </div>
   {{ end }}

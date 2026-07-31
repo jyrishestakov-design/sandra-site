@@ -4,7 +4,7 @@
   <div class="portfolio-grid">
     {{ range .Pages }}
     <a href="{{ .RelPermalink }}" class="portfolio-item {{ if .Params.images }}has-image{{ end }}"
-      {{ if .Params.images }}style="background-image: url('/images/{{ index .Params.images 0 }}')"{{ end }}>
+      {{ if .Params.images }}{{ $s := index .Params.images 0 }}{{ if not (hasPrefix $s "/") }}{{ $s = printf "/images/%s" $s }}{{ end }}style="background-image: url('{{ $s }}')"{{ end }}>
       <div class="portfolio-thumb">
         <span class="portfolio-title">{{ .Title }}</span>
         <span class="portfolio-date">{{ .Date.Format "2006" }}</span>
