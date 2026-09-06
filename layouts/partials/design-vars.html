@@ -1,0 +1,33 @@
+{{- /* Genereerib data/design.yaml põhjal CSS-muutujad. Kaasata PÄRAST main.css linki. */ -}}
+{{- with hugo.Data.design -}}
+<style>
+:root {
+{{- with .bg_color }}
+  --bg: {{ . | safeCSS }};{{ end }}
+{{- with .text_color }}
+  --text: {{ . | safeCSS }};{{ end }}
+{{- with .link_color }}
+  --link: {{ . | safeCSS }};{{ end }}
+{{- with .link_hover }}
+  --link-hover: {{ . | safeCSS }};{{ end }}
+{{- with .header_bg }}
+  --header-bg: {{ . | safeCSS }};{{ end }}
+{{- with .footer_bg }}
+  --footer-bg: {{ . | safeCSS }};{{ end }}
+{{- with .border_color }}
+  --border: {{ . | safeCSS }};{{ end }}
+{{- with .font_heading }}
+  --font-heading: {{ . | safeCSS }};{{ end }}
+{{- with .font_body }}
+  --font-body: {{ . | safeCSS }};{{ end }}
+{{- with .base_font_size }}
+  --base-font-size: {{ . | safeCSS }};{{ end }}
+{{- with .line_height }}
+  --line-height: {{ . | safeCSS }};{{ end }}
+{{- with .content_width }}
+  --content-width: {{ . | safeCSS }};{{ end }}
+{{- with .grid_gap }}
+  --grid-gap: {{ . | safeCSS }};{{ end }}
+}
+</style>
+{{- end }}

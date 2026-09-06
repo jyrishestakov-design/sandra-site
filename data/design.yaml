@@ -1,0 +1,23 @@
+# === Sandra Jõgeva – kujundus (CMS-is muudetav) ===
+# Neist väärtustest genereeritakse CSS-muutujad (layouts/partials/design-vars.html).
+# Muuda värve/fonte siit või admin-liidesest ("Kujundus").
+
+# Värvid
+bg_color: "#f5f4f0"        # lehe taust
+text_color: "#1a1a18"      # põhitekst
+link_color: "#8b7355"      # lingid sisutekstis
+link_hover: "#8b7355"      # lingi hover
+header_bg: "#f5f4f0"       # päise taust
+footer_bg: "#f5f4f0"       # jaluse taust
+border_color: "#e8e6e0"    # jooned ja portfoolio-ruudustiku vahed
+
+# Tüpograafia
+font_heading: "'Cormorant Garamond', Georgia, serif"   # pealkirjad ja sisutekst
+font_body: "'Inter', sans-serif"                        # menüü, sildid, kuupäevad
+google_fonts_url: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@400;500&display=swap"
+base_font_size: "16px"
+line_height: "1.8"         # sisuteksti reakõrgus
+
+# Paigutus
+content_width: "760px"     # sisulehe maksimaalne laius
+grid_gap: "1px"            # portfoolio-ruudustiku vahe

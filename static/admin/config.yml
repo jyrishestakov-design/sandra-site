@@ -10,6 +10,30 @@ locale: et
 site_url: https://sandra-jogeva.netlify.app
 
 collections:
+  # ------- KUJUNDUS -------
+  - name: kujundus
+    label: "Kujundus"
+    description: "Saidi värvid, fondid ja mõõdud. Salvestamisel ehitatakse sait uuesti (paar minutit)."
+    files:
+      - name: design
+        label: "Värvid, fondid, paigutus"
+        file: "data/design.yaml"
+        fields:
+          - { label: "Lehe taustavärv", name: bg_color, widget: color }
+          - { label: "Tekstivärv", name: text_color, widget: color }
+          - { label: "Lingi värv (sisutekstis)", name: link_color, widget: color }
+          - { label: "Lingi hover-värv", name: link_hover, widget: color }
+          - { label: "Päise taust", name: header_bg, widget: color }
+          - { label: "Jaluse taust", name: footer_bg, widget: color }
+          - { label: "Joonte ja ruudustiku vahede värv", name: border_color, widget: color }
+          - { label: "Pealkirjade ja sisuteksti font", name: font_heading, widget: string, hint: "CSS font-family, nt 'Cormorant Garamond', Georgia, serif" }
+          - { label: "Menüü ja siltide font", name: font_body, widget: string, hint: "CSS font-family, nt 'Inter', sans-serif" }
+          - { label: "Google Fonts URL", name: google_fonts_url, widget: string, required: false, hint: "Kui vahetad fonti, uuenda ka see link (fonts.google.com → Get embed code → link href)" }
+          - { label: "Baasfondi suurus", name: base_font_size, widget: string, hint: "nt 16px" }
+          - { label: "Sisuteksti reakõrgus", name: line_height, widget: string, hint: "nt 1.8" }
+          - { label: "Sisulehe laius", name: content_width, widget: string, hint: "nt 760px" }
+          - { label: "Portfoolio-ruudustiku vahe", name: grid_gap, widget: string, hint: "nt 1px" }
+
   # ------- PORTFOLIO -------
   - name: portfolio
     label: "Portfoolio tööd"
