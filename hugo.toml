@@ -1,5 +1,5 @@
 baseURL = "https://sandra-jogeva.netlify.app/"
-languageCode = "et"
+locale = "et"
 title = "Sandra Jõgeva"
 
 [params]
