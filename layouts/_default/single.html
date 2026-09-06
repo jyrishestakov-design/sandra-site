@@ -9,7 +9,6 @@
   <div class="page-content">
     {{ .Content }}
   </div>
-  {{ if eq .Type "portfolio" }}
   {{ if .Params.images }}
   <div class="portfolio-images">
     {{ range .Params.images }}
@@ -24,7 +23,6 @@
     {{- end }}
     {{ end }}
   </div>
-  {{ end }}
   {{ end }}
 </article>
 {{ end }}

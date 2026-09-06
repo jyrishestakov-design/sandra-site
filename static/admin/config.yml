@@ -89,10 +89,12 @@ collections:
     slug: "{{slug}}"
     preview_path: "/portfolio/{{slug}}/"
     summary: "{{title}} ({{year}})"
-    sortable_fields: [title, date]
+    sortable_fields: [weight, title, date]
+    reorder: { key: weight }
     fields:
       - { label: "Pealkiri", name: title, widget: string }
       - { label: "Aasta / kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: "Järjekord", name: weight, widget: number, value_type: int, required: false, hint: "Lihtsam: nimekirjavaates nupp „Reorder“ – lohista tööd õigesse järjekorda ja salvesta. Ilma järjekorrata tööd kuvatakse lõpus, uuemad ees." }
       - { label: "Slug (URL)", name: slug, widget: string, required: false, hint: "Muutmisel muutub veebiaadress" }
       - { label: "Tüüp", name: type, widget: hidden, default: portfolio }
       - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
@@ -118,10 +120,22 @@ collections:
     create: true
     slug: "{{slug}}"
     preview_path: "/pages/{{slug}}/"
+    sortable_fields: [weight, title, date]
+    reorder: { key: weight }
     fields:
       - { label: "Pealkiri", name: title, widget: string }
       - { label: "Kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
       - { label: "Slug (URL)", name: slug, widget: string, required: false }
+      - { label: "Järjekord", name: weight, widget: number, value_type: int, required: false, hint: "Nimekirjavaates nupp „Reorder“. NB! Päise menüü järjekorda muudetakse jaotises „Menüü“." }
       - { label: "Tüüp", name: type, widget: hidden, default: page }
       - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
-      - { label: "Sisu", name: body, widget: markdown }
+      - { label: "Sisu", name: body, widget: markdown, hint: "Pildi lisamiseks teksti sisse kasuta tööriistariba pildinuppu." }
+      - label: "Pildid (galerii sisu all)"
+        name: images
+        widget: list
+        required: false
+        summary: "{{fields.image}} {{fields.caption}}"
+        fields:
+          - { label: "Pilt", name: image, widget: image }
+          - { label: "Pildiallkiri", name: caption, widget: string, required: false }
+          - { label: "Alt-tekst", name: alt, widget: string, required: false }
