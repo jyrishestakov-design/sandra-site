@@ -34,8 +34,9 @@
   <header>
     <a href="/" class="site-title">{{ $siteTitle }}</a>
     <nav>
-      {{ range .Site.Menus.main }}
-      <a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a>
+      {{ $menu := (hugo.Data.menu | default dict).items | default slice }}
+      {{ range sort $menu "weight" }}
+      <a href="{{ .url }}" {{ if eq $.RelPermalink .url }}class="active"{{ end }}>{{ .name }}</a>
       {{ end }}
     </nav>
   </header>

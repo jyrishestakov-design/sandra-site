@@ -1,0 +1,18 @@
+# === Sandra Jõgeva – päise menüü (CMS-is muudetav: "Menüü") ===
+# Järjestus: väiksem weight enne.
+items:
+  - name: "Portfolio"
+    url: "/portfolio/"
+    weight: 1
+  - name: "Bio"
+    url: "/pages/bio/"
+    weight: 2
+  - name: "CV"
+    url: "/pages/cv-english/"
+    weight: 3
+  - name: "Press"
+    url: "/pages/press-releases/"
+    weight: 4
+  - name: "Contact"
+    url: "/pages/contact-4/"
+    weight: 5

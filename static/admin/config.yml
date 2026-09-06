@@ -57,6 +57,24 @@ collections:
               - { label: "Eesti", value: et }
               - { label: "English", value: en }
 
+  # ------- MENÜÜ -------
+  - name: menyy
+    label: "Menüü"
+    description: "Päise menüü. Kirjeid saab lohistades ümber järjestada."
+    files:
+      - name: menu
+        label: "Menüü kirjed"
+        file: "data/menu.yaml"
+        fields:
+          - label: "Kirjed"
+            name: items
+            widget: list
+            summary: "{{fields.name}} → {{fields.url}}"
+            fields:
+              - { label: "Nimi", name: name, widget: string }
+              - { label: "Aadress (URL)", name: url, widget: string, hint: "nt /pages/bio/ või https://..." }
+              - { label: "Järjekord", name: weight, widget: number, value_type: int, hint: "Väiksem number = eespool" }
+
   # ------- PORTFOLIO -------
   - name: portfolio
     label: "Portfoolio tööd"
