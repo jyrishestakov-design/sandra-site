@@ -1,8 +1,11 @@
 {{ define "main" }}
 <section class="home">
   <div class="home-intro">
-    <h1>Sandra Jõgeva</h1>
-    <p class="tagline">Artist · Writer · Curator</p>
+    {{- $s := hugo.Data.settings | default dict }}
+    <h1>{{ $s.site_title | default site.Title }}</h1>
+    {{- with $s.tagline | default "Artist · Writer · Curator" }}
+    <p class="tagline">{{ . }}</p>
+    {{- end }}
   </div>
   <div class="portfolio-grid">
     {{ range where .Site.RegularPages "Type" "portfolio" }}

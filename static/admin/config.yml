@@ -34,6 +34,29 @@ collections:
           - { label: "Sisulehe laius", name: content_width, widget: string, hint: "nt 760px" }
           - { label: "Portfoolio-ruudustiku vahe", name: grid_gap, widget: string, hint: "nt 1px" }
 
+  # ------- SAIDI SEADED -------
+  - name: seaded
+    label: "Saidi seaded"
+    description: "Saidi nimi, tagline, jaluse tekst ja jagamise (SEO) andmed."
+    files:
+      - name: settings
+        label: "Üldised seaded"
+        file: "data/settings.yaml"
+        fields:
+          - { label: "Saidi nimi", name: site_title, widget: string, hint: "Päises ja brauseri tiitlis" }
+          - { label: "Tagline (esilehel nime all)", name: tagline, widget: string, required: false }
+          - { label: "Kirjeldus (SEO / jagamisel)", name: description, widget: text, required: false }
+          - { label: "Jaluse tekst", name: footer_text, widget: string, hint: "{year} asendatakse jooksva aastaga" }
+          - { label: "E-post", name: email, widget: string, required: false }
+          - { label: "Jagamispilt (og:image)", name: og_image, widget: image, required: false, hint: "Näidatakse, kui lehel endal pilte pole (nt Facebookis jagades)" }
+          - label: "Saidi keel"
+            name: lang
+            widget: select
+            default: et
+            options:
+              - { label: "Eesti", value: et }
+              - { label: "English", value: en }
+
   # ------- PORTFOLIO -------
   - name: portfolio
     label: "Portfoolio tööd"

@@ -1,0 +1,8 @@
+# === Sandra Jõgeva – saidi seaded (CMS-is muudetav: "Saidi seaded") ===
+site_title: "Sandra Jõgeva"                  # päise nimi ja lehe <title>
+tagline: "Artist · Writer · Curator"        # esilehe alapealkiri
+description: "Sandra Jõgeva – Estonian artist, writer and curator"   # meta description / OG
+footer_text: "Sandra Jõgeva © {year}"       # {year} asendatakse jooksva aastaga
+email: "sandrajogeva@gmail.com"
+og_image: ""                                # jagamispilt (nt /images/pilt.jpg); tühi = puudub
+lang: "et"                                  # <html lang="..">

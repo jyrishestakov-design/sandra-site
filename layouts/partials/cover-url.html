@@ -1,0 +1,11 @@
+{{- /* Tagastab lehe kaanepildi URL-i ("" kui pole).
+       Eelistab .Params.cover, muidu esimene .Params.images kirje.
+       images kirje võib olla string või objekt { image, caption, alt }. */ -}}
+{{- $url := "" -}}
+{{- with .Params.cover }}{{ $url = . }}{{ end -}}
+{{- if and (not $url) .Params.images -}}
+  {{- $first := index .Params.images 0 -}}
+  {{- if reflect.IsMap $first }}{{ $url = $first.image | default "" }}{{ else }}{{ $url = $first }}{{ end -}}
+{{- end -}}
+{{- if and $url (not (hasPrefix $url "/")) (not (hasPrefix $url "http")) }}{{ $url = printf "/images/%s" $url }}{{ end -}}
+{{- return $url -}}

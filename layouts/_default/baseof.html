@@ -1,9 +1,27 @@
+{{- $s := hugo.Data.settings | default dict -}}
+{{- $siteTitle := $s.site_title | default site.Title -}}
+{{- $desc := $s.description | default site.Params.description -}}
+{{- $pageTitle := cond .IsHome $siteTitle (printf "%s — %s" .Title $siteTitle) -}}
 <!DOCTYPE html>
-<html lang="et">
+<html lang="{{ $s.lang | default "et" }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <title>{{ $pageTitle }}</title>
+  {{- with $desc }}
+  <meta name="description" content="{{ . }}">
+  {{- end }}
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:site_name" content="{{ $siteTitle }}">
+  <meta property="og:title" content="{{ $pageTitle }}">
+  {{- with $desc }}
+  <meta property="og:description" content="{{ . }}">
+  {{- end }}
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{- $og := partial "cover-url.html" . | default $s.og_image }}
+  {{- with $og }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{- end }}
   {{- $fonts := "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@400;500&display=swap" }}
   {{- with hugo.Data.design }}{{ with .google_fonts_url }}{{ $fonts = . }}{{ end }}{{ end }}
   {{- with $fonts }}
@@ -14,7 +32,7 @@
 </head>
 <body>
   <header>
-    <a href="/" class="site-title">Sandra Jõgeva</a>
+    <a href="/" class="site-title">{{ $siteTitle }}</a>
     <nav>
       {{ range .Site.Menus.main }}
       <a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a>
@@ -25,7 +43,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
-    <p>Sandra Jõgeva © {{ now.Year }}</p>
+    <p>{{ ($s.footer_text | default "Sandra Jõgeva © {year}") | replaceRE `\{year\}` (string now.Year) }}</p>
   </footer>
   <script src="/js/main.js"></script>
 </body>
