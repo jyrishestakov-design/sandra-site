@@ -5,7 +5,9 @@ slug: "tallinn-tv"
 type: portfolio
 draft: false
 images:
-  - "Tallinn_TV_logo.jpg"
+  - image: "Tallinn_TV_logo.jpg"
+    caption: ""
+    alt: ""
 ---
 
 **Kultuuritehas, a TV show about art hosted and presented by Sandra Jogeva  at Tallinn TV**

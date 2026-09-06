@@ -1,0 +1,13 @@
+{{- /* Portfoolio ruudustik. Sisend: lehtede loend. Kaanepilt = cover või esimene pilt. */ -}}
+<div class="portfolio-grid">
+  {{ range . }}
+  {{- $cover := partial "cover-url.html" . }}
+  <a href="{{ .RelPermalink }}" class="portfolio-item {{ if $cover }}has-image{{ end }}"
+    {{ if $cover }}style="background-image: url('{{ $cover }}')"{{ end }}>
+    <div class="portfolio-thumb">
+      <span class="portfolio-title">{{ .Title }}</span>
+      <span class="portfolio-date">{{ .Date.Format "2006" }}</span>
+    </div>
+  </a>
+  {{ end }}
+</div>

@@ -5,12 +5,24 @@ slug: "fair-deal"
 type: portfolio
 draft: false
 images:
-  - "Fair_Deal_Helsinki1.jpg"
-  - "afterfairdealchicago1.jpg"
-  - "berlin1.jpg"
-  - "Fair_Deal_Auckland1.jpg"
-  - "Fair_Deal_Chicago1.jpg"
-  - "Fair_Deal_Nychorisontal1.jpg"
+  - image: "Fair_Deal_Helsinki1.jpg"
+    caption: ""
+    alt: ""
+  - image: "afterfairdealchicago1.jpg"
+    caption: ""
+    alt: ""
+  - image: "berlin1.jpg"
+    caption: ""
+    alt: ""
+  - image: "Fair_Deal_Auckland1.jpg"
+    caption: ""
+    alt: ""
+  - image: "Fair_Deal_Chicago1.jpg"
+    caption: ""
+    alt: ""
+  - image: "Fair_Deal_Nychorisontal1.jpg"
+    caption: ""
+    alt: ""
 ---
 
 By Pink Punk (Sandra Jogeva, Kristin Kalamees, Margus Tamm)

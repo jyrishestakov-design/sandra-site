@@ -5,7 +5,9 @@ slug: an-hommage-to-ulo-oun
 type: portfolio
 draft: false
 images:
-  - SandraLaudKana-046.jpg
+  - image: "SandraLaudKana-046.jpg"
+    caption: ""
+    alt: ""
 ---
 
 Caramel, chicken bones

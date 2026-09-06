@@ -1,0 +1,10 @@
+{{- /* Normaliseerib ühe `images` kirje kujule { url, caption, alt }.
+       Kirje võib olla string (vana kuju) või objekt { image, caption, alt }. */ -}}
+{{- $src := "" }}{{ $caption := "" }}{{ $alt := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $src = .image | default "" }}{{ $caption = .caption | default "" }}{{ $alt = .alt | default "" -}}
+{{- else -}}
+  {{- $src = . -}}
+{{- end -}}
+{{- if and $src (not (hasPrefix $src "/")) (not (hasPrefix $src "http")) }}{{ $src = printf "/images/%s" $src }}{{ end -}}
+{{- return (dict "url" $src "caption" $caption "alt" $alt) -}}

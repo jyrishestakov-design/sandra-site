@@ -5,8 +5,12 @@ slug: "whip-of-god"
 type: portfolio
 draft: false
 images:
-  - "whip-of-god-2.jpg"
-  - "whip-of-god-1.jpg"
+  - image: "whip-of-god-2.jpg"
+    caption: ""
+    alt: ""
+  - image: "whip-of-god-1.jpg"
+    caption: ""
+    alt: ""
 ---
 
 Diverse Universe III, Lahti, Finland

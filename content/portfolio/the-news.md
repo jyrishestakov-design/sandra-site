@@ -5,7 +5,9 @@ slug: "the-news"
 type: portfolio
 draft: false
 images:
-  - "The-News.jpg"
+  - image: "The-News.jpg"
+    caption: ""
+    alt: ""
 ---
 
 2007

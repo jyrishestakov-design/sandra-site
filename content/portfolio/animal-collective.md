@@ -5,7 +5,9 @@ slug: "animal-collective"
 type: portfolio
 draft: false
 images:
-  - "Loomakari_catalogue-1.jpg"
+  - image: "Loomakari_catalogue-1.jpg"
+    caption: ""
+    alt: ""
 ---
 
 An international group show at Tallinn Art Hall curated by Sandra Jogeva

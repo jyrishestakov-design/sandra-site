@@ -5,9 +5,15 @@ slug: "born-free-born-equal"
 type: portfolio
 draft: false
 images:
-  - "GlobalContainer8-021.jpg"
-  - "GlobalContainer8-040.jpg"
-  - "GlobalContainer8-118.jpg"
+  - image: "GlobalContainer8-021.jpg"
+    caption: ""
+    alt: ""
+  - image: "GlobalContainer8-040.jpg"
+    caption: ""
+    alt: ""
+  - image: "GlobalContainer8-118.jpg"
+    caption: ""
+    alt: ""
 ---
 
 ***P*erformance at the Festival of Culture Factory, Global Container**
