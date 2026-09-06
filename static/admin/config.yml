@@ -13,6 +13,7 @@ collections:
   # ------- KUJUNDUS -------
   - name: kujundus
     label: "Kujundus"
+    preview_path: "/"
     description: "Saidi värvid, fondid ja mõõdud. Salvestamisel ehitatakse sait uuesti (paar minutit)."
     files:
       - name: design
@@ -37,6 +38,7 @@ collections:
   # ------- SAIDI SEADED -------
   - name: seaded
     label: "Saidi seaded"
+    preview_path: "/"
     description: "Saidi nimi, tagline, jaluse tekst ja jagamise (SEO) andmed."
     files:
       - name: settings
@@ -60,6 +62,7 @@ collections:
   # ------- MENÜÜ -------
   - name: menyy
     label: "Menüü"
+    preview_path: "/"
     description: "Päise menüü. Kirjeid saab lohistades ümber järjestada."
     files:
       - name: menu
@@ -84,6 +87,7 @@ collections:
     format: frontmatter
     create: true
     slug: "{{slug}}"
+    preview_path: "/portfolio/{{slug}}/"
     summary: "{{title}} ({{year}})"
     sortable_fields: [title, date]
     fields:
@@ -113,6 +117,7 @@ collections:
     format: frontmatter
     create: true
     slug: "{{slug}}"
+    preview_path: "/pages/{{slug}}/"
     fields:
       - { label: "Pealkiri", name: title, widget: string }
       - { label: "Kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
