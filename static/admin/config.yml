@@ -6,6 +6,19 @@ backend:
 media_folder: "static/images"
 public_folder: "/images"
 
+# Üleslaaditavad pildid vähendatakse ja pakitakse juba brauseris, enne GitHubi
+# saatmist. Ilma selleta jääb suur telefonipilt (5-15 MB) üles laadimata ja
+# admin näitab viga "Failed to fetch".
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 2000
+
 locale: et
 site_url: https://sandra-jogeva.netlify.app
 
@@ -129,6 +142,14 @@ collections:
       - { label: "Järjekord", name: weight, widget: number, value_type: int, required: false, hint: "Nimekirjavaates nupp „Reorder“. NB! Päise menüü järjekorda muudetakse jaotises „Menüü“." }
       - { label: "Tüüp", name: type, widget: hidden, default: page }
       - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
+      - label: "Teksti stiil"
+        name: text_style
+        widget: select
+        default: tavaline
+        required: false
+        options:
+          - { label: "Tavaline (serif, hõre reavahe)", value: tavaline }
+          - { label: "CV (nagu PDF-is: väiksem reavahe, reavahetused jäävad alles)", value: cv }
       - { label: "Sisu", name: body, widget: markdown, hint: "Pildi lisamiseks teksti sisse kasuta tööriistariba pildinuppu." }
       - label: "Pildid (galerii sisu all)"
         name: images
