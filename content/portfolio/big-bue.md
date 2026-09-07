@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: Big Bue
+title: Big Blue
 date: 2026-05-05
 slug: ''
 type: portfolio
