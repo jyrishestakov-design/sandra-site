@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 1
 title: Big Bue
 date: 2026-05-05
 slug: ''
