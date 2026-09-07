@@ -38,6 +38,16 @@ main { flex: 1; }
 .page-content a:hover { color: var(--link-hover, #8b7355); }
 .page-content h2, .page-content h3 { font-family: var(--font-body, 'Inter', sans-serif); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin: 2.5rem 0 1rem; opacity: 0.6; }
 
+/* CV-stiil: sama kirjasuurus, rasvane ja reavahe nagu PDF-is (Arial 13pt,
+   reavahe 17.2pt = 1.32). Kasutab saidi enda sans-fonti serifi asemel, sest
+   tihe nimekiri loeb nii paremini. Reavahetused failist jäävad alles. */
+.page-content.text-cv { font-family: var(--font-body, 'Inter', sans-serif); font-size: var(--cv-font-size, 1.0625rem); line-height: var(--cv-line-height, 1.35); }
+/* pre-line ainult lõikude sees, muidu renderduks ka lõikude vaheline reavahetus */
+.page-content.text-cv p { white-space: pre-line; margin-bottom: 1.35em; }
+.page-content.text-cv strong { font-weight: 600; }
+.page-content.text-cv h2, .page-content.text-cv h3 { font-family: inherit; font-size: 1em; font-weight: 600; letter-spacing: 0; text-transform: none; opacity: 1; margin: 1.35em 0 0; }
+.page-content.text-cv a { color: var(--link, #8b7355); }
+
 .portfolio-images { margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.5rem; }
 .portfolio-images img { width: 100%; height: 250px; object-fit: cover; display: block; cursor: zoom-in; transition: opacity 0.2s; }
 .portfolio-images img:hover { opacity: 0.9; }

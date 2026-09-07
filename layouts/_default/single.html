@@ -6,7 +6,7 @@
     <span class="page-date">{{ .Date.Format "2006" }}</span>
     {{ end }}
   </header>
-  <div class="page-content">
+  <div class="page-content{{ with .Params.text_style }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
     {{ .Content }}
   </div>
   {{ if .Params.images }}

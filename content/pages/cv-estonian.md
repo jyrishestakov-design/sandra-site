@@ -4,6 +4,7 @@ date: 2014-08-24
 slug: "cv-estonian"
 type: page
 draft: false
+text_style: "cv"
 ---
 
 **Sandra Jõgeva**
