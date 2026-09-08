@@ -8,7 +8,7 @@ items:
     url: "/pages/bio/"
     weight: 2
   - name: "CV"
-    url: "/pages/cv-english/"
+    url: "/pages/cv/"
     weight: 3
   - name: "Press"
     url: "/pages/press-releases/"
