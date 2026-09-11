@@ -20,7 +20,7 @@ media_libraries:
           width: 2000
 
 locale: et
-site_url: https://sandra-jogeva.netlify.app
+site_url: https://sandrajogeva.artcontainer.ee
 
 collections:
   # ------- KUJUNDUS -------
