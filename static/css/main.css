@@ -48,10 +48,25 @@ main { flex: 1; }
 .page-content.text-cv h2, .page-content.text-cv h3 { font-family: inherit; font-size: 1em; font-weight: 600; letter-spacing: 0; text-transform: none; opacity: 1; margin: 1.35em 0 0; }
 .page-content.text-cv a { color: var(--link, #8b7355); }
 
-.portfolio-images { margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.5rem; }
-.portfolio-images img { width: 100%; height: 250px; object-fit: cover; display: block; cursor: zoom-in; transition: opacity 0.2s; }
-.portfolio-images img:hover { opacity: 0.9; }
-.portfolio-images figure { margin: 0; min-width: 0; }
+/* Galerii-vaade: mitme veeruga "voolav" ladumine (CSS columns), mitte
+   ühtlane ruudustik — iga pilt hoiab oma kuju (kõrge jääb kõrgeks, lai
+   jääb laiaks), nii et tulemuseks on erineva suurusega "kivid" nagu
+   Pinterestis. Auto-fill käitub CSS grid'iga sarnaselt: veergude arv
+   väheneb ise, kui ekraan on kitsam. */
+.portfolio-images { margin-top: 3rem; columns: 3 210px; column-gap: 0.6rem; }
+.portfolio-images figure { break-inside: avoid; margin: 0 0 0.6rem; }
+.portfolio-images img {
+  width: 100%; height: auto; display: block; cursor: zoom-in;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Hiire all olev pilt kasvab veidi ja tõuseb naabrite kohale — transform
+   ei mõjuta paigutust, seega naaberpildid ei nihku. */
+.portfolio-images img:hover {
+  transform: scale(1.05);
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
 .portfolio-images figcaption { margin-top: 0.4rem; font-size: 0.7rem; letter-spacing: 0.1em; opacity: 0.6; }
 
 .list-page { padding: 4rem 3rem; }
