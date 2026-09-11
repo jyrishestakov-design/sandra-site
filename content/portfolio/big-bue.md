@@ -7,15 +7,15 @@ type: portfolio
 draft: false
 cover: /images/näituse-avamine-06.05.2026-034.webp
 images:
-  - image: /images/näituse-avamine-06.05.2026-058.webp
+  - alt: ''
     caption: ''
-    alt: ''
-  - image: /images/näituse-avamine-06.05.2026-063.webp
+    image: /images/näituse-avamine-06.05.2026-058.webp
+  - alt: ''
     caption: ''
-    alt: ''
-  - image: /images/näituse-avamine-06.05.2026-065.webp
+    image: /images/näituse-avamine-06.05.2026-063.webp
+  - alt: ''
     caption: ''
-    alt: ''
+    image: /images/näituse-avamine-06.05.2026-065.webp
 ---
 
 SANDRA JÕGEVA “SUUR SININE / BIG BLUE”!
