@@ -25,7 +25,7 @@ Sandra Jõgeva kunstialase tegevuse poolest võib viimastel aastatel mainida pro
 
 Sandra Jõgeva on pälvinud Eesti Kultuurkapitali audiovisuaalse kunsti sihtkapitali preemia oma debüütfilmi "Armastus..." eest (2018), sama filmi eest ka EFTA aasta dokumentaalfilmi auhinna ning Dokumentalistide Gildi kolleegipreemia Doki Kild; Kulka kujutava ja sihtkapitali preemia 2004 rühmituse Avangard tegevuse eest koos Margus Tammega ning Betti Alveri debüüdipreemia novellikogu "Draamapunkt" eest 2009.
 
-
+Sandra Jõgeva on pälvinud Eesti Kultuurkapitali audiovisuaalse kunsti sihtkapitali preemia oma debüütfilmi "Armastus..." eest (2018), sama filmi eest ka EFTA aasta dokumentaalfilmi auhinna ning Dokumentalistide Gildi kolleegipreemia Doki Kild; Kulka kujutava ja sihtkapitali preemia 2004 rühmituse Avangard tegevuse eest koos Margus Tammega ning Betti Alveri debüüdipreemia novellikogu "Draamapunkt" eest 2009.
 
 Sandra Jõgeva (b. 1976) is an interdisciplinary artist. She holds a BA from the Painting Department of the Estonian Academy of Arts (EKA), awarded in 2000, and an MA from EKA’s Department of Interdisciplinary Arts. In recent years, she has increasingly focused on documentary films dealing with art and artists.
 
