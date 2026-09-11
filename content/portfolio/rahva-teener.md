@@ -7,15 +7,9 @@ type: portfolio
 draft: false
 cover: /images/img_5282.webp
 images:
-  - image: /images/img_5302.webp
-    caption: ''
-    alt: ''
-  - image: /images/img_4990.webp
-    caption: ''
-    alt: ''
-  - image: /images/img_4987.webp
-    caption: ''
-    alt: ''
+  - "/images/img_5302.webp"
+  - "/images/img_4990.webp"
+  - "/images/img_4987.webp"
 ---
 
 Kunstnik Sandra Jõgeva leiab, et kunstivaldkond, mis peaks tema olema kõige vabam ja ilma konkreetsete reegliteta ala, on tarbetut bürokraatiat täis. See muudab tema sõnutsi toetuste saamise pikaks ja keeruliseks protsessiks.

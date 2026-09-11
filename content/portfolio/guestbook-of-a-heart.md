@@ -5,12 +5,8 @@ slug: "guestbook-of-a-heart"
 type: portfolio
 draft: false
 images:
-  - image: "guestbooksuur_1.jpg"
-    caption: ""
-    alt: ""
-  - image: "guestbook_suur_2.jpg"
-    caption: ""
-    alt: ""
+  - "guestbooksuur_1.jpg"
+  - "guestbook_suur_2.jpg"
 ---
 
 **Guestbook of a Heart**

@@ -7,9 +7,7 @@ type: portfolio
 draft: false
 cover: /images/IMG_1248.jpg
 images:
-  - image: /images/IMG_1248.jpg
-    caption: ''
-    alt: ''
+  - "/images/IMG_1248.jpg"
 ---
 
 NAINE, KES OOTAS AKNAL ARMASTUST

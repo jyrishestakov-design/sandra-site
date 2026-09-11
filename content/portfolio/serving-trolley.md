@@ -5,9 +5,7 @@ slug: "serving-trolley"
 type: portfolio
 draft: false
 images:
-  - image: "serving_01.jpg"
-    caption: ""
-    alt: ""
+  - "serving_01.jpg"
 ---
 
 **2009**

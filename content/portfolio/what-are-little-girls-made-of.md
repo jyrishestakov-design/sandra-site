@@ -5,9 +5,7 @@ slug: "what-are-little-girls-made-of"
 type: portfolio
 draft: false
 images:
-  - image: "GlobalContainer8067.jpg"
-    caption: ""
-    alt: ""
+  - "GlobalContainer8067.jpg"
 ---
 
 ***What are little girls made of / Volume I – Meghan,* sculpture of gelatin, 2009**

@@ -5,9 +5,7 @@ slug: "voice-of-god-karaoke"
 type: portfolio
 draft: false
 images:
-  - image: "karaoke.jpg"
-    caption: ""
-    alt: ""
+  - "karaoke.jpg"
 ---
 
 **Voice of God / His Master’s Voice**

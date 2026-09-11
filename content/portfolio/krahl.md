@@ -5,9 +5,7 @@ slug: "krahl"
 type: portfolio
 draft: false
 images:
-  - image: "Krahl.jpg"
-    caption: ""
-    alt: ""
+  - "Krahl.jpg"
 ---
 
 Keskeakriis (Middle Life Crisis)

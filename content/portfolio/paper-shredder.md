@@ -5,15 +5,9 @@ slug: "paper-shredder"
 type: portfolio
 draft: false
 images:
-  - image: "HIIR_04-IMG_93691.jpg"
-    caption: ""
-    alt: ""
-  - image: "HIIR_02-IMG_93261.jpg"
-    caption: ""
-    alt: ""
-  - image: "HIIR_03-IMG_93101.jpg"
-    caption: ""
-    alt: ""
+  - "HIIR_04-IMG_93691.jpg"
+  - "HIIR_02-IMG_93261.jpg"
+  - "HIIR_03-IMG_93101.jpg"
 ---
 
 **Paper shredder for ecologically destroying the secret documents**

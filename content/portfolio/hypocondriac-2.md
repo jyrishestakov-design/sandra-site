@@ -5,9 +5,7 @@ slug: "hypocondriac-2"
 type: portfolio
 draft: false
 images:
-  - image: "hypochondriac.jpg"
-    caption: ""
-    alt: ""
+  - "hypochondriac.jpg"
 ---
 
 „Hüpohondrik“ on osa üheksa kunstniku (Sandra Jõgeva, Mai Sööt, Tiina Sööt, Alla Ting, Epp Kubu ja Olivia Verrev Eestist, Julischka Stengele Saksamaalt ning Teresa Novotny ja Cizzy Conzales Austriast) ühisest terviklikust performance`ist "How to properly love/destroy something".
