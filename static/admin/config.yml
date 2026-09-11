@@ -114,13 +114,10 @@ collections:
       - { label: "Kaanepilt", name: cover, widget: image, required: false, hint: "Ruudustikus näidatav pilt. Tühjaks jättes kasutatakse esimest pilti." }
       - label: "Pildid"
         name: images
-        widget: list
+        widget: image
+        multiple: true
         required: false
-        summary: "{{fields.image}} {{fields.caption}}"
-        fields:
-          - { label: "Pilt", name: image, widget: image }
-          - { label: "Pildiallkiri", name: caption, widget: string, required: false, hint: "Näidatakse pildi all" }
-          - { label: "Alt-tekst", name: alt, widget: string, required: false, hint: "Pildi kirjeldus ekraanilugejale ja otsimootorile; tühjaks jättes kasutatakse töö pealkirja" }
+        hint: "Lohista või vali korraga nii mitu pilti kui vaja — kõik lähevad ühte galeriisse. Järjekorda saab hiljem siin väljal lohistades muuta."
       - { label: "Kirjeldus", name: body, widget: markdown }
 
   # ------- LEHED -------
