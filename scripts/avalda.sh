@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
-# Avaldab saidi Cloudflare Pages'is.
+# Avaldab saidi Cloudflare Pages'is käsitsi.
 #
-# Töövoog: Sandra teeb adminis muudatusi (need salvestuvad GitHubi, midagi ei
-# avaldata automaatselt). Kui muudatused on valmis, käivita see skript.
+# NB (2026-09-12): Cloudflare Pages on nüüd ühendatud GitHubi repoga ja
+# ehitab/avaldab saidi ISE iga main-i push'i peale (paar minutit pärast
+# admini salvestust). Seda skripti ei ole enam vaja tavapäraseks
+# avaldamiseks — kasulik ainult kohaliku ehituse kontrolliks või kui
+# tahad avaldada kohe, ootamata Cloudflare'i automaatset ehitust.
 #
 #   bash scripts/avalda.sh
 #
