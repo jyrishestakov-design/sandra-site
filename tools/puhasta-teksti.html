@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Puhasta tekst</title>
+<style>
+  body {
+    font: 15px/1.5 system-ui, sans-serif;
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    color: #222;
+  }
+  h1 { font-size: 1.2rem; margin-bottom: 0.2rem; }
+  p.help { color: #555; margin-top: 0; }
+  textarea {
+    width: 100%;
+    height: 260px;
+    box-sizing: border-box;
+    font: 14px/1.5 system-ui, sans-serif;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  .row { display: flex; gap: 0.6rem; align-items: center; margin: 0.8rem 0; }
+  button {
+    background: #8b7355;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.1rem;
+    border-radius: 999px;
+    font: 500 14px system-ui, sans-serif;
+    cursor: pointer;
+  }
+  button:active { opacity: 0.8; }
+  button.secondary { background: #14110f; }
+  #status { color: #2a7a2a; font-size: 0.9rem; }
+  label { font-size: 0.9rem; color: #555; }
+</style>
+</head>
+<body>
+  <h1>Puhasta tekst</h1>
+  <p class="help">Kleebi siia tekst veebilehelt (Cmd+V). Vajuta "Puhasta", siis "Kopeeri tulemus" ja
+    kleebi tulemus admini tekstiväljale. Üksik reavahetus keset lõiku eemaldatakse, päris
+    lõigulõpud (tühi rida vahel) jäävad alles.</p>
+
+  <label for="input">1. Kleebi algne tekst</label>
+  <textarea id="input" placeholder="Kleebi siia..."></textarea>
+
+  <div class="row">
+    <button id="clean">Puhasta ↓</button>
+    <span id="status"></span>
+  </div>
+
+  <label for="output">2. Puhastatud tulemus</label>
+  <textarea id="output" placeholder="Tulemus ilmub siia"></textarea>
+
+  <div class="row">
+    <button id="copy" class="secondary">Kopeeri tulemus</button>
+    <span id="copyStatus"></span>
+  </div>
+
+  <script>
+    function dewrap(text) {
+      text = text.replace(/\r\n?/g, "\n");
+      return text
+        .split(/\n[ \t]*\n+/) // tühi rida = päris lõigulõpp, jääb alles
+        .map(function (para) {
+          return para
+            .split("\n")
+            .map(function (line) { return line.trim(); })
+            .filter(function (line) { return line.length > 0; })
+            .join(" ")
+            .replace(/[ \t]+/g, " ")
+            .trim();
+        })
+        .filter(function (para) { return para.length > 0; })
+        .join("\n\n");
+    }
+
+    var input = document.getElementById("input");
+    var output = document.getElementById("output");
+    var status = document.getElementById("status");
+    var copyStatus = document.getElementById("copyStatus");
+
+    document.getElementById("clean").addEventListener("click", function () {
+      output.value = dewrap(input.value);
+      status.textContent = "Valmis.";
+      setTimeout(function () { status.textContent = ""; }, 2000);
+      output.focus();
+      output.select();
+    });
+
+    function fallbackCopy() {
+      output.select();
+      document.execCommand("copy");
+      copyStatus.textContent = "Kopeeritud!";
+      setTimeout(function () { copyStatus.textContent = ""; }, 2000);
+    }
+
+    document.getElementById("copy").addEventListener("click", function () {
+      output.select();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(output.value).then(function () {
+          copyStatus.textContent = "Kopeeritud!";
+          setTimeout(function () { copyStatus.textContent = ""; }, 2000);
+        }, fallbackCopy);
+      } else {
+        fallbackCopy();
+      }
+    });
+
+    // Automaatne puhastus juba kleepimise hetkel input-väljal, nii et
+    // sammu 1 saab ka vahele jätta ja kohe "Kopeeri tulemus" vajutada.
+    input.addEventListener("paste", function () {
+      setTimeout(function () {
+        output.value = dewrap(input.value);
+      }, 0);
+    });
+  </script>
+</body>
+</html>
