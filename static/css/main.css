@@ -78,6 +78,24 @@ footer { background: var(--footer-bg, #f5f4f0); padding: 2rem 3rem; border-top: 
 .lightbox.active { display: flex; }
 .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; }
 
+.lightbox-nav, .lightbox-play {
+  position: absolute; z-index: 1001; cursor: pointer;
+  background: rgba(255,255,255,0.08); color: #fff; border: none; border-radius: 999px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.2s ease;
+}
+.lightbox-nav:hover, .lightbox-play:hover { background: rgba(255,255,255,0.18); }
+.lightbox-nav { top: 50%; transform: translateY(-50%); width: 52px; height: 52px; font-size: 1.3rem; }
+.lightbox-prev { left: 14px; }
+.lightbox-next { right: 14px; }
+.lightbox-play { bottom: 24px; left: 50%; transform: translateX(-50%); width: 44px; height: 44px; font-size: 1rem; }
+
+@media (max-width: 680px) {
+  .lightbox-nav { width: 42px; height: 42px; font-size: 1.1rem; }
+  .lightbox-prev { left: 6px; }
+  .lightbox-next { right: 6px; }
+}
+
 @media (max-width: 680px) {
   header { padding: 1.5rem; flex-direction: column; gap: 1rem; }
   nav { gap: 1rem; flex-wrap: wrap; }
