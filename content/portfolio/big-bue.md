@@ -16,6 +16,9 @@ images:
   - alt: ''
     caption: ''
     image: /images/näituse-avamine-06.05.2026-065.webp
+  - alt: ''
+    caption: ''
+    image: /images/näituse-avamine-06.05.2026-071.webp
 ---
 
 SANDRA JÕGEVA “SUUR SININE / BIG BLUE”!
