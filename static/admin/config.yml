@@ -119,6 +119,7 @@ collections:
         multiple: true
         required: false
         hint: "Lohista või vali korraga nii mitu pilti kui vaja — kõik lähevad ühte galeriisse. Järjekorda saab hiljem siin väljal lohistades muuta."
+      - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle töö galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
       - { label: "Kirjeldus", name: body, widget: markdown }
 
   # ------- LEHED -------
@@ -158,3 +159,4 @@ collections:
           - { label: "Pilt", name: image, widget: image }
           - { label: "Pildiallkiri", name: caption, widget: string, required: false }
           - { label: "Alt-tekst", name: alt, widget: string, required: false }
+      - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle lehe galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
