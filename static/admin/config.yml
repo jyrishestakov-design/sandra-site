@@ -47,6 +47,7 @@ collections:
           - { label: "Sisuteksti reakõrgus", name: line_height, widget: string, hint: "nt 1.8" }
           - { label: "Sisulehe laius", name: content_width, widget: string, hint: "nt 760px" }
           - { label: "Portfoolio-ruudustiku vahe", name: grid_gap, widget: string, hint: "nt 1px" }
+          - { label: "Galeriipiltide valge äär (paspartuu)", name: gallery_mat_width, widget: string, required: false, hint: "Pildi ja selle serva vahele jääv valge ääris, nagu pildiraami paspartuu. Kehtib kõikide lehtede galeriidele. nt 16px. Tühjaks jättes või 0px puudub." }
 
   # ------- SAIDI SEADED -------
   - name: seaded

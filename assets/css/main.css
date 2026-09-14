@@ -57,6 +57,7 @@ main { flex: 1; }
 .portfolio-images figure { break-inside: avoid; margin: 0 0 0.6rem; }
 .portfolio-images img {
   width: 100%; height: auto; display: block; cursor: zoom-in;
+  padding: var(--gallery-mat-width, 0px); background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 /* Hiire all olev pilt kasvab veidi ja tõuseb naabrite kohale — transform

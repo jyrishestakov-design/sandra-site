@@ -28,6 +28,8 @@
   --content-width: {{ . | safeCSS }};{{ end }}
 {{- with .grid_gap }}
   --grid-gap: {{ . | safeCSS }};{{ end }}
+{{- with .gallery_mat_width }}
+  --gallery-mat-width: {{ . | safeCSS }};{{ end }}
 }
 </style>
 {{- end }}

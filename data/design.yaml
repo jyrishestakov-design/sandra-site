@@ -21,3 +21,4 @@ line_height: "1.8"         # sisuteksti reakõrgus
 # Paigutus
 content_width: "760px"     # sisulehe maksimaalne laius
 grid_gap: "1px"            # portfoolio-ruudustiku vahe
+gallery_mat_width: "0px"   # valge äär (paspartuu) galeriipiltide ümber; 0px = puudub
