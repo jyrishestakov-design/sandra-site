@@ -27,7 +27,8 @@
   {{- with $fonts }}
   <link {{ printf "href=%q" . | safeHTMLAttr }} rel="stylesheet">
   {{- end }}
-  <link rel="stylesheet" href="/css/main.css">
+  {{- $css := resources.Get "css/main.css" | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   {{ partial "design-vars.html" . }}
 </head>
 <body>
@@ -46,6 +47,7 @@
   <footer>
     <p>{{ ($s.footer_text | default "Sandra Jõgeva © {year}") | replaceRE `\{year\}` (string now.Year) }}</p>
   </footer>
-  <script src="/js/main.js"></script>
+  {{- $js := resources.Get "js/main.js" | fingerprint }}
+  <script src="{{ $js.RelPermalink }}"></script>
 </body>
 </html>
