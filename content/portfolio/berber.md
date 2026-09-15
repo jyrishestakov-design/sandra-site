@@ -5,7 +5,7 @@ slug: "berber"
 type: portfolio
 draft: false
 images:
-  - "Berber.jpg"
+  - "/images/Berber.jpg"
 ---
 
 International

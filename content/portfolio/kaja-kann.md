@@ -5,7 +5,7 @@ slug: "kaja-kann"
 type: portfolio
 draft: false
 images:
-  - "sandra_pilt_web3.jpg"
+  - "/images/sandra_pilt_web3.jpg"
 ---
 
 A performance trashing the public image of an Estonian coreographer Kaja Kann.

@@ -5,13 +5,13 @@ slug: "mothers-wisdom-2"
 type: portfolio
 draft: false
 images:
-  - "nägudetailkilian1.jpg"
-  - "eestlähemaltkilian1.jpg"
-  - "käeddetailkilian1.jpg"
-  - "kyljepealttervikkilian1.jpg"
-  - "plaatkilian1.jpg"
-  - "sandraskulptuuriga2kilian1.jpg"
-  - "words1.jpg"
+  - "/images/nägudetailkilian1.jpg"
+  - "/images/eestlähemaltkilian1.jpg"
+  - "/images/käeddetailkilian1.jpg"
+  - "/images/kyljepealttervikkilian1.jpg"
+  - "/images/plaatkilian1.jpg"
+  - "/images/sandraskulptuuriga2kilian1.jpg"
+  - "/images/words1.jpg"
 ---
 
 **Sandra Jõgeva, *Mother’s Wisdom*, sculpture of polyurethane and sugar, 2,4 m x 1,7 m, 2011**

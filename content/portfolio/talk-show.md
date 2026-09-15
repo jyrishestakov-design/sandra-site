@@ -5,7 +5,7 @@ slug: "talk-show"
 type: portfolio
 draft: false
 images:
-  - "Talk_show.jpg"
+  - "/images/Talk_show.jpg"
 ---
 
 Talk Show (together with the group Cnopt)

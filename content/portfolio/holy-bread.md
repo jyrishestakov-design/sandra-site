@@ -5,12 +5,12 @@ slug: "holy-bread"
 type: portfolio
 draft: false
 images:
-  - "toast1.jpg"
-  - "jaanuar08-168.jpg"
-  - "jaanuar08-179.jpg"
-  - "jaanuar08-182.jpg"
-  - "jaanuar08-183.jpg"
-  - "roster2.jpg"
+  - "/images/toast1.jpg"
+  - "/images/jaanuar08-168.jpg"
+  - "/images/jaanuar08-179.jpg"
+  - "/images/jaanuar08-182.jpg"
+  - "/images/jaanuar08-183.jpg"
+  - "/images/roster2.jpg"
 ---
 
 Installation is consisting of two  silver-coloured toasters. If you insert a slices of toast into the toasters,  burnt images will appear: portraits of the most recognazible iconic  faces, saints and martyrs from different belief systems. The faces of  Jesus, Che Guevara, Lenin, Charles Manson.

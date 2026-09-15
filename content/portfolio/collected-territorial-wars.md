@@ -5,16 +5,16 @@ slug: "collected-territorial-wars"
 type: portfolio
 draft: false
 images:
-  - "lits1.jpg"
-  - "lits.jpg"
-  - "IMG_5394web.jpg"
-  - "IMG_5399web.jpg"
-  - "IMG_5403web.jpg"
-  - "IMG_5402web.jpg"
-  - "IMG_5404web.jpg"
-  - "IMG_5397web.jpg"
-  - "IMG_5401web.jpg"
-  - "IMG_5395web.jpg"
+  - "/images/lits1.jpg"
+  - "/images/lits.jpg"
+  - "/images/IMG_5394web.jpg"
+  - "/images/IMG_5399web.jpg"
+  - "/images/IMG_5403web.jpg"
+  - "/images/IMG_5402web.jpg"
+  - "/images/IMG_5404web.jpg"
+  - "/images/IMG_5397web.jpg"
+  - "/images/IMG_5401web.jpg"
+  - "/images/IMG_5395web.jpg"
 ---
 
 A solo exhibition at Tallinn City Gallery

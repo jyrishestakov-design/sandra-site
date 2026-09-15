@@ -5,8 +5,8 @@ slug: "poliitiline-karjaar"
 type: portfolio
 draft: false
 images:
-  - "sandra11.jpg"
-  - "sandra1.jpg"
+  - "/images/sandra11.jpg"
+  - "/images/sandra1.jpg"
 ---
 
 A performance enlightening my contact with the Estonian Social Democratic Party and having the only chance so far of being the candidate at the local elections.

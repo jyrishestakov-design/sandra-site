@@ -5,7 +5,7 @@ slug: "diletandid"
 type: portfolio
 draft: false
 images:
-  - "Diletandid.jpg"
+  - "/images/Diletandid.jpg"
 ---
 
 Performance about money and being a Tallinn TV host

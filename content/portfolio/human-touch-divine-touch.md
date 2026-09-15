@@ -5,9 +5,9 @@ slug: "human-touch-divine-touch"
 type: portfolio
 draft: false
 images:
-  - "Human-touch-üldvaade.jpg"
-  - "human-touch-avamisaktsioon.jpg"
-  - "human-touch-shokolaadid1.jpg"
+  - "/images/Human-touch-üldvaade.jpg"
+  - "/images/human-touch-avamisaktsioon.jpg"
+  - "/images/human-touch-shokolaadid1.jpg"
 ---
 
 **Solo exhibition at Grace Exhibition Space, Brooklyn, New York**

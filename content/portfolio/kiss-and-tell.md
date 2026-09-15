@@ -5,7 +5,7 @@ slug: "kiss-and-tell"
 type: portfolio
 draft: false
 images:
-  - "kiss-and-tell.jpg"
+  - "/images/kiss-and-tell.jpg"
 ---
 
 A stand up tragedy about contemporary dance

@@ -5,7 +5,7 @@ slug: "ars-longa"
 type: portfolio
 draft: false
 images:
-  - "Ars_longa.jpg"
+  - "/images/Ars_longa.jpg"
 ---
 
 Video

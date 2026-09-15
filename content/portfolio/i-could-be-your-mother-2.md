@@ -5,14 +5,14 @@ slug: "i-could-be-your-mother-2"
 type: portfolio
 draft: false
 images:
-  - "perf0142.jpg"
-  - "motherauckland22.jpg"
-  - "motherauckland32.jpg"
-  - "motherauckland42.jpg"
-  - "motherauckland52.jpg"
-  - "motherauckland62.jpg"
-  - "perf52.jpg"
-  - "perf0112.jpg"
+  - "/images/perf0142.jpg"
+  - "/images/motherauckland22.jpg"
+  - "/images/motherauckland32.jpg"
+  - "/images/motherauckland42.jpg"
+  - "/images/motherauckland52.jpg"
+  - "/images/motherauckland62.jpg"
+  - "/images/perf52.jpg"
+  - "/images/perf0112.jpg"
 ---
 
 Performance by Pink Punk (Sandra Jogeva, Kristin Kalamees, Margus Tamm)

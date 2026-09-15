@@ -5,11 +5,11 @@ slug: "ranks"
 type: portfolio
 draft: false
 images:
-  - "ranks-4.jpg"
-  - "ranks-2.jpg"
-  - "ranks-3.jpg"
-  - "ranks-5.jpg"
-  - "ranks-1.jpg"
+  - "/images/ranks-4.jpg"
+  - "/images/ranks-2.jpg"
+  - "/images/ranks-3.jpg"
+  - "/images/ranks-5.jpg"
+  - "/images/ranks-1.jpg"
 ---
 
 **The Ranks**
