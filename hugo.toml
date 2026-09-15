@@ -1,9 +1,22 @@
 baseURL = "https://sandrajogeva.artcontainer.ee/"
-locale = "et"
 title = "Sandra Jõgeva"
+defaultContentLanguage = "et"
 
 [params]
   description = "Sandra Jõgeva – Estonian artist, writer and curator"
+
+# Eesti jääb aadressideta (praegused lingid ei muutu), inglise keel
+# saab "/en/" ette. Tõlkeid hallatakse adminis (Sveltia i18n +
+# tõlkenupp) - vt static/admin/config.yml.
+[languages]
+  [languages.et]
+    label = "Eesti"
+    locale = "et-EE"
+    weight = 1
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 2
 
 # Admini rikastekst-redaktor näitab iga Enter-vajutust nähtava reavahetusena
 # (nagu Wordis). Vaikimisi Markdown ei tee seda - üksik reavahetus

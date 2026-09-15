@@ -9,6 +9,8 @@ header { display: flex; align-items: baseline; justify-content: space-between; p
 nav { display: flex; gap: 2rem; }
 nav a { color: var(--text, #1a1a18); text-decoration: none; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.6; transition: opacity 0.2s; }
 nav a:hover, nav a.active { opacity: 1; }
+.lang-switch { display: flex; gap: 0.5rem; padding-left: 1rem; margin-left: 0.5rem; border-left: 1px solid var(--border, #e8e6e0); }
+.lang-switch a { font-weight: 600; }
 
 main { flex: 1; }
 

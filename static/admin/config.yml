@@ -19,8 +19,18 @@ media_libraries:
           quality: 82
           width: 2000
 
-locale: et
 site_url: https://sandrajogeva.artcontainer.ee
+
+# Kaks keelt: eesti (vaikimisi, failinimi muutumatu nt big-bue.md) ja
+# inglise (failinimi big-bue.en.md). Tõlgitavad väljad on märgitud
+# `i18n: true` iga kogumiku juures allpool. Tõlke saab teha käsitsi
+# või iga välja/kirje juures oleva tõlkenupuga (vajab konto seadete
+# aknas oma API võtit - Settings ikoon üleval paremal).
+i18n:
+  structure: multiple_files
+  locales: [et, en]
+  default_locale: et
+  omit_default_locale_from_file_path: true
 
 collections:
   # ------- KUJUNDUS -------
@@ -105,8 +115,9 @@ collections:
     summary: "{{title}} ({{year}})"
     sortable_fields: [weight, title, date]
     reorder: { key: weight }
+    i18n: true
     fields:
-      - { label: "Pealkiri", name: title, widget: string }
+      - { label: "Pealkiri", name: title, widget: string, i18n: true }
       - { label: "Aasta / kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
       - { label: "Järjekord", name: weight, widget: number, value_type: int, required: false, hint: "Lihtsam: nimekirjavaates nupp „Reorder“ – lohista tööd õigesse järjekorda ja salvesta. Ilma järjekorrata tööd kuvatakse lõpus, uuemad ees." }
       - { label: "Slug (URL)", name: slug, widget: string, required: false, hint: "Muutmisel muutub veebiaadress" }
@@ -120,7 +131,7 @@ collections:
         required: false
         hint: "Lohista või vali korraga nii mitu pilti kui vaja — kõik lähevad ühte galeriisse. Järjekorda saab hiljem siin väljal lohistades muuta."
       - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle töö galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
-      - { label: "Kirjeldus", name: body, widget: markdown }
+      - { label: "Kirjeldus", name: body, widget: markdown, i18n: true }
 
   # ------- LEHED -------
   - name: pages
@@ -134,8 +145,9 @@ collections:
     preview_path: "/pages/{{slug}}/"
     sortable_fields: [weight, title, date]
     reorder: { key: weight }
+    i18n: true
     fields:
-      - { label: "Pealkiri", name: title, widget: string }
+      - { label: "Pealkiri", name: title, widget: string, i18n: true }
       - { label: "Kuupäev", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
       - { label: "Slug (URL)", name: slug, widget: string, required: false }
       - { label: "Järjekord", name: weight, widget: number, value_type: int, required: false, hint: "Nimekirjavaates nupp „Reorder“. NB! Päise menüü järjekorda muudetakse jaotises „Menüü“." }
@@ -149,7 +161,7 @@ collections:
         options:
           - { label: "Tavaline (serif, hõre reavahe)", value: tavaline }
           - { label: "CV (nagu PDF-is: väiksem reavahe, reavahetused jäävad alles)", value: cv }
-      - { label: "Sisu", name: body, widget: markdown, hint: "Pildi lisamiseks teksti sisse kasuta tööriistariba pildinuppu." }
+      - { label: "Sisu", name: body, widget: markdown, i18n: true, hint: "Pildi lisamiseks teksti sisse kasuta tööriistariba pildinuppu." }
       - label: "Pildid (galerii sisu all)"
         name: images
         widget: list

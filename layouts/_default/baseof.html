@@ -33,12 +33,20 @@
 </head>
 <body>
   <header>
-    <a href="/" class="site-title">{{ $siteTitle }}</a>
+    <a href="{{ "/" | relLangURL }}" class="site-title">{{ $siteTitle }}</a>
     <nav>
       {{ $menu := (hugo.Data.menu | default dict).items | default slice }}
       {{ range sort $menu "weight" }}
-      <a href="{{ .url }}" {{ if eq $.RelPermalink .url }}class="active"{{ end }}>{{ .name }}</a>
+      {{- $url := .url | relLangURL }}
+      <a href="{{ $url }}" {{ if eq $.RelPermalink $url }}class="active"{{ end }}>{{ .name }}</a>
       {{ end }}
+      {{- if hugo.IsMultilingual }}
+      <span class="lang-switch">
+        {{ range .AllTranslations }}
+        <a href="{{ .RelPermalink }}" {{ if eq .Language.Lang $.Language.Lang }}class="active"{{ end }}>{{ .Language.Lang | upper }}</a>
+        {{ end }}
+      </span>
+      {{- end }}
     </nav>
   </header>
   <main>
