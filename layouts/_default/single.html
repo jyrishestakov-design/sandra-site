@@ -17,7 +17,8 @@
   {{- $adjust := int (.Params.mat_width_adjust | default 0) }}
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
-  <div class="portfolio-images" style="--gallery-mat-width: {{ $matPx }}px">
+  <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
+  <div class="portfolio-images">
     {{ range .Params.images }}
     {{- $img := partial "image-item.html" . }}
     {{- if $img.url }}
