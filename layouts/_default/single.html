@@ -9,17 +9,25 @@
   <div class="page-content{{ with .Params.text_style }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
     {{ .Content }}
   </div>
-  {{ if .Params.images }}
+  {{- /* Pildid on keelte vahel jagatud väli - kui tõlgitud leht ise
+         neid ei sisalda, kasutatakse vaikekeele (eesti) versiooni omi. */ -}}
+  {{- $p := . }}
+  {{- if not .Params.images }}
+    {{- range .Translations }}
+      {{- if eq .Language.Lang "et" }}{{ $p = . }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{ if $p.Params.images }}
   {{- $generalMat := hugo.Data.design.gallery_mat_width | default "0px" }}
   {{- $generalDigits := findRE "-?[0-9]+" $generalMat }}
   {{- $generalPx := 0 }}
   {{- if $generalDigits }}{{ $generalPx = int (index $generalDigits 0) }}{{ end }}
-  {{- $adjust := int (.Params.mat_width_adjust | default 0) }}
+  {{- $adjust := int ($p.Params.mat_width_adjust | default 0) }}
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
   <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
   <div class="portfolio-images">
-    {{ range .Params.images }}
+    {{ range $p.Params.images }}
     {{- $img := partial "image-item.html" . }}
     {{- if $img.url }}
     <figure>

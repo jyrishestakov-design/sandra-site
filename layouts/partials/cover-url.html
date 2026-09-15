@@ -1,10 +1,19 @@
 {{- /* Tagastab lehe kaanepildi URL-i ("" kui pole).
        Eelistab .Params.cover, muidu esimene .Params.images kirje.
-       images kirje võib olla string või objekt { image, caption, alt }. */ -}}
+       images kirje võib olla string või objekt { image, caption, alt }.
+       Kaanepilt ja pildid on keelte vahel jagatud väljad (ei tõlgita) -
+       kui tõlgitud (nt inglise) leht ise neid ei sisalda, kasutatakse
+       vaikekeele (eesti) versiooni omi. */ -}}
+{{- $p := . -}}
+{{- if and (not .Params.cover) (not .Params.images) -}}
+  {{- range .Translations -}}
+    {{- if eq .Language.Lang "et" }}{{ $p = . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
 {{- $url := "" -}}
-{{- with .Params.cover }}{{ $url = . }}{{ end -}}
-{{- if and (not $url) .Params.images -}}
-  {{- $first := index .Params.images 0 -}}
+{{- with $p.Params.cover }}{{ $url = . }}{{ end -}}
+{{- if and (not $url) $p.Params.images -}}
+  {{- $first := index $p.Params.images 0 -}}
   {{- if reflect.IsMap $first }}{{ $url = $first.image | default "" }}{{ else }}{{ $url = $first }}{{ end -}}
 {{- end -}}
 {{- if and $url (not (hasPrefix $url "/")) (not (hasPrefix $url "http")) }}{{ $url = printf "/images/%s" $url }}{{ end -}}
