@@ -1,5 +1,6 @@
 ---
 title: The News
+date: 2012-06-06
 ---
 
 2007

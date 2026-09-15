@@ -1,5 +1,6 @@
 ---
 title: Ars Longa
+date: 2012-06-06
 ---
 
 Video

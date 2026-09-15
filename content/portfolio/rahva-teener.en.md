@@ -1,5 +1,7 @@
 ---
 title: Servant of the People
+weight: 2
+date: 2026-02-02
 ---
 
 Sandra Jõgeva

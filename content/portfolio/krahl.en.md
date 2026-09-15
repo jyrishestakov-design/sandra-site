@@ -1,5 +1,6 @@
 ---
 title: Middle Life Crisis
+date: 2012-06-11
 ---
 
 Middle Life Crisis

@@ -1,5 +1,7 @@
 ---
 title: Big Blue
+weight: 1
+date: 2026-05-05
 ---
 
 SANDRA JÕGEVA “BIG BLUE”

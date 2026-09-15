@@ -1,5 +1,6 @@
 ---
 title: Guestbook of a Heart
+date: 2012-06-06
 ---
 
 **Guestbook of a Heart**

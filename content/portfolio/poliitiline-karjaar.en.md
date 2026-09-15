@@ -1,5 +1,6 @@
 ---
 title: Political Career
+date: 2014-05-01
 ---
 
 A performance enlightening my contact with the Estonian Social Democratic Party and having the only chance so far of being the candidate at the local elections.

@@ -1,5 +1,6 @@
 ---
 title: Kultuuritehas
+date: 2012-06-06
 ---
 
 **Kultuuritehas, a TV show about art hosted and presented by Sandra Jõgeva at Tallinn TV**

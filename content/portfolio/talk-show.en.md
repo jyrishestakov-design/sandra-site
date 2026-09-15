@@ -1,5 +1,6 @@
 ---
 title: Talk Show
+date: 2012-06-06
 ---
 
 Talk Show (together with the group Cnopt)

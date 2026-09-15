@@ -1,5 +1,6 @@
 ---
 title: The Year of the Dominatrix
+date: 2012-06-06
 ---
 
 The Year of a Dominatrix

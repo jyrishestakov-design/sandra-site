@@ -1,5 +1,6 @@
 ---
 title: The Gauntlet
+date: 2012-06-06
 ---
 
 Feb 2007‏

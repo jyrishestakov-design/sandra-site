@@ -1,5 +1,6 @@
 ---
 title: Kaja Kann
+date: 2014-05-01
 ---
 
 A performance trashing the public image of an Estonian coreographer Kaja Kann.
