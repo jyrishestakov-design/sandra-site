@@ -11,19 +11,11 @@ images: []
 
 [https://www.youtube.com/watch?app=desktop&v=yk3Vrux6-z8](https://www.youtube.com/watch?app=desktop&v=yk3Vrux6-z8)
 Teet talk.
-
 Stand up tragöödia
-
 Loeng/perfomance kunstiturust & elu ning kunsti mõttest
-
 Salongiõhtu
-
 Hobi
-
 Von Krahli teatris
-
 kevadsuvel 2022
-
 Rühmitus Kolm Punkti
-
 ...
