@@ -58,6 +58,7 @@ collections:
           - { label: "Sisulehe laius", name: content_width, widget: string, hint: "nt 760px" }
           - { label: "Portfoolio-ruudustiku vahe", name: grid_gap, widget: string, hint: "nt 1px" }
           - { label: "Galeriipiltide valge äär (paspartuu)", name: gallery_mat_width, widget: string, required: false, hint: "Pildi ja selle serva vahele jääv valge ääris, nagu pildiraami paspartuu. Kehtib kõikide lehtede galeriidele. nt 16px. Tühjaks jättes või 0px puudub." }
+          - { label: "Galeriipildi suurenemine hiire all", name: gallery_hover_zoom, widget: number, value_type: float, min: 1, max: 3, step: 0.05, required: false, hint: "Kui palju pilt hiirega üle liikudes suureneb. 1 = ei suurene, 1.5 = 50% suurem, 2 = kahekordne. Kehtib kõikide lehtede galeriidele." }
 
   # ------- SAIDI SEADED -------
   - name: seaded

@@ -30,6 +30,8 @@
   --grid-gap: {{ . | safeCSS }};{{ end }}
 {{- with .gallery_mat_width }}
   --gallery-mat-width: {{ . | safeCSS }};{{ end }}
+{{- with .gallery_hover_zoom }}
+  --gallery-hover-zoom: {{ . }};{{ end }}
 }
 </style>
 {{- end }}

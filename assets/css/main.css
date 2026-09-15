@@ -65,7 +65,7 @@ main { flex: 1; }
 /* Hiire all olev pilt kasvab veidi ja tõuseb naabrite kohale — transform
    ei mõjuta paigutust, seega naaberpildid ei nihku. */
 .portfolio-images img:hover {
-  transform: scale(1.05);
+  transform: scale(var(--gallery-hover-zoom, 1.5));
   position: relative;
   z-index: 2;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);

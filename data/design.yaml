@@ -13,3 +13,4 @@ line_height: '1.8'
 content_width: 760px
 grid_gap: 1px
 gallery_mat_width: 20px
+gallery_hover_zoom: 1.5
