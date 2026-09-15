@@ -1,13 +1,5 @@
 ---
-weight: null
 title: CV
-date: 2012-06-06
-slug: cv
-type: page
-draft: false
-text_style: cv
-images: []
-mat_width_adjust: null
 ---
 
 **Sandra Jõgeva** 1976

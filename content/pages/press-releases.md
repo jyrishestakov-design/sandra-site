@@ -1,9 +1,13 @@
 ---
-title: "PRESS"
+weight: null
+title: PRESS
 date: 2012-06-06
-slug: "press-releases"
+slug: press-releases
 type: page
 draft: false
+text_style: tavaline
+images: []
+mat_width_adjust: null
 ---
 
 **PRESSITEATED**
@@ -19,7 +23,7 @@ draft: false
 **Elin Kard, pressiteade näitusele Rühmitus Pink Punk “Pink Punk Is Dead!” Draakoni galeriis, 20.03.2007-31.03.2007**
 **Reet Varblane, pressiteade grupinäitusele “Kehaturg” Tallinna Kunstihoones, 03.02.2007 - 11.03.2007**
 **“Guestbook of the heart / Südame külalisteraamat” Eesti Kunstiakadeemia galeriis, 14.02.2006-27.02.2006**
- 
+
 **KRIITIKA**
 **Siram. Täiesti normaalsed üksikud inimesed. Sirp. 24.04.2014**
 **Andri Ksenofontov. Kõrgmolekulaarne Kunstikonteiner - Sirp 06.03.2014**

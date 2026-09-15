@@ -7,11 +7,46 @@ type: portfolio
 draft: false
 cover: /images/näituse-avamine-06.05.2026-034.webp
 images:
-  - "/images/näituse-avamine-06.05.2026-058.webp"
-  - "/images/näituse-avamine-06.05.2026-063.webp"
-  - "/images/näituse-avamine-06.05.2026-065.webp"
-  - "/images/näituse-avamine-06.05.2026-071.webp"
-  - "/images/näituse-avamine-06.05.2026-030.webp"
+  - /images/näituse-avamine-06.05.2026-020-1.webp
+  - /images/näituse-avamine-06.05.2026-024-1.webp
+  - /images/näituse-avamine-06.05.2026-025-1.webp
+  - /images/näituse-avamine-06.05.2026-027-1.webp
+  - /images/näituse-avamine-06.05.2026-030-2.webp
+  - /images/näituse-avamine-06.05.2026-031-1.webp
+  - /images/näituse-avamine-06.05.2026-034-2.webp
+  - /images/näituse-avamine-06.05.2026-047-1.webp
+  - /images/näituse-avamine-06.05.2026-054-1.webp
+  - /images/näituse-avamine-06.05.2026-055-1.webp
+  - /images/näituse-avamine-06.05.2026-057-1.webp
+  - /images/näituse-avamine-06.05.2026-058-1.webp
+  - /images/näituse-avamine-06.05.2026-059-1.webp
+  - /images/näituse-avamine-06.05.2026-060-1.webp
+  - /images/näituse-avamine-06.05.2026-061-1.webp
+  - /images/näituse-avamine-06.05.2026-063-2.webp
+  - /images/näituse-avamine-06.05.2026-064-1.webp
+  - /images/näituse-avamine-06.05.2026-065-1.webp
+  - /images/näituse-avamine-06.05.2026-067-1.webp
+  - /images/näituse-avamine-06.05.2026-071-2.webp
+  - /images/näituse-avamine-06.05.2026-075-1.webp
+  - /images/näituse-avamine-06.05.2026-076-1.webp
+  - /images/näituse-avamine-06.05.2026-077-1.webp
+  - /images/näituse-avamine-06.05.2026-079-1.webp
+  - /images/näituse-avamine-06.05.2026-080-1.webp
+  - /images/näituse-avamine-06.05.2026-082-1.webp
+  - /images/näituse-avamine-06.05.2026-083-1.webp
+  - /images/näituse-avamine-06.05.2026-085-1.webp
+  - /images/näituse-avamine-06.05.2026-087-1.webp
+  - /images/näituse-avamine-06.05.2026-088-1.webp
+  - /images/näituse-avamine-06.05.2026-089-1.webp
+  - /images/näituse-avamine-06.05.2026-090-1.webp
+  - /images/näituse-avamine-06.05.2026-091-1.webp
+  - /images/näituse-avamine-06.05.2026-094-1.webp
+  - /images/näituse-avamine-06.05.2026-095-1.webp
+  - /images/näituse-avamine-06.05.2026-096-1.webp
+  - /images/näituse-avamine-06.05.2026-098-1.webp
+  - /images/näituse-avamine-06.05.2026-101-1.webp
+  - /images/näituse-avamine-06.05.2026-102-1.webp
+mat_width_adjust: null
 ---
 
 SANDRA JÕGEVA “SUUR SININE / BIG BLUE”!
@@ -95,93 +130,3 @@ Sillaku teos “Segase jutuga tüdruk”
 Sandra Jõgeva näitus jääb avatuks kuni augusti alguseni.
 
 Lisainformatsioon: meelis.tammemagi@gmail.com
-
-ENGLISH
-
-SANDRA JÕGEVA “BIG BLUE”
-
-WRITERS’ HOUSE GALLERY
-
-14.04 – 09.08.2026
-
-On Tuesday, May 5 at 6:00 PM, the painting exhibition “Big Blue” by
-
-Sandra Jõgeva will open at the Writers’ House Gallery (Harju St 1).
-
-The exhibition presents Sandra Jõgeva’s early paintings from the period
-
-before her shift into installation, performance, film, and video art.Artist Sandra Jõgeva explains that the exhibition includes works created
-
-between 1997 and 2005: “This exhibition continues the conceptual line of
-
-my 2020 exhibition ‘20 Years Later’ at Fahle Gallery, where I exhibited
-
-works created two decades earlier. The Fahle Gallery exhibition was open
-
-only briefly before it had to close due to global pandemic restrictions.
-
-Alongside the works previously shown at Fahle Gallery, we have also
-
-included pieces from the same creative period that have never been
-
-exhibited before. The unifying tone throughout the series is deep blue and
-
-its variations — hence the title of the exhibition.
-
-”
-
-“While visiting the studio of Sandra’s mother, Malle Leis, it was always
-
-Sandra’s abstract and bold works that especially caught my attention. I
-
-have long felt that these works deserved to be shown to a wider audience.
-
-In my opinion, Sandra is a gifted abstractionist with a remarkable sense of
-
-composition and colour. During my recent studio visits, I became fascinated
-
-by a dreamlike abstract diptych — a complete whole spread across two
-
-canvases — which I had not noticed before. We had previously discussed
-
-the possibility of exhibiting these works in some form, and thanks to the
-
-Writers’ House Gallery, that opportunity has now emerged,
-
-” says curator
-
-Meelis Tammemägi, adding: “The starting point for the exhibition became
-
-this dreamlike abstract diptych, which deep blue determined the tonal
-
-atmosphere of the entire exhibition. The remaining works gather around it
-
-like different variations of the same state.
-
-”
-
-The Writers’ House Gallery grew out of the exhibition format _One Painting_
-
-_Gallery_, initiated in the same space. The format began eight years ago in
-
-collaboration with Fahle Gallery, with the aim of bringing a large-scale work
-
-by an Estonian artist into the black-ceilinged hall of the Writers’ House. Atthe core of the idea was the wish to connect different cultural fields — to
-
-bring writers closer to visual art and to give artists another reason to attend
-
-events at the Writers’ House. The exhibition format was inaugurated with
-
-Lauri LAURENTSIUS Sillak’s work “Girl with Confused Speech”
-
-.
-
-Sandra Jõgeva’s exhibition opens a new and expanded curatorial direction
-
-for the gallery. The exhibition will remain open until early August.
-
-Additional information:
-
-meelis.tammemagi@gmail.com
-
-Inimesed läksid kuu peale ja panid lipukese püsti 1996. Õli lõuendil. 90 x 90 cm
