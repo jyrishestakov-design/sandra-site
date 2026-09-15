@@ -8,6 +8,20 @@
 // HTML-i kirjutamisest: MutationObserver lisab need iga kord tagasi, kui
 // Sveltia oma osa uuesti joonistab.
 (function () {
+  // Arvutab hetkel avatud kirje (portfoolio töö või leht) tegeliku
+  // avaliku aadressi hash-marsruudist (nt "#/collections/portfolio/
+  // entries/big-bue") ja "Slug (URL)" väljast, kui see on käsitsi
+  // muudetud. Nimekirjavaates või mujal tagastab "/" (avaleht).
+  function currentPagePath() {
+    var m = location.hash.match(/^#\/collections\/(portfolio|pages)\/entries\/([^/]+)/);
+    if (!m) return "/";
+    var collection = m[1], fallbackSlug = m[2];
+    var section = document.querySelector('section[data-key-path="slug"]');
+    var input = section && section.querySelector("input");
+    var customSlug = input && input.value.trim();
+    return "/" + collection + "/" + (customSlug || fallbackSlug) + "/";
+  }
+
   function addLink(opts) {
     if (document.getElementById(opts.id)) return;
     var a = document.createElement("a");
@@ -23,6 +37,7 @@
       "text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.3);opacity:.82;";
     a.innerHTML = opts.icon + opts.label;
     document.body.appendChild(a);
+    return a;
   }
 
   function addLinks() {
@@ -30,7 +45,7 @@
       id: "preview-badge",
       href: "/",
       target: "sandra-eelvaade",
-      title: "Ava saidi eelvaade (sama vaheleht iga kord)",
+      title: "Ava muudetava kirje eelvaade (sama vaheleht iga kord)",
       bottom: "bottom:56px",
       icon:
         '<svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">' +
@@ -38,6 +53,15 @@
         "</svg>",
       label: "Eelvaade",
     });
+    var preview = document.getElementById("preview-badge");
+    if (preview && !preview.dataset.dynamicHref) {
+      preview.dataset.dynamicHref = "1";
+      // Arvutatakse alles klõpsu hetkel, mitte lingi loomisel, sest
+      // Sveltia ei loo linki iga kirje avamisel uuesti (SPA-marsruutimine).
+      preview.addEventListener("click", function () {
+        preview.href = currentPagePath();
+      });
+    }
     addLink({
       id: "gh-badge",
       href: "https://github.com/jyrishestakov-design/sandra-site/commits/main",
