@@ -34,5 +34,5 @@ git push origin main
 echo
 echo "==> Valmis. Cloudflare ehitab uue versiooni ~1 minutiga."
 echo "    Kontrolli: https://sandrajogeva.artcontainer.ee/"
-echo
-read -r -p "Vajuta Enter, et see aken sulgeda."
+echo "    (See aken sulgub kohe iseenesest.)"
+sleep 3
