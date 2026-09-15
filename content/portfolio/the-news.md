@@ -9,6 +9,6 @@ images:
 ---
 
 2007
-Camera: Melissa Lockwood
-Editing: Allan Tõnissoo
-Acting as a business news reporter on Times Square, but doing nothing but crying, while money courses and bad Tarot cards readings run on the background.
+Operaator: Melissa Lockwood
+Montaaž: Allan Tõnissoo
+Kehastab äriuudiste reporterit Times Square'il, kuid ei tee muud kui nutab, samal ajal kui taustal jooksevad rahakursid ja halvad tarokaardi ennustused.

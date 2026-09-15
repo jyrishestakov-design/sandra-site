@@ -35,12 +35,12 @@ images:
   - "/images/triintasuja1_216x156.jpg"
 ---
 
-**Untitled**
-**by Sandra Jõgeva**
+**Pealkirjata**
+**Sandra Jõgeva**
 2014
-Photographers:
-Epp Kubu, Igor Ruus,Jaanus Samma, Jaanika Kuklase, Fred Harjaks, Arne Maasik
- 
-The series is featuring 15 single people of different ages and social background, who are waiting someone to come to their lives. The people are documented in environments they consider their homes, whether it be a flat shared with friends, a nice country house or a editing room of a film school, where a person sleeps while in Tallinn. People are asked to be photographed with everyone they are living with. They were also asked to describe the person the want to enter their lives. Since the series was originally created for Tam gallery in Tallinn, which shares it`s space with a posh restaurant, the texts were designed as restaurant menus. If exhibited elsewhere, the texts would probably be on display in a more simple way. Most of the texts were written in Estonian and then translated to English, with 2 exceptions of Americans living in Estonia.
-The photos are 156 mm x 216 mm each  and are printed on paper, that is behind thick acrylic glass, creating a certain, almost 3 D-like effect. There is 2 photos of each person, taken in their living environment, from the front and from the back. Those 2 photos are exhibited together, back to back. Originally they were put to restaurant tables.
-Among the people photographed there are a gay Christian priest in his 50s,  2well known Estonian poets, American retired Punk music manager...
+Fotograafid:
+Epp Kubu, Igor Ruus, Jaanus Samma, Jaanika Kuklase, Fred Harjaks, Arne Maasik
+ 
+Seeria kujutab 15 erineva vanuse ja sotsiaalse taustaga üksikut inimest, kes ootavad kedagi oma ellu. Inimesed on jäädvustatud keskkondades, mida nad peavad oma koduks – olgu selleks sõpradega jagatud korter, kena maakodu või filmikooli montaažiruum, kus keegi Tallinnas viibides magab. Pildistatavatel paluti lasta end jäädvustada koos kõigi nendega, kellega nad koos elavad. Samuti paluti neil kirjeldada inimest, keda nad oma ellu soovivad. Kuna seeria loodi algselt Tallinna Tam galeriile, mis jagab ruumi elegantse restoraniga, kujundati tekstid restoranimenüüdena. Mujal eksponeerituna oleksid tekstid tõenäoliselt lihtsamas vormis. Enamik tekste kirjutati algselt eesti keeles ja tõlgiti seejärel inglise keelde, kahe erandiga – Eestis elavad ameeriklased.
+Fotod on igaüks 156 mm x 216 mm suurused ja trükitud paberile, mis asub paksu akrüülklaasi taga, luues omapärase, peaaegu 3D efekti. Igast inimesest on kaks fotot, mis on tehtud tema elukeskkonnas eest ja tagant. Need kaks fotot on eksponeeritud koos, selg selja vastas. Algselt olid need paigutatud restoranilaudadele.
+Pildistatute seas on 50ndates eluaastates gei kristlik preester, kaks tuntud eesti luuletajat, pensionile jäänud Ameerika punkmuusika manager...

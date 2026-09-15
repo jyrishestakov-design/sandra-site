@@ -10,6 +10,6 @@ images:
 
 International
 2007
-Face and voice: Kärt Mikli
-Camera and editing: Allan Tõnissoo
-An Estonian choir singer mimicking the vocals  of Arabian traditional music, one of my all time favourite sounds ever.
+Nägu ja hääl: Kärt Mikli
+Kaamera ja monteerimine: Allan Tõnissoo
+Eesti koorilaulja, kes matkib araabia traditsioonilise muusika vokaale, üks minu kõigi aegade lemmikhelisid.

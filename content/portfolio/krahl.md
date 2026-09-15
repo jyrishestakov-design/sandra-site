@@ -8,10 +8,10 @@ images:
   - "/images/Krahl.jpg"
 ---
 
-Keskeakriis (Middle Life Crisis)
+Keskeakriis
 2012
-Camera: Peeter Ülevain (Tallinn TV)
-Editing: Tanel V Kulla
-Assistants: Jane Jagna Paadimeister, Veronika Pikkas
-Special thanks: Katrin Essenson
-A stand up tragedy in Estonian about middle life crisis amd the position of actors as opinion leaders in Estonian media. Performed at the festival titled Maikellukese päevad at Von Krahl Theatre in Tallinn, Estonia.
+Operaator: Peeter Ülevain (Tallinn TV)
+Montaaž: Tanel V Kulla
+Assistendid: Jane Jagna Paadimeister, Veronika Pikkas
+Erilised tänud: Katrin Essenson
+Eestikeelne stand up -tragöödia keskea kriisist ja näitlejate kui arvamusliidrite rollist Eesti meedias. Esitatud Von Krahli Teatris Tallinnas festivalil "Maikellukese päevad".

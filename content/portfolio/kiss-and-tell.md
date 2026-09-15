@@ -8,9 +8,6 @@ images:
   - "/images/kiss-and-tell.jpg"
 ---
 
-A stand up tragedy about contemporary dance
-Performed at Made in Estonia Marathon at Kanuti Gildi Saal in Tallinn, Estonia
-March 2011
 Stand up-tragöödia kaasaegsest tantsust
 Etendus Made in Estonia Marathonil Kanuti Gildi Saalis
 2011.a. märtsis

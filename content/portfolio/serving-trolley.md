@@ -9,4 +9,4 @@ images:
 ---
 
 **2009**
-Photo: Tanel Saar
+Foto: Tanel Saar

@@ -9,9 +9,9 @@ images:
 ---
 
 Video
-For the solo exhibiton of the same title in Tallinn City Gallery  in 2007. For 7 months in 2007, the installing and taking down of different exhibitions of the big hall of Tallinn Art Hall was documented by Jaan Klyszejko  (Jaan Klõsheiko), a well known Estonian photographer, famous for documenting many of Estonian art events since the 60s.
 Video samanimeliselt näituselt Tallinna Linnagaleriis.
+7 kuu jooksul 2007. aastal jäädvustas tuntud Eesti fotograaf Jaan Klõsheiko (Jaan Klyszejko), kes on alates 1960. aastatest dokumenteerinud paljusid Eesti kunstisündmusi, Tallinna Kunstihoone suure saali erinevate näituste üles- ja mahavõtmist.
 2007
 Montaazh: Remo Randver
-Photo: Jaan Klõsheiko
-**[Press Release](http://cca.ee/webarchive/jogeva/pressiteated/arslonga.htm)**
+Foto: Jaan Klõsheiko
+**[Pressiteade](http://cca.ee/webarchive/jogeva/pressiteated/arslonga.htm)**

@@ -12,25 +12,20 @@ images:
   - "/images/ranks-1.jpg"
 ---
 
-**The Ranks**
-Sandra Jõgeva, Kaarel Sammet
-Sculptures, room installation
-Draakon Gallery, Tallinn
-2008
 **Seisused**
 Sandra Jõgeva, Kaarel Sammet
 Skulptuur, ruumiinstallatsioon
 Draakoni galerii
 2008
-**[Press Release](http://cca.ee/webarchive/jogeva/pressiteated/seisused.htm)**
-Hierarchical ranks were abolished in Estonian Republic by the Constitution dating back to the year 1919. Rural code had alienated the land properties of the nobility and church.
-However, still in the new Estonian Republic (since gaining the independence from the Soviet Union in 1991) we constantly hear about harsh differences in ranks typical to early capitalism, about class - or caste society.
-The differences of ranks have arisen and arise not only within one particular nationality, but rather cover entire countries, nations or even continents. Latin-Americans and Eastern-Europeans who go to work at positions the rich Westerners consider not prestigious enough, tough and/or financially not sufficient, are taken as service providers-servants and are attributed with characteristics that have throughout centuries been typical to representatives of lower classes, such as ignorance, secrecy or laziness.
-*Ranks*depicts pseudo-monuments to some rather blur and hidden representatives of ranks that can be witnessed in the cities, towns and villages of today's Estonia . If one looks at the passers by on the street (s)he immediately notices signs of belonging to a certain class, both hidden and consciously demonstrated.
-By charting the types I accordingly find models who are either authentic representatives of the particular rank or from among models who respond to all the necessary criteria.
-Gypsum impressions are taken from the people's faces, bodies and hands that are cast into glass fiber and plastic resin moulds. The result resembles monuments similar to bronze monuments. They are wearing clothes typical to their rank; the clothes as well as the statues are entirely covered with bronze spray paint.
-The exhibition *Ranks*is as if a monument to the phase in the development of Estonian society, to the transition period where many are trying to look better, wealthier and more successful than they in fact are, some have come to terms with the present situation and others have lost all hope to ever make their way back to the society. Models have been chosen to represent the age group and social layer they actually represent. They are the ones these pseudo-monuments are meant for.
-Photo: Jaan Klõsheiko
+**[Pressiteade](http://cca.ee/webarchive/jogeva/pressiteated/seisused.htm)**
+Seisused kaotati Eesti Vabariigis Põhiseadusega juba 1919. aastal. Maaseadus oli võõrandanud aadelkonna ja kiriku suured maaomandid.
+Ometi kuuleme uues Eesti Vabariigis (pärast Nõukogude Liidust iseseisvumist 1991. aastal) pidevalt juttu varakapitalismile omastest teravatest seisusevahedest, klassi- või kastiühiskonnast.
+Seisusevahed ei ole tekkinud ega teki üksnes ühe rahvuse sees, vaid ulatuvad tervete riikide, rahvaste või lausa kontinentide üle. Ladina-Ameeriklasi ja Ida-Euroopa inimesi, kes lähevad tööle ametikohtadele, mida rikkad läänlased peavad liiga vähe prestiižikaks, raskeks ja/või rahaliselt ebapiisavaks, koheldakse teenindajate-teenritena ning neile omistatakse omadusi, mis on sajandeid olnud iseloomulikud madalamate klasside esindajatele – teadmatus, salatsemine või laiskus.
+*Seisused* kujutab pseudomonumente mõningatele pigem hägusatele ja varjatud seisuse esindajatele, keda võib kohata tänapäeva Eesti linnades, alevikes ja külades. Kui vaadelda mõnd aega tänaval mööduvaid inimesi, märkab kohe klassikuuluvuse märke, nii varjatuid kui ka teadlikult demonstreeritavaid.
+Tüüpe kaardistades leian vastavalt kas konkreetse seisuse autentseid esindajaid või mudeleid, kes vastavad kõigile vajalikele kriteeriumitele.
+Kipsijäljendid võetakse inimeste nägudest, kehadest ja kätest ning valatakse klaaskiu- ja plastvaikvormidesse. Tulemus meenutab pronksmonumentidele sarnaseid monumente. Nad kannavad oma seisusele omaseid riideid; nii riided kui ka kujud on täielikult kaetud pronksvärvi pihustusega.
+Näitus *Seisused* on justkui monument Eesti ühiskonna praegusele arenguetapile, üleminekuperioodile, kus paljud üritavad näida paremate, rikkamate ja edukamatena, kui nad tegelikult on, mõned on olukorraga leppinud ja teised on kaotanud igasuguse lootuse ühiskonda tagasi pääseda. Mudelid on valitud esindama vanuserühma ja sotsiaalset kihti, keda nad tegelikult esindavad. Neile endile on need pseudomonumendid mõeldud.
+Foto: Jaan Klõsheiko
 
 |  |
 | --- |

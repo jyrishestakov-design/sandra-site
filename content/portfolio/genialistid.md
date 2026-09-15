@@ -21,9 +21,6 @@ images:
   - "/images/IGP5258.jpg"
 ---
 
-A performance explaining the differences between a stand up tragedy and a stand up comedy.
-Performed at Genialistide Klubi in Tartu, Estonia
-March 2012
 *Stand up* -etendus *stand up* -komöödia ja -tragöödia erinevustest.
 Esitatud Genialistide Klubis 7.märtsil 2012
-Photo: Krõõt Tarkmeel
+Foto: Krõõt Tarkmeel

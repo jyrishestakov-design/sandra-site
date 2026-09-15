@@ -9,10 +9,7 @@ images:
   - "/images/whip-of-god-1.jpg"
 ---
 
-Diverse Universe III, Lahti, Finland
-The performance was about 15 minutes long and was dealing with marginal ecstasy of both S /M and belonging to a obscure religious organization. It included me telling my story of being a dominatrix for 1,5 years, offering the audience a possibility to receive the free S/M public session (which nobody wanted), using the sound of the religious practice called "speaking in tongues" and "smoking out the audience" at the end of a performance.
-2007
 Jumala roosk
-Performance festivalil Diverse Universe III Lahtis. Stand up`ide eelkäija, võrdleb sektidesse kuulumist salajaste sadomasokalduvustega.
+Performance festivalil Diverse Universe III Lahtis. Esinemine kestis umbes 15 minutit ja käsitles nii S/M-i kui salajase usulahku kuulumise äärmuslikku ekstaasi. Rääkisin loo iseendast kui pooleteise aasta jooksul dominana töötanud naisest, pakkusin publikule võimalust saada tasuta avalik S/M-seanss (mida keegi ei soovinud), kasutasin "keeltes rääkimise" usulise praktika heli ning "suitsutasin" esinemise lõpus publikut. Stand up`ide eelkäija, võrdleb sektidesse kuulumist salajaste sadomasokalduvustega.
 Assistent: Liivi Tantaal
 2007

@@ -26,10 +26,7 @@ images:
   - "/images/IMG_5420.jpg"
 ---
 
-Feb 2007‏
-Performance  at Tallinn Art Hall, at the opening of a group show titled "Sex Market" curated by Reet Varblane
-Every male person entering to the opening reception at Tallinn Art Hall got whipped by eight women dressed as dominatrixes and standing on the door way
 Kadalipp
 Performance Kunstihoone näituse „Kehaturg / Sex Market“ avamisel 2007.a. veebruaris. Iga näitusele sisenenud meessoost isik sai piitsahoobi Kunstihoone trepil seisnud kaheksalt dominaks riietunud naiselt.
 Osalejad: Liivi Tantaal,Veronika Pikkas, Greetel Lee, Jaana Nõu, Liisi Lill, Katrin Piile, Sandra Jõgeva.
-Photo: Jaan Klõsheiko
+Foto: Jaan Klõsheiko

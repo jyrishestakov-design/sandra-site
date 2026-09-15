@@ -8,11 +8,7 @@ images:
   - "/images/SandraLaudKana-046.jpg"
 ---
 
-Caramel, chicken bones
-2009
-A caramel copy of the bronze sculpture titled _A Short Story_ by recognized Estonian sculptor  Ülo Õun (1940 - 1988)
-
 Karamell, kanakondid
 2009
 Tuntud Eesti kunstniku Ülo Õuna (1940 – 1988) pronksskuptuuri „Novell“ karamellist koopia
-Photo: Tanel Saar
+Foto: Tanel Saar

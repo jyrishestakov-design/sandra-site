@@ -22,5 +22,4 @@ images:
   - "/images/IMG_8911.jpg"
 ---
 
-****Group Pink Punk, *Third Eye,* photo, 2007****
-**Rühmitus Pink Punk, *Kolmas silm,* foto, 2007**
+**Rühmitus Pink Punk, *Kolmas silm,* foto, 2007**

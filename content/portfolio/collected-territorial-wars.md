@@ -17,5 +17,5 @@ images:
   - "/images/IMG_5395web.jpg"
 ---
 
-A solo exhibition at Tallinn City Gallery
-July 2012
+Isikunäitus Tallinna Linnagaleriis
+Juuli 2012
