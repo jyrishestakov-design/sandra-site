@@ -63,7 +63,6 @@ Pärnu Muuseum
 2026 “Kas sa tead, mis Hanif Kureishiga juhtus?”, Mikrogalerii avanäitus, Tartu
 2026 “Suur sinine”, Tallinna Kirjanike Maja, Tallinn
 2026 “Rahva teener”, galerii Metropol, Tallinn
-
 2025 „Pied-à-terre“, Lai tn 36 stuudio, Tallinn
 2023 “Tee kadunud linna” loomeresidentuuri satelliitgalerii avanäitus, Tallinn
 2023 “Maalid 1997-2004”, Haki galerii, Tartu
@@ -105,9 +104,7 @@ Pärnu Muuseum
 **Ühisnäitused, festivalid, messid (valik)**
 
 2026 “Tõusud ja mõõnad. Kunst ja sport dialoogis, kuraator Eneli Valge, ArtDepoo, Tallinn
-
-KOOS|KÕLA“, kuraator Mareli Reinhold, Pärnu Muuseum
-2024
+2024 “KOOS|KÕLA“, kuraator Mareli Reinhold, Pärnu Muuseum
 2022 “Kunst mugavustsoonis? Nullindad Eesti kunstis”, kuraator Eha Komissarov, Kumu
 2022 “Naine& naine”, kuraator Marian Grau, Pärnu Linnagalerii
 2020 “Pärnu Fotofest”, kuraator Marian Grau, Pärnu Keskraamatukogu
