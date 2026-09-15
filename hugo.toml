@@ -4,3 +4,12 @@ title = "Sandra Jõgeva"
 
 [params]
   description = "Sandra Jõgeva – Estonian artist, writer and curator"
+
+# Admini rikastekst-redaktor näitab iga Enter-vajutust nähtava reavahetusena
+# (nagu Wordis). Vaikimisi Markdown ei tee seda - üksik reavahetus
+# lõigu sees liidetakse tühikuks. hardWraps teeb Hugo käitumise Sveltia
+# enda eelvaatega samaks, nii et admini eelvaade = päris veebileht.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
