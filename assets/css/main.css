@@ -46,7 +46,7 @@ main { flex: 1; }
    tihe nimekiri loeb nii paremini. Reavahetused failist jäävad alles. */
 .page-content.text-cv { font-family: var(--font-body, 'Inter', sans-serif); font-size: var(--cv-font-size, 1.0625rem); line-height: var(--cv-line-height, 1.35); }
 /* pre-line ainult lõikude sees, muidu renderduks ka lõikude vaheline reavahetus */
-.page-content.text-cv p { white-space: pre-line; margin-bottom: 1.35em; }
+.page-content.text-cv p { margin-bottom: 1.35em; }
 .page-content.text-cv strong { font-weight: 600; }
 .page-content.text-cv h2, .page-content.text-cv h3 { font-family: inherit; font-size: 1em; font-weight: 600; letter-spacing: 0; text-transform: none; opacity: 1; margin: 1.35em 0 0; }
 .page-content.text-cv a { color: var(--link, #8b7355); }

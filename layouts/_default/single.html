@@ -6,7 +6,14 @@
     <span class="page-date">{{ .Date.Format "2006" }}</span>
     {{ end }}
   </header>
-  <div class="page-content{{ with .Params.text_style }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
+  {{- /* Teksti stiil (nt CV) on keelte vahel jagatud väli - vt kommentaar allpool. */ -}}
+  {{- $textStyle := .Params.text_style }}
+  {{- if not $textStyle }}
+    {{- range .Translations }}
+      {{- if eq .Language.Lang "et" }}{{ $textStyle = .Params.text_style }}{{ end }}
+    {{- end }}
+  {{- end }}
+  <div class="page-content{{ with $textStyle }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
     {{ .Content }}
   </div>
   {{- /* Pildid on keelte vahel jagatud väli - kui tõlgitud leht ise
