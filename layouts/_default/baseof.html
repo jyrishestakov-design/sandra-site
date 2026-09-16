@@ -38,7 +38,9 @@
       {{ $menu := (hugo.Data.menu | default dict).items | default slice }}
       {{ range sort $menu "weight" }}
       {{- $url := .url | relLangURL }}
-      <a href="{{ $url }}" {{ if eq $.RelPermalink $url }}class="active"{{ end }}>{{ .name }}</a>
+      {{- $label := .name }}
+      {{- if and (eq site.Language.Lang "en") .name_en }}{{ $label = .name_en }}{{ end }}
+      <a href="{{ $url }}" {{ if eq $.RelPermalink $url }}class="active"{{ end }}>{{ $label }}</a>
       {{ end }}
       {{- if hugo.IsMultilingual }}
       <span class="lang-switch">

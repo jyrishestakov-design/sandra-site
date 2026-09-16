@@ -99,7 +99,8 @@ collections:
             widget: list
             summary: "{{fields.name}} → {{fields.url}}"
             fields:
-              - { label: "Nimi", name: name, widget: string }
+              - { label: "Nimi (eesti keeles)", name: name, widget: string }
+              - { label: "Nimi (inglise keeles)", name: name_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel sama nime, mis eesti keeles." }
               - { label: "Aadress (URL)", name: url, widget: string, hint: "nt /pages/bio/ või https://..." }
               - { label: "Järjekord", name: weight, widget: number, value_type: int, hint: "Väiksem number = eespool" }
 
