@@ -1,6 +1,6 @@
 ---
 title: Kiss and Tell / Contact Improvisation
-date: 2012-06-06
+date: 2011-01-01
 ---
 
 A stand up tragedy about contemporary dance

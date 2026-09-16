@@ -1,6 +1,6 @@
 ---
 title: "Mother’s Wisdom/ Ema õpetussõnad"
-date: 2012-06-06
+date: 2011-01-01
 slug: "mothers-wisdom-2"
 type: portfolio
 draft: false

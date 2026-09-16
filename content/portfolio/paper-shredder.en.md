@@ -1,6 +1,6 @@
 ---
 title: Ecological Shredder
-date: 2012-06-06
+date: 2007-01-01
 ---
 
 **Paper shredder for ecologically destroying the secret documents**

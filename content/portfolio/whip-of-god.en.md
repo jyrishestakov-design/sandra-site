@@ -1,6 +1,6 @@
 ---
 title: Whip of God
-date: 2012-06-06
+date: 2007-01-01
 ---
 
 Diverse Universe III, Lahti, Finland

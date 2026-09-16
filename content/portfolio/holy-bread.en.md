@@ -1,6 +1,6 @@
 ---
 title: Holy Bread
-date: 2012-06-06
+date: 2008-01-01
 ---
 
 Installation is consisting of two  silver-coloured toasters. If you insert a slices of toast into the toasters,  burnt images will appear: portraits of the most recognazible iconic  faces, saints, martyrs and cult leaders from different belief systems. The faces of  Jesus, Che Guevara, Lenin, Charles Manson.

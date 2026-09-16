@@ -1,6 +1,6 @@
 ---
 title: "Whip of God/ Jumala roosk"
-date: 2012-06-06
+date: 2007-01-01
 slug: "whip-of-god"
 type: portfolio
 draft: false

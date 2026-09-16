@@ -1,6 +1,6 @@
 ---
 title: "Penitence at Draakon gallery in Tallinn/ 'Meeleparandus' Draakoni galeriis"
-date: 2012-06-06
+date: 2010-12-14
 slug: "feministic-identity-crisis"
 type: portfolio
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: " Talk show"
-date: 2012-06-06
+date: 2008-01-01
 slug: "talk-show"
 type: portfolio
 draft: false

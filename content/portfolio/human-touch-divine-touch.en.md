@@ -1,6 +1,6 @@
 ---
 title: Human Touch, Divine Touch
-date: 2012-06-06
+date: 2009-06-12
 ---
 
 **Solo exhibition at Grace Exhibition Space, Brooklyn, New York**

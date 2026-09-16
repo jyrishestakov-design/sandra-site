@@ -1,6 +1,6 @@
 ---
 title: "The Gauntlet/ Kadalipp"
-date: 2012-06-06
+date: 2007-02-01
 slug: "the-gauntlet"
 type: portfolio
 draft: false

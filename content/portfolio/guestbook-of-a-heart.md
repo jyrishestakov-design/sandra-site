@@ -1,6 +1,6 @@
 ---
 title: "Guestbook of a Heart/ Südame külalisraamat"
-date: 2012-06-06
+date: 2005-08-01
 slug: "guestbook-of-a-heart"
 type: portfolio
 draft: false

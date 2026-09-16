@@ -1,6 +1,6 @@
 ---
 title: "Hypocondriac/ Hüpohondrik"
-date: 2012-06-06
+date: 2011-01-01
 slug: "hypocondriac-2"
 type: portfolio
 draft: false

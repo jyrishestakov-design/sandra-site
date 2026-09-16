@@ -1,6 +1,6 @@
 ---
 title: "The Year Of The Dominatrix/ Domina aasta"
-date: 2012-06-06
+date: 2007-01-01
 slug: "the-year-of-the-dominatrix"
 type: portfolio
 draft: false

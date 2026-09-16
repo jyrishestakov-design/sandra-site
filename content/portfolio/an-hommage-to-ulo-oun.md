@@ -1,6 +1,6 @@
 ---
 title: An Hommage to Ülo Õun/ Austusavaldus Ülo Õunale
-date: 2012-06-06
+date: 2009-01-01
 slug: an-hommage-to-ulo-oun
 type: portfolio
 draft: false

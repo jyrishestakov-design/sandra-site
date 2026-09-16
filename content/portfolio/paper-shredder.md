@@ -1,6 +1,6 @@
 ---
 title: "Ecological Shredder/ Ökoloogiline paberihunt"
-date: 2012-06-06
+date: 2007-01-01
 slug: "paper-shredder"
 type: portfolio
 draft: false

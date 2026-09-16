@@ -1,6 +1,6 @@
 ---
 title: The Third Eye
-date: 2012-06-06
+date: 2007-01-01
 ---
 
 ****Group Pink Punk, *Third Eye,* photo, 2007****

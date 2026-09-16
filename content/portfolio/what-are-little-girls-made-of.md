@@ -1,6 +1,6 @@
 ---
 title: "What are little girls made of/ Millest on tehtud väikesed tüdrukud"
-date: 2012-06-06
+date: 2009-01-01
 slug: "what-are-little-girls-made-of"
 type: portfolio
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Animal Collective at Tallinn Art Hall/ 'Loomakari' Kunstihoones"
-date: 2012-06-06
+date: 2009-03-01
 slug: "animal-collective"
 type: portfolio
 draft: false

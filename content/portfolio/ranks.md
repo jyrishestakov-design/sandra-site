@@ -1,6 +1,6 @@
 ---
 title: "The Ranks/ Seisused"
-date: 2012-06-06
+date: 2008-01-01
 slug: "ranks"
 type: portfolio
 draft: false

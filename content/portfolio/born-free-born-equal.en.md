@@ -1,6 +1,6 @@
 ---
 title: Born Free, Born Equal
-date: 2012-06-06
+date: 2009-08-01
 ---
 
 ***P*erformance at the Festival of Culture Factory, Global Container**

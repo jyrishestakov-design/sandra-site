@@ -1,6 +1,6 @@
 ---
 title: Money
-date: 2012-06-11
+date: 2011-11-01
 ---
 
 Performance about money and being a Tallinn TV host

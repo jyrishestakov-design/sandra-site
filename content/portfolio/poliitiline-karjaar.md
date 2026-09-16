@@ -1,6 +1,6 @@
 ---
 title: "Poliitiline karjäär"
-date: 2014-05-01
+date: 2013-01-01
 slug: "poliitiline-karjaar"
 type: portfolio
 draft: false

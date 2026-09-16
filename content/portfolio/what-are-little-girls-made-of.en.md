@@ -1,6 +1,6 @@
 ---
 title: What are little girls made of
-date: 2012-06-06
+date: 2009-01-01
 ---
 
 ***What are little girls made of / Volume I – Meghan,* sculpture of gelatin, 2009**

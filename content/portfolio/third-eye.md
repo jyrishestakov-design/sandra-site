@@ -1,6 +1,6 @@
 ---
 title: "The Third Eye/ Kolmas silm"
-date: 2012-06-06
+date: 2007-01-01
 slug: "third-eye"
 type: portfolio
 draft: false

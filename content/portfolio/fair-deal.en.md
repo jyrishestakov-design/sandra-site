@@ -1,6 +1,6 @@
 ---
 title: Fair Deal
-date: 2012-06-06
+date: 2003-01-01
 ---
 
 By Pink Punk (Sandra Jogeva, Kristin Kalamees, Margus Tamm)

@@ -1,6 +1,6 @@
 ---
 title: "Money/ Raha"
-date: 2012-06-11
+date: 2011-11-01
 slug: "diletandid"
 type: portfolio
 draft: false

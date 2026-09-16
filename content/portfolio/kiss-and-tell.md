@@ -1,6 +1,6 @@
 ---
 title: "Kiss and Tell / Contact Improvisation// Kiss and Tell/Kontaktimprovisatsioon"
-date: 2012-06-06
+date: 2011-01-01
 slug: "kiss-and-tell"
 type: portfolio
 draft: false

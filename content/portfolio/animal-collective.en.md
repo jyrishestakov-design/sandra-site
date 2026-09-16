@@ -1,6 +1,6 @@
 ---
 title: Animal Collective at Tallinn Art Hall
-date: 2012-06-06
+date: 2009-03-01
 ---
 
 An international group show at Tallinn Art Hall curated by Sandra Jogeva

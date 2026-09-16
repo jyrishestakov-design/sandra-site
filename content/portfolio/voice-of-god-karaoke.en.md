@@ -1,6 +1,6 @@
 ---
 title: Voice of God Karaoke
-date: 2012-06-06
+date: 2007-01-01
 ---
 
 **Voice of God / His Master’s Voice**
