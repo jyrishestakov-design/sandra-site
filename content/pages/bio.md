@@ -7,6 +7,7 @@ type: page
 draft: false
 text_style: ''
 images: []
+mat_width_adjust: null
 ---
 
 Sandra Jõgeva (1976) on interdistsiplinaarne kunstnik (BA EKA maaliosakonnast 2000, MA EKA interdistsiplinaarsete kunstide osakonnast), kes viimastel aastatel on keskendunud kunstiteemalistele dokumentaalfilmidele.
@@ -20,8 +21,7 @@ Sandra Jõgeval on 2026 algusest oma kunstiteemaline kanal Youtube’is saatega 
 Sandra Jõgeva kunstialase tegevuse poolest võib viimastel aastatel mainida projekti
 
 „Pied-à-terre“, mis oli esmakordselt eksponeeritud tema stuudios Tallinna vanalinnas 2025 oktoobris ning leidis edasiarenduse 2026 maist juulini isiknäitusel “Kas sa tead, mis Hanif Kureishiga juhtus?” MIGAs Tartus. Ka isiknäitust “Rahva teener” galeriis Metropol Tallinnas 2026 veebruaris.	Enne seda aga osavõttu Marian Grau (enne Kivila) kuraatorinäitustest "Naine & naine" Pärnu Linnagaleriis 2019. ja 2021.a. suvel, isiknäitust " Kakskümmend aastat hiljem" Fahle galeriis 2020. lõpus samaaegselt koos installatsiooni "Seitse surmapattu" eksponeerimisega Solarise galeriis. Samuti osavõttu isiknäitusega "Seitse surmapattu" Pärnu Fotofestil 2020, osavõttu XIII Balti Triennaalist Riias, 2018.a.
-
-2021. a. oktoobris pandi Youtube'i keskkonda üles selle jaoks valminud videoteos "Minu seiklused Eesti sotsiaalsüsteemis (koos Teet Raudsepaga), juunis tuli välja Sandra Jõgeva kolmas raamat, lühiromaan "Üks päev aastal 0" (Rahva Raamat).
+2021 a. oktoobris pandi Youtube'i keskkonda üles selle jaoks valminud videoteos "Minu seiklused Eesti sotsiaalsüsteemis (koos Teet Raudsepaga), juunis tuli välja Sandra Jõgeva kolmas raamat, lühiromaan "Üks päev aastal 0" (Rahva Raamat).
 
 Sandra Jõgeva on pälvinud Eesti Kultuurkapitali audiovisuaalse kunsti sihtkapitali preemia oma debüütfilmi "Armastus..." eest (2018), sama filmi eest ka EFTA aasta dokumentaalfilmi auhinna ning Dokumentalistide Gildi kolleegipreemia Doki Kild; Kulka kujutava ja sihtkapitali preemia 2004 rühmituse Avangard tegevuse eest koos Margus Tammega ning Betti Alveri debüüdipreemia novellikogu "Draamapunkt" eest 2009.
 
