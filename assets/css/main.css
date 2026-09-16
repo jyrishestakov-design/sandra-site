@@ -44,7 +44,7 @@ main { flex: 1; }
 /* CV-stiil: sama kirjasuurus, rasvane ja reavahe nagu PDF-is (Arial 13pt,
    reavahe 17.2pt = 1.32). Kasutab saidi enda sans-fonti serifi asemel, sest
    tihe nimekiri loeb nii paremini. Reavahetused failist jäävad alles. */
-.page-content.text-cv { font-family: var(--font-body, 'Inter', sans-serif); font-size: var(--cv-font-size, 1.0625rem); line-height: var(--cv-line-height, 1.35); }
+.page-content.text-cv { font-family: var(--font-heading, 'Cormorant Garamond', Georgia, serif); font-size: var(--cv-font-size, 1.0625rem); line-height: var(--cv-line-height, 1.35); }
 /* pre-line ainult lõikude sees, muidu renderduks ka lõikude vaheline reavahetus */
 .page-content.text-cv p { margin-bottom: 1.35em; }
 .page-content.text-cv strong { font-weight: 600; }
