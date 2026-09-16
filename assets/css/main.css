@@ -23,6 +23,7 @@ main { flex: 1; }
 .portfolio-item { background: var(--bg, #f5f4f0); background-size: cover; background-position: center; text-decoration: none; color: var(--text, #1a1a18); padding: 2rem; min-height: 260px; display: flex; align-items: flex-end; position: relative; transition: all 0.3s; }
 .portfolio-item.has-image { color: #fff; }
 .portfolio-item.has-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.1) 60%); }
+.portfolio-item:hover { transform: scale(var(--gallery-hover-zoom, 1.5)); z-index: 2; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22); }
 .portfolio-item:hover::after { background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%); }
 .portfolio-item .portfolio-thumb { position: relative; z-index: 1; width: 100%; }
 .portfolio-item:not(.has-image):hover { background: var(--text, #1a1a18); color: var(--bg, #f5f4f0); }
