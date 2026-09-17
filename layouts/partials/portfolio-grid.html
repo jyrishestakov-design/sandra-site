@@ -1,6 +1,9 @@
-{{- /* Portfoolio ruudustik. Sisend: lehtede loend. Kaanepilt = cover või esimene pilt. */ -}}
+{{- /* Portfoolio ruudustik. Sisend: lehtede loend. Kaanepilt = cover või esimene pilt.
+       Järjestus alati aastaarvu (kuupäeva) järgi, uuemad eespool - ei kasuta
+       enam "weight"/"Järjekord" välja, mis jättis kuupäevata (weight=0)
+       tööd ekslikult kõige ette. */ -}}
 <div class="portfolio-grid">
-  {{ range . }}
+  {{ range sort . "Date" "desc" }}
   {{- $cover := partial "cover-url.html" . }}
   <a href="{{ .RelPermalink }}" class="portfolio-item {{ if $cover }}has-image{{ end }}"
     {{ if $cover }}style="background-image: url('{{ $cover }}')"{{ end }}>
