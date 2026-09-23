@@ -6,7 +6,8 @@ date: 2026-05-05
 
 SANDRA JÕGEVA “BIG BLUE”
 WRITERS’ HOUSE GALLERY
-14.04 – 09.08.2026
+
+[https://malleleis.ee/malle-leisi-parand/kunstnikust/sandra](https://malleleis.ee/malle-leisi-parand/kunstnikust/sandra)
 
 On Tuesday, May 5 at 6:00 PM, the painting exhibition “Big Blue” by Sandra Jõgeva will open at the Writers’ House Gallery (Harju St 1).
 
