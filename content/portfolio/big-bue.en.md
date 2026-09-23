@@ -1,6 +1,6 @@
 ---
-title: Big Blue
 weight: 1
+title: Big Blue
 date: 2026-05-05
 ---
 

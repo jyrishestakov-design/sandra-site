@@ -51,7 +51,6 @@ mat_width_adjust: null
 
 SANDRA JÕGEVA “SUUR SININE / BIG BLUE”!
 KIRJANIKE MAJA GALERII
-14.04 - 09.08.2026
 
 Teisipäeval, 5 mail, kell 18:00 avatakse Kirjanike Maja Galeriis (Harju tn 1) Sandra Jõgeva maalinäitus “Suur sinine / Big Blue”.
 
@@ -63,7 +62,7 @@ Kunstnik Sandra Jõgeva sõnul on näitusel väljas tööd, mis pärinevad aasta
 
 Kirjanike Maja Galerii on kasvanud välja seal alustatud näituseformaadist _Ühe Pildi Galerii._ Formaat sai alguse kaheksa aastat tagasi koostöös Fahle Galeriiga eesmärgiga tuua Kirjanike Maja musta laega saali ühe Eesti kunstniku suureformaadiline teos. Idee keskmes oli erinevate kultuuriväljade ühendamine - et kirjanikud puutuksid rohkem kokku visuaalkunstiga ning kunstnikel tekiks omakorda põhjus külastada Kirjanike Majas toimuvaid sündmusi. Näituseformaadi avas Lauri LAURENTSIUS Sillaku teos “Segase jutuga tüdruk”.
 
-Sandra Jõgeva näitus jääb avatuks kuni augusti alguseni.
-Lisainformatsioon: meelis.tammemagi@gmail.com
 
-Inimesed läksid kuu peale ja panid lipukese püsti. 1996. Õli lõuendil. 90 x 90 cm
+[https://malleleis.ee/malle-leisi-parand/kunstnikust/sandra](https://malleleis.ee/malle-leisi-parand/kunstnikust/sandra)
+
+Lisainformatsioon: meelis.tammemagi@gmail.com
