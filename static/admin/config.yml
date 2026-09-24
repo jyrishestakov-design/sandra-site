@@ -136,8 +136,9 @@ collections:
         name: youtube_videos
         widget: list
         required: false
+        i18n: true
         summary: "{{fields.url}} {{fields.caption}}"
-        hint: "Lisa YouTube video link — thumbnail kuvatakse pildigaleriis samas reas piltidega, klõps avab video YouTube'is uues aknas."
+        hint: "Lisa YouTube video link — thumbnail kuvatakse pildigaleriis samas reas piltidega, klõps avab video YouTube'is uues aknas. Allkirja saab tõlkida ingliskeelsel poolel eraldi (link jääb sama, ainult teksti tuleb kopeerida uuesti)."
         fields:
           - { label: "YouTube link", name: url, widget: string, hint: "Nt https://www.youtube.com/watch?v=XXXXXXXXXXX või https://youtu.be/XXXXXXXXXXX" }
           - { label: "Pildiallkiri", name: caption, widget: string, required: false }

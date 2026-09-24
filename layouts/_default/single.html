@@ -18,23 +18,32 @@
   </div>
   {{- /* Pildid on keelte vahel jagatud väli - kui tõlgitud leht ise
          neid ei sisalda, kasutatakse vaikekeele (eesti) versiooni omi. */ -}}
-  {{- $p := . }}
-  {{- if and (not .Params.images) (not .Params.youtube_videos) }}
+  {{- $imgPage := . }}
+  {{- if not .Params.images }}
     {{- range .Translations }}
-      {{- if eq .Language.Lang "et" }}{{ $p = . }}{{ end }}
+      {{- if eq .Language.Lang "et" }}{{ $imgPage = . }}{{ end }}
     {{- end }}
   {{- end }}
-  {{ if or $p.Params.images $p.Params.youtube_videos }}
+  {{- /* YouTube videod on tõlgitavad (allkirja saab keelte kaupa
+         eraldi kirjutada), aga kuni tõlkimata, kasutatakse eesti
+         versiooni omi, et need galeriist ei kaoks. */ -}}
+  {{- $ytPage := . }}
+  {{- if not .Params.youtube_videos }}
+    {{- range .Translations }}
+      {{- if eq .Language.Lang "et" }}{{ $ytPage = . }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{ if or $imgPage.Params.images $ytPage.Params.youtube_videos }}
   {{- $generalMat := hugo.Data.design.gallery_mat_width | default "0px" }}
   {{- $generalDigits := findRE "-?[0-9]+" $generalMat }}
   {{- $generalPx := 0 }}
   {{- if $generalDigits }}{{ $generalPx = int (index $generalDigits 0) }}{{ end }}
-  {{- $adjust := int ($p.Params.mat_width_adjust | default 0) }}
+  {{- $adjust := int ($imgPage.Params.mat_width_adjust | default 0) }}
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
   <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
   <div class="portfolio-images">
-    {{ range $p.Params.images }}
+    {{ range $imgPage.Params.images }}
     {{- $img := partial "image-item.html" . }}
     {{- if $img.url }}
     <figure>
@@ -45,7 +54,7 @@
     </figure>
     {{- end }}
     {{ end }}
-    {{ range $p.Params.youtube_videos }}
+    {{ range $ytPage.Params.youtube_videos }}
     {{- $yt := partial "youtube-item.html" . }}
     {{- if $yt.id }}
     <figure class="portfolio-video">
