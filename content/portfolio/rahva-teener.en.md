@@ -1,7 +1,8 @@
 ---
-title: Servant of the People
 weight: 2
+title: Servant of the People
 date: 2026-02-02
+youtube_videos: []
 ---
 
 Sandra Jõgeva
