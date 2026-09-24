@@ -6,6 +6,15 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/image0-1-_0.webp
+images:
+  - /images/hispaania.webp
+  - /images/monument.webp
+  - /images/veneetsia001.webp
+  - /images/veneetsia002.webp
+  - /images/veneetsia003.webp
+  - /images/veneetsia004.webp
+  - /images/veneetsia005.webp
+  - /images/veneetsia006.webp
 mat_width_adjust: null
 ---
 
