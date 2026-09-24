@@ -19,12 +19,12 @@
   {{- /* Pildid on keelte vahel jagatud väli - kui tõlgitud leht ise
          neid ei sisalda, kasutatakse vaikekeele (eesti) versiooni omi. */ -}}
   {{- $p := . }}
-  {{- if not .Params.images }}
+  {{- if and (not .Params.images) (not .Params.youtube_videos) }}
     {{- range .Translations }}
       {{- if eq .Language.Lang "et" }}{{ $p = . }}{{ end }}
     {{- end }}
   {{- end }}
-  {{ if $p.Params.images }}
+  {{ if or $p.Params.images $p.Params.youtube_videos }}
   {{- $generalMat := hugo.Data.design.gallery_mat_width | default "0px" }}
   {{- $generalDigits := findRE "-?[0-9]+" $generalMat }}
   {{- $generalPx := 0 }}
@@ -40,6 +40,20 @@
     <figure>
       <img src="{{ $img.url }}" alt="{{ $img.alt | default $.Title }}" loading="lazy">
       {{- with $img.caption }}
+      <figcaption>{{ . }}</figcaption>
+      {{- end }}
+    </figure>
+    {{- end }}
+    {{ end }}
+    {{ range $p.Params.youtube_videos }}
+    {{- $yt := partial "youtube-item.html" . }}
+    {{- if $yt.id }}
+    <figure class="portfolio-video">
+      <a href="https://www.youtube.com/watch?v={{ $yt.id }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is">
+        <img src="{{ $yt.thumb }}" alt="{{ $yt.caption | default $.Title }}" loading="lazy">
+        <span class="play-icon" aria-hidden="true"></span>
+      </a>
+      {{- with $yt.caption }}
       <figcaption>{{ . }}</figcaption>
       {{- end }}
     </figure>

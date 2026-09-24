@@ -132,6 +132,15 @@ collections:
         multiple: true
         required: false
         hint: "Lohista või vali korraga nii mitu pilti kui vaja — kõik lähevad ühte galeriisse. Järjekorda saab hiljem siin väljal lohistades muuta."
+      - label: "YouTube videod"
+        name: youtube_videos
+        widget: list
+        required: false
+        summary: "{{fields.url}} {{fields.caption}}"
+        hint: "Lisa YouTube video link — thumbnail kuvatakse pildigaleriis samas reas piltidega, klõps avab video YouTube'is uues aknas."
+        fields:
+          - { label: "YouTube link", name: url, widget: string, hint: "Nt https://www.youtube.com/watch?v=XXXXXXXXXXX või https://youtu.be/XXXXXXXXXXX" }
+          - { label: "Pildiallkiri", name: caption, widget: string, required: false }
       - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle töö galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
       - { label: "Kirjeldus", name: body, widget: markdown, i18n: true }
 

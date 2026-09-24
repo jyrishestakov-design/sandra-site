@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const items = Array.from(document.querySelectorAll('.portfolio-images img'));
+  const items = Array.from(document.querySelectorAll('.portfolio-images figure:not(.portfolio-video) img'));
   if (!items.length) return;
 
   const lb = document.createElement('div');

@@ -1,0 +1,23 @@
+{{- /* Normaliseerib ühe `youtube_videos` kirje kujule { id, url, thumb, caption }.
+       Kirje võib olla string (link) või objekt { url, caption }.
+       ID leitakse levinud YouTube URL kujude seest (watch?v=, youtu.be/, embed/, shorts/). */ -}}
+{{- $raw := "" }}{{ $caption := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $raw = .url | default "" }}{{ $caption = .caption | default "" -}}
+{{- else -}}
+  {{- $raw = . -}}
+{{- end -}}
+{{- $id := "" -}}
+{{- if $raw -}}
+  {{- if strings.Contains $raw "youtu.be/" -}}
+    {{- $id = index (strings.Split (index (strings.Split $raw "youtu.be/") 1) "?") 0 -}}
+  {{- else if strings.Contains $raw "watch?v=" -}}
+    {{- $id = index (strings.Split (index (strings.Split $raw "watch?v=") 1) "&") 0 -}}
+  {{- else if strings.Contains $raw "/embed/" -}}
+    {{- $id = index (strings.Split (index (strings.Split $raw "/embed/") 1) "?") 0 -}}
+  {{- else if strings.Contains $raw "/shorts/" -}}
+    {{- $id = index (strings.Split (index (strings.Split $raw "/shorts/") 1) "?") 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- $thumb := "" }}{{ if $id }}{{ $thumb = printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $id }}{{ end -}}
+{{- return (dict "id" $id "url" $raw "thumb" $thumb "caption" $caption) -}}
