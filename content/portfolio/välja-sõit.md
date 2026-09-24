@@ -31,6 +31,8 @@ youtube_videos:
     caption: KolkjaArt avamine
   - url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
     caption: MiGa Narihiro Matsumoto
+  - url: https://youtu.be/9Kl58-V0pTU
+    caption: SMS.WIFI.OK.
 mat_width_adjust: null
 ---
 
