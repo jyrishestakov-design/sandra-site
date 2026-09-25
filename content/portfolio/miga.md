@@ -29,7 +29,6 @@ mat_width_adjust: null
 
 [https://youtu.be/j6sJucuxJPQ](https://youtu.be/j6sJucuxJPQ)
 
-
 Kas sa tead, mis Hanif Kureishiga juhtus?
 Näituse teema on kunstimaailm kui selline, selle võimusuhted ja nende väljendumine
 kaasaegse kunsti maailma ühel olulisemal sündmusel, kus on kohal kõik, kes endast midagi arvavad. 

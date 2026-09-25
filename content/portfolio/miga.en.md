@@ -5,6 +5,12 @@ date: 2026-05-10
 youtube_videos: []
 ---
 
+[https://youtu.be/vMVbwxjxUSE](https://youtu.be/vMVbwxjxUSE)
+
+[https://youtu.be/1ftZ9aUZRkw](https://youtu.be/1ftZ9aUZRkw)
+
+[https://youtu.be/j6sJucuxJPQ](https://youtu.be/j6sJucuxJPQ)
+
 Do You Know What Happened to Hanif Kureishi?
 The exhibition's theme is the art world as such, its power relations and how they play out at one of the most important events in the contemporary art world, where everyone who thinks they're somebody shows up.
 
