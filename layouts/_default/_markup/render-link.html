@@ -1,0 +1,6 @@
+{{- /* Kõik lingid tekstis (mistahes lehel) - kui link viitab YouTube'i
+       videole, lisatakse lingi juurde ka video thumbnail. Muud lingid
+       renderdatakse tavapäraselt, ilma muudatusteta. */ -}}
+{{- $dest := .Destination -}}
+{{- $yt := partial "youtube-item.html" (dict "url" $dest) -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $yt.id }} target="_blank" rel="noopener"{{ end }}>{{ .Text }}</a>{{ if $yt.id }}<span class="inline-yt-thumb"><a href="{{ $dest | safeURL }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is"><img src="{{ $yt.thumb }}" alt="YouTube video" loading="lazy"><span class="play-icon" aria-hidden="true"></span></a></span>{{ end -}}

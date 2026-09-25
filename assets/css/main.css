@@ -75,18 +75,30 @@ main { flex: 1; }
 
 .portfolio-video a { position: relative; display: block; }
 .portfolio-video img { cursor: pointer; }
-.portfolio-video .play-icon {
+/* .play-icon on kasutusel nii galerii videokaartidel kui allpool
+   teksti sees olevate YouTube linkide juures - vt .inline-yt-thumb. */
+.play-icon {
   position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
   width: 54px; height: 54px; border-radius: 50%;
   background: rgba(0, 0, 0, 0.55); display: flex; align-items: center; justify-content: center;
   pointer-events: none; transition: background 0.2s ease;
 }
-.portfolio-video .play-icon::before {
+.play-icon::before {
   content: ""; margin-left: 4px;
   border-style: solid; border-width: 10px 0 10px 16px;
   border-color: transparent transparent transparent #fff;
 }
 .portfolio-video a:hover .play-icon { background: rgba(0, 0, 0, 0.8); }
+
+/* Teksti sees olev YouTube link saab enda kõrvale väikese thumbnaili -
+   vt layouts/_default/_markup/render-link.html. Kompaktne suurus, et
+   sobiks nii lõikude vahele kui ka tabelisse (nt Kultuuritehas lingid). */
+.inline-yt-thumb { display: inline-block; vertical-align: middle; margin: 0.25rem 0.6rem 0.25rem 0; }
+.inline-yt-thumb a { position: relative; display: block; }
+.inline-yt-thumb img { display: block; width: 110px; height: auto; border-radius: 2px; cursor: pointer; }
+.inline-yt-thumb .play-icon { width: 32px; height: 32px; }
+.inline-yt-thumb .play-icon::before { border-width: 7px 0 7px 11px; margin-left: 2px; }
+.inline-yt-thumb a:hover .play-icon { background: rgba(0, 0, 0, 0.8); }
 
 .list-page { padding: 4rem 3rem; }
 .list-page h1 { font-family: var(--font-heading, 'Cormorant Garamond', Georgia, serif); font-size: 2rem; font-weight: 300; font-style: italic; margin-bottom: 3rem; }

@@ -11,12 +11,21 @@
 {{- if $raw -}}
   {{- if strings.Contains $raw "youtu.be/" -}}
     {{- $id = index (strings.Split (index (strings.Split $raw "youtu.be/") 1) "?") 0 -}}
-  {{- else if strings.Contains $raw "watch?v=" -}}
-    {{- $id = index (strings.Split (index (strings.Split $raw "watch?v=") 1) "&") 0 -}}
   {{- else if strings.Contains $raw "/embed/" -}}
     {{- $id = index (strings.Split (index (strings.Split $raw "/embed/") 1) "?") 0 -}}
   {{- else if strings.Contains $raw "/shorts/" -}}
     {{- $id = index (strings.Split (index (strings.Split $raw "/shorts/") 1) "?") 0 -}}
+  {{- else if strings.Contains $raw "v=" -}}
+    {{- /* "v=" parameter võib olla suvalises kohas päringustringis
+           (nt watch?app=desktop&v=ID), mitte alati kohe "watch?" järel. */ -}}
+    {{- $query := $raw -}}
+    {{- if strings.Contains $raw "?" }}{{ $query = index (strings.Split $raw "?") 1 }}{{ end -}}
+    {{- range strings.Split $query "&" -}}
+      {{- $kv := strings.Split . "=" -}}
+      {{- if and (eq (index $kv 0) "v") (gt (len $kv) 1) -}}
+        {{- $id = index $kv 1 -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $thumb := "" }}{{ if $id }}{{ $thumb = printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $id }}{{ end -}}
