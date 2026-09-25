@@ -4,6 +4,10 @@ title: PRESS
 
 ## PRESS RELEASES AND MEDIA COVERAGE
 
+**25.09 2026 — Mikrogalerii blog**
+Interview by Raul Oreskin.
+[Mikrogalerii – #66 What Do You Make of Art, Too?](https://mikrogalerii.ee/blogi/66-mida-teie-ka-kunstist-taipate)
+
 **7.07 2026 — MIGA blog**
 [Mikrogalerii – #58 Sandra Jõgeva's exhibition at MIGA: the platform has become a new frame](https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam)
 
