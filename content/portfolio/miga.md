@@ -19,8 +19,16 @@ images:
   - /images/img_8385.webp
   - /images/img_8402.webp
   - /images/img_8400.webp
+youtube_videos: []
 mat_width_adjust: null
 ---
+
+[https://youtu.be/vMVbwxjxUSE](https://youtu.be/vMVbwxjxUSE)
+
+[https://youtu.be/1ftZ9aUZRkw](https://youtu.be/1ftZ9aUZRkw)
+
+[https://youtu.be/j6sJucuxJPQ](https://youtu.be/j6sJucuxJPQ)
+
 
 Kas sa tead, mis Hanif Kureishiga juhtus?
 Näituse teema on kunstimaailm kui selline, selle võimusuhted ja nende väljendumine
