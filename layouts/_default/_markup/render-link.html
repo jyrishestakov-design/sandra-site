@@ -1,6 +1,27 @@
 {{- /* Kõik lingid tekstis (mistahes lehel) - kui link viitab YouTube'i
-       videole, lisatakse lingi juurde ka video thumbnail. Muud lingid
+       videole, asendatakse nähtav tekstilink thumbnailiga (koos
+       tegeliku pealkirjaga YouTube'ist selle all). Muud lingid
        renderdatakse tavapäraselt, ilma muudatusteta. */ -}}
 {{- $dest := .Destination -}}
 {{- $yt := partial "youtube-item.html" (dict "url" $dest) -}}
-<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $yt.id }} target="_blank" rel="noopener"{{ end }}>{{ .Text }}</a>{{ if $yt.id }}<span class="inline-yt-thumb"><a href="{{ $dest | safeURL }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is"><img src="{{ $yt.thumb }}" alt="YouTube video" loading="lazy"><span class="play-icon" aria-hidden="true"></span></a></span>{{ end -}}
+{{- if $yt.id -}}
+  {{- $title := "" -}}
+  {{- $watchURL := printf "https://www.youtube.com/watch?v=%s" $yt.id -}}
+  {{- $oembedURL := printf "https://www.youtube.com/oembed?url=%s&format=json" (urlquery $watchURL) -}}
+  {{- $res := try (resources.GetRemote $oembedURL) -}}
+  {{- with $res.Err -}}
+    {{- warnf "YouTube oEmbed ebaõnnestus (%s): %s" $watchURL . -}}
+  {{- else with $res.Value -}}
+    {{- $data := . | transform.Unmarshal -}}
+    {{- $title = $data.title | default "" -}}
+  {{- end -}}
+  <span class="inline-yt-thumb">
+    <a href="{{ $dest | safeURL }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is">
+      <img src="{{ $yt.thumb }}" alt="{{ $title | default "YouTube video" }}" loading="lazy">
+      <span class="play-icon" aria-hidden="true"></span>
+    </a>
+    {{- with $title }}<span class="inline-yt-title">{{ . }}</span>{{ end -}}
+  </span>
+{{- else -}}
+  <a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- end -}}
