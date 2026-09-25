@@ -12,6 +12,10 @@ mat_width_adjust: null
 
 ## PRESSITEATED JA MEEDIAKAJASTUSED
 
+**25.09 2026 — Mikrogalerii blogi**
+Raul Oreskini intervjuu.
+[Mikrogalerii – #66 Mida teie ka kunstist taipate?](https://mikrogalerii.ee/blogi/66-mida-teie-ka-kunstist-taipate)
+
 **7.07 2026 — MIGA blogi**
 [Mikrogalerii – #58 Sandra Jõgeva näitus MIGAs: platvormist on saanud uus raam](https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam)
 
