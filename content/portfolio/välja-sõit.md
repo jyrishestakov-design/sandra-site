@@ -7,6 +7,8 @@ type: portfolio
 draft: false
 cover: /images/screenshot-2026-09-24-at-09.05.30.webp
 youtube_videos:
+  - url: https://youtu.be/9Kl58-V0pTU
+    caption: SMS.WIFI.OK.
   - url: https://www.youtube.com/watch?v=htcPB-nSHSI&t=39s
     caption: Voronja
   - url: https://www.youtube.com/watch?v=Qm3jzG3k63Y&t=16s
@@ -31,8 +33,6 @@ youtube_videos:
     caption: KolkjaArt avamine
   - url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
     caption: MiGa Narihiro Matsumoto
-  - url: https://youtu.be/9Kl58-V0pTU
-    caption: SMS.WIFI.OK.
 mat_width_adjust: null
 ---
 

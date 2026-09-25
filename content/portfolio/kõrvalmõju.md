@@ -27,25 +27,17 @@ mat_width_adjust: null
 ---
 
 Projekti „Pied-à-terre“ ette valmistades ja läbi viies erinevates keskkondades on
-
 olnud justkui alibi osta endale suurtes kogustes kingi, sukki ja kleite.
 
 „Pied-à-terre“ on mänguline ja filosoofiline uurimus kehast, liikumisest ning
-
-ihalusest, keskendudes muuhulgas jalgadele ja jalanõudele (nn jalafetiši
-
-teema).
+ihalusest, keskendudes muuhulgas jalgadele ja jalanõudele (nn jalafetiši teema).
 
 Samas olen neid kingi, sukki, kleite ja muid riideesemeid ka igapäevaelus
-
 kandnud. Muuhulgas käies 3-4 korda nädalas spordiklubis ja tehes endast pilti
-
 sealses riietusruumis.
 
 See spordiklubis käimine on üks kindlamaid asju muus mõttes pigem
-
 kaootilise ajakavaga elus. Riiete ja muu taolise ostmine aga sõltuvusega
-
 piirnev viis stressi maandada.
 
 Kostüümide kokkupanemine aga performatiivne eneseteraapia.
