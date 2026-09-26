@@ -2,6 +2,7 @@
 weight: 8
 title: A Desperate Attempt to Save Money
 date: 2026-09-26
+cover: /images/meeleheitlik-katse-kaas-en.webp
 images:
   - /images/meeleheitlik-katse-plakat-1-en.webp
   - /images/meeleheitlik-katse-plakat-2-en.webp

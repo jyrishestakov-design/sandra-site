@@ -5,7 +5,7 @@ date: 2026-09-26
 slug: ''
 type: portfolio
 draft: false
-cover: ''
+cover: /images/meeleheitlik-katse-kaas-et.webp
 images:
   - /images/meeleheitlik-katse-plakat-1-et.webp
   - /images/meeleheitlik-katse-plakat-2-et.webp
