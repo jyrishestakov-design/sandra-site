@@ -1,6 +1,7 @@
 ---
 weight: 7
 title: Side effects
+date: 2026-09-25
 youtube_videos: []
 ---
 
