@@ -5,7 +5,7 @@ date: 2026-09-25
 slug: ''
 type: portfolio
 draft: false
-cover: ''
+cover: /images/sandra_lisaleht28sept_scr.webp
 images:
   - /images/korvalmoju-kostyymid-taustaga.webp
   - /images/korvalmoju-spordiklubi-01.webp
@@ -23,6 +23,7 @@ images:
   - /images/korvalmoju-spordiklubi-13.webp
   - /images/korvalmoju-spordiklubi-14.webp
   - /images/korvalmoju-spordiklubi-15.webp
+  - /images/sandra_lisaleht28sept_scr.webp
 youtube_videos: []
 mat_width_adjust: null
 ---
