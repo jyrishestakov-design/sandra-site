@@ -7,6 +7,7 @@ type: portfolio
 draft: false
 cover: ''
 images:
+  - /images/korvalmoju-kostyymid-taustaga.webp
   - /images/korvalmoju-spordiklubi-01.webp
   - /images/korvalmoju-spordiklubi-02.webp
   - /images/korvalmoju-spordiklubi-03.webp
