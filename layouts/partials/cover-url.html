@@ -1,20 +1,28 @@
 {{- /* Tagastab lehe kaanepildi URL-i ("" kui pole).
-       Eelistab .Params.cover, muidu esimene .Params.images kirje.
-       images kirje võib olla string või objekt { image, caption, alt }.
-       Kaanepilt ja pildid on keelte vahel jagatud väljad (ei tõlgita) -
+       Eelistab .Params.cover, muidu galerii esimene pilt (või, kui pilte pole,
+       esimese video thumbnail).
+       Kaanepilt ja galerii on keelte vahel jagatud väljad (ei tõlgita) -
        kui tõlgitud (nt inglise) leht ise neid ei sisalda, kasutatakse
        vaikekeele (eesti) versiooni omi. */ -}}
 {{- $p := . -}}
-{{- if and (not .Params.cover) (not .Params.images) -}}
+{{- if and (not .Params.cover) (not .Params.gallery) -}}
   {{- range .Translations -}}
     {{- if eq .Language.Lang "et" }}{{ $p = . }}{{ end -}}
   {{- end -}}
 {{- end -}}
 {{- $url := "" -}}
 {{- with $p.Params.cover }}{{ $url = . }}{{ end -}}
-{{- if and (not $url) $p.Params.images -}}
-  {{- $first := index $p.Params.images 0 -}}
-  {{- if reflect.IsMap $first }}{{ $url = $first.image | default "" }}{{ else }}{{ $url = $first }}{{ end -}}
+{{- if not $url -}}
+  {{- range $p.Params.gallery -}}
+    {{- if and (not $url) (ne (.type | default "image") "video") -}}
+      {{- $url = (partial "image-item.html" .).url -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $p.Params.gallery -}}
+    {{- if and (not $url) (eq .type "video") -}}
+      {{- $url = (partial "youtube-item.html" .).thumb -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 {{- if and $url (not (hasPrefix $url "/")) (not (hasPrefix $url "http")) }}{{ $url = printf "/images/%s" $url }}{{ end -}}
 {{- return $url -}}

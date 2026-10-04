@@ -4,8 +4,9 @@ date: 2009-03-01
 slug: "animal-collective"
 type: portfolio
 draft: false
-images:
-  - "/images/Loomakari_catalogue-1.jpg"
+gallery:
+  - type: image
+    image: /images/Loomakari_catalogue-1.jpg
 ---
 
 Rahvusvaheline grupinäitus, Sandra Jõgeva kuraatoriprojekt Tallinna Kunstihoones

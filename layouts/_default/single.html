@@ -16,78 +16,55 @@
   <div class="page-content{{ with $textStyle }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
     {{ .Content }}
   </div>
-  {{- /* Pildid on keelte vahel jagatud väli - kui tõlgitud leht ise
-         neid ei sisalda, kasutatakse vaikekeele (eesti) versiooni omi. */ -}}
-  {{- $imgPage := . }}
-  {{- if not .Params.images }}
-    {{- range .Translations }}
-      {{- if eq .Language.Lang "et" }}{{ $imgPage = . }}{{ end }}
+  {{- /* Galerii (pildid ja videod ühes järjekorras) on keelte vahel jagatud
+         väli - kui tõlgitud leht ise seda ei sisalda, kasutatakse vaikekeele
+         (eesti) versiooni oma. Allkirjadel on eraldi inglise väli (caption_en). */ -}}
+  {{- $gPage := . }}
+  {{- $etPage := . }}
+  {{- range .Translations }}
+    {{- if eq .Language.Lang "et" }}
+      {{- $etPage = . }}
+      {{- if not $.Params.gallery }}{{ $gPage = . }}{{ end }}
     {{- end }}
   {{- end }}
-  {{- /* YouTube videod on tõlgitavad (allkirja saab keelte kaupa
-         eraldi kirjutada), aga kuni tõlkimata, kasutatakse eesti
-         versiooni omi, et need galeriist ei kaoks. */ -}}
-  {{- $ytPage := . }}
-  {{- if not .Params.youtube_videos }}
-    {{- range .Translations }}
-      {{- if eq .Language.Lang "et" }}{{ $ytPage = . }}{{ end }}
-    {{- end }}
-  {{- end }}
-  {{ if or $imgPage.Params.images $ytPage.Params.youtube_videos }}
+  {{ if $gPage.Params.gallery }}
   {{- $generalMat := hugo.Data.design.gallery_mat_width | default "0px" }}
   {{- $generalDigits := findRE "-?[0-9]+" $generalMat }}
   {{- $generalPx := 0 }}
   {{- if $generalDigits }}{{ $generalPx = int (index $generalDigits 0) }}{{ end }}
-  {{- $adjust := int ($imgPage.Params.mat_width_adjust | default 0) }}
+  {{- $adjust := int ($etPage.Params.mat_width_adjust | default 0) }}
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
   <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
-  {{- /* Galerii järjekord: pildid väljal "Pildid" oma järjekorras; videod
-         lisatakse sinna "Asukoht galeriis" numbri järgi (1 = esimene).
-         Ilma asukohata videod jäävad lõppu, oma omavahelises järjekorras. */ -}}
-  {{- $items := slice }}
-  {{- range $imgPage.Params.images }}
-    {{- $img := partial "image-item.html" . }}
-    {{- if $img.url }}{{ $items = $items | append (dict "kind" "image" "item" $img) }}{{ end }}
-  {{- end }}
-  {{- $placed := slice }}
-  {{- range $ytPage.Params.youtube_videos }}
+  <div class="portfolio-images">
+    {{ range $gPage.Params.gallery }}
+    {{- if eq (.type | default "image") "video" }}
     {{- $yt := partial "youtube-item.html" . }}
     {{- if $yt.id }}
-      {{- if gt $yt.position 0 }}
-        {{- $placed = $placed | append $yt }}
-      {{- else }}
-        {{- $items = $items | append (dict "kind" "video" "item" $yt) }}
-      {{- end }}
-    {{- end }}
-  {{- end }}
-  {{- range sort $placed "position" }}
-    {{- $n := sub .position 1 }}
-    {{- $head := first $n $items }}
-    {{- $tail := after $n $items }}
-    {{- $items = $head | append (dict "kind" "video" "item" .) | append $tail }}
-  {{- end }}
-  <div class="portfolio-images">
-    {{ range $items }}
-    {{- if eq .kind "image" }}
-    {{- $img := .item }}
-    <figure>
-      <img src="{{ $img.url }}" alt="{{ $img.alt | default $.Title }}" loading="lazy">
-      {{- with $img.caption }}
-      <figcaption>{{ . }}</figcaption>
-      {{- end }}
-    </figure>
-    {{- else }}
-    {{- $yt := .item }}
+    {{- $cap := $yt.caption }}
+    {{- if and (eq $.Language.Lang "en") $yt.caption_en }}{{ $cap = $yt.caption_en }}{{ end }}
     <figure class="portfolio-video">
       <a href="https://www.youtube.com/watch?v={{ $yt.id }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is">
-        <img src="{{ $yt.thumb }}" alt="{{ $yt.caption | default $.Title }}" loading="lazy">
+        <img src="{{ $yt.thumb }}" alt="{{ $cap | default $.Title }}" loading="lazy">
         <span class="play-icon" aria-hidden="true"></span>
       </a>
-      {{- with $yt.caption }}
+      {{- with $cap }}
       <figcaption>{{ . }}</figcaption>
       {{- end }}
     </figure>
+    {{- end }}
+    {{- else }}
+    {{- $img := partial "image-item.html" . }}
+    {{- if $img.url }}
+    {{- $cap := $img.caption }}
+    {{- if and (eq $.Language.Lang "en") $img.caption_en }}{{ $cap = $img.caption_en }}{{ end }}
+    <figure>
+      <img src="{{ $img.url }}" alt="{{ $img.alt | default $.Title }}" loading="lazy">
+      {{- with $cap }}
+      <figcaption>{{ . }}</figcaption>
+      {{- end }}
+    </figure>
+    {{- end }}
     {{- end }}
     {{ end }}
   </div>

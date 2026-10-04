@@ -4,8 +4,9 @@ date: 2012-06-06
 slug: "tallinn-tv"
 type: portfolio
 draft: false
-images:
-  - "/images/Tallinn_TV_logo.jpg"
+gallery:
+  - type: image
+    image: /images/Tallinn_TV_logo.jpg
 ---
 
 **„Kultuuritehas“ on Tallinna TV kunstisaade (saatejuht ja toimetaja Sandra Jõgeva)**

@@ -6,46 +6,88 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/näituse-avamine-06.05.2026-034.webp
-images:
-  - /images/näituse-avamine-06.05.2026-020-1.webp
-  - /images/näituse-avamine-06.05.2026-024-1.webp
-  - /images/näituse-avamine-06.05.2026-025-1.webp
-  - /images/näituse-avamine-06.05.2026-027-1.webp
-  - /images/näituse-avamine-06.05.2026-030-2.webp
-  - /images/näituse-avamine-06.05.2026-031-1.webp
-  - /images/näituse-avamine-06.05.2026-034-2.webp
-  - /images/näituse-avamine-06.05.2026-047-1.webp
-  - /images/näituse-avamine-06.05.2026-054-1.webp
-  - /images/näituse-avamine-06.05.2026-055-1.webp
-  - /images/näituse-avamine-06.05.2026-057-1.webp
-  - /images/näituse-avamine-06.05.2026-058-1.webp
-  - /images/näituse-avamine-06.05.2026-059-1.webp
-  - /images/näituse-avamine-06.05.2026-060-1.webp
-  - /images/näituse-avamine-06.05.2026-061-1.webp
-  - /images/näituse-avamine-06.05.2026-063-2.webp
-  - /images/näituse-avamine-06.05.2026-064-1.webp
-  - /images/näituse-avamine-06.05.2026-065-1.webp
-  - /images/näituse-avamine-06.05.2026-067-1.webp
-  - /images/näituse-avamine-06.05.2026-071-2.webp
-  - /images/näituse-avamine-06.05.2026-075-1.webp
-  - /images/näituse-avamine-06.05.2026-076-1.webp
-  - /images/näituse-avamine-06.05.2026-077-1.webp
-  - /images/näituse-avamine-06.05.2026-079-1.webp
-  - /images/näituse-avamine-06.05.2026-080-1.webp
-  - /images/näituse-avamine-06.05.2026-082-1.webp
-  - /images/näituse-avamine-06.05.2026-083-1.webp
-  - /images/näituse-avamine-06.05.2026-085-1.webp
-  - /images/näituse-avamine-06.05.2026-087-1.webp
-  - /images/näituse-avamine-06.05.2026-088-1.webp
-  - /images/näituse-avamine-06.05.2026-089-1.webp
-  - /images/näituse-avamine-06.05.2026-090-1.webp
-  - /images/näituse-avamine-06.05.2026-091-1.webp
-  - /images/näituse-avamine-06.05.2026-094-1.webp
-  - /images/näituse-avamine-06.05.2026-095-1.webp
-  - /images/näituse-avamine-06.05.2026-096-1.webp
-  - /images/näituse-avamine-06.05.2026-098-1.webp
-  - /images/näituse-avamine-06.05.2026-101-1.webp
-  - /images/näituse-avamine-06.05.2026-102-1.webp
+gallery:
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-020-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-024-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-025-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-027-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-030-2.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-031-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-034-2.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-047-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-054-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-055-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-057-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-058-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-059-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-060-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-061-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-063-2.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-064-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-065-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-067-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-071-2.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-075-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-076-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-077-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-079-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-080-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-082-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-083-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-085-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-087-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-088-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-089-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-090-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-091-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-094-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-095-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-096-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-098-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-101-1.webp
+  - type: image
+    image: /images/näituse-avamine-06.05.2026-102-1.webp
+  - type: video
+    url: https://youtu.be/er9rB4d-MKg
+    caption: Big BLue
 mat_width_adjust: null
 ---
 

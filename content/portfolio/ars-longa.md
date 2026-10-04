@@ -4,8 +4,9 @@ date: 2007-01-01
 slug: "ars-longa"
 type: portfolio
 draft: false
-images:
-  - "/images/Ars_longa.jpg"
+gallery:
+  - type: image
+    image: /images/Ars_longa.jpg
 ---
 
 Video

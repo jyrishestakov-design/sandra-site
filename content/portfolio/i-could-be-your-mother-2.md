@@ -4,15 +4,23 @@ date: 2005-01-01
 slug: "i-could-be-your-mother-2"
 type: portfolio
 draft: false
-images:
-  - "/images/perf0142.jpg"
-  - "/images/motherauckland22.jpg"
-  - "/images/motherauckland32.jpg"
-  - "/images/motherauckland42.jpg"
-  - "/images/motherauckland52.jpg"
-  - "/images/motherauckland62.jpg"
-  - "/images/perf52.jpg"
-  - "/images/perf0112.jpg"
+gallery:
+  - type: image
+    image: /images/perf0142.jpg
+  - type: image
+    image: /images/motherauckland22.jpg
+  - type: image
+    image: /images/motherauckland32.jpg
+  - type: image
+    image: /images/motherauckland42.jpg
+  - type: image
+    image: /images/motherauckland52.jpg
+  - type: image
+    image: /images/motherauckland62.jpg
+  - type: image
+    image: /images/perf52.jpg
+  - type: image
+    image: /images/perf0112.jpg
 ---
 
 Pink Punki performance (Sandra Jogeva, Kristin Kalamees, Margus Tamm)

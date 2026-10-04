@@ -4,8 +4,9 @@ date: 2007-01-01
 slug: "berber"
 type: portfolio
 draft: false
-images:
-  - "/images/Berber.jpg"
+gallery:
+  - type: image
+    image: /images/Berber.jpg
 ---
 
 International

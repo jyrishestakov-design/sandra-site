@@ -6,7 +6,6 @@ slug: press-releases
 type: page
 draft: false
 text_style: tavaline
-images: []
 mat_width_adjust: null
 ---
 

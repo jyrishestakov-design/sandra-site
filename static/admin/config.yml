@@ -126,23 +126,27 @@ collections:
       - { label: "Tüüp", name: type, widget: hidden, default: portfolio }
       - { label: "Mustand (peidetud)", name: draft, widget: boolean, default: false }
       - { label: "Kaanepilt", name: cover, widget: image, required: false, hint: "Ruudustikus näidatav pilt. Tühjaks jättes kasutatakse esimest pilti." }
-      - label: "Pildid"
-        name: images
-        widget: image
-        multiple: true
-        required: false
-        hint: "Lohista või vali korraga nii mitu pilti kui vaja — kõik lähevad ühte galeriisse. Järjekorda saab hiljem siin väljal lohistades muuta."
-      - label: "YouTube videod"
-        name: youtube_videos
+      - label: "Galerii (pildid ja videod)"
+        name: gallery
         widget: list
         required: false
-        i18n: true
-        summary: "{{fields.url}} {{fields.caption}}"
-        hint: "Lisa YouTube video link — thumbnail kuvatakse pildigaleriis samas reas piltidega, klõps avab video YouTube'is uues aknas. Allkirja saab tõlkida ingliskeelsel poolel eraldi (link jääb sama, ainult teksti tuleb kopeerida uuesti)."
-        fields:
-          - { label: "YouTube link", name: url, widget: string, hint: "Nt https://www.youtube.com/watch?v=XXXXXXXXXXX või https://youtu.be/XXXXXXXXXXX" }
-          - { label: "Pildiallkiri", name: caption, widget: string, required: false }
-          - { label: "Asukoht galeriis", name: position, widget: number, value_type: int, min: 1, required: false, hint: "Mitmendaks kohaks galeriis video tuleb (1 = kõige esimene, 3 = kolmas pilt/video jne). Tühi = galerii lõppu." }
+        hint: "Lisa pilte ja YouTube videosid (nupp „Lisa“, vali tüüp). Kõiki kirjeid saab omavahel lohistades järjekorda muuta - pildid ja videod ühes reas. Galerii on kõigil keeltel sama."
+        types:
+          - label: "Pilt"
+            name: image
+            summary: "{{fields.image}} {{fields.caption}}"
+            fields:
+              - { label: "Pilt", name: image, widget: image }
+              - { label: "Pildiallkiri", name: caption, widget: string, required: false }
+              - { label: "Pildiallkiri (inglise keeles)", name: caption_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel eestikeelset allkirja." }
+              - { label: "Alt-tekst", name: alt, widget: string, required: false }
+          - label: "YouTube video"
+            name: video
+            summary: "{{fields.url}} {{fields.caption}}"
+            fields:
+              - { label: "YouTube link", name: url, widget: string, hint: "Nt https://www.youtube.com/watch?v=XXXXXXXXXXX või https://youtu.be/XXXXXXXXXXX. Galeriis kuvatakse video thumbnail, klõps avab video YouTube'is." }
+              - { label: "Allkiri", name: caption, widget: string, required: false }
+              - { label: "Allkiri (inglise keeles)", name: caption_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel eestikeelset allkirja." }
       - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle töö galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
       - { label: "Kirjeldus", name: body, widget: markdown, i18n: true }
 
@@ -175,13 +179,25 @@ collections:
           - { label: "Tavaline (serif, hõre reavahe)", value: tavaline }
           - { label: "CV (nagu PDF-is: väiksem reavahe, reavahetused jäävad alles)", value: cv }
       - { label: "Sisu", name: body, widget: markdown, i18n: true, hint: "Pildi lisamiseks teksti sisse kasuta tööriistariba pildinuppu." }
-      - label: "Pildid (galerii sisu all)"
-        name: images
+      - label: "Galerii (pildid ja videod, sisu all)"
+        name: gallery
         widget: list
         required: false
-        summary: "{{fields.image}} {{fields.caption}}"
-        fields:
-          - { label: "Pilt", name: image, widget: image }
-          - { label: "Pildiallkiri", name: caption, widget: string, required: false }
-          - { label: "Alt-tekst", name: alt, widget: string, required: false }
+        hint: "Lisa pilte ja YouTube videosid (nupp „Lisa“, vali tüüp). Kõiki kirjeid saab omavahel lohistades järjekorda muuta."
+        types:
+          - label: "Pilt"
+            name: image
+            summary: "{{fields.image}} {{fields.caption}}"
+            fields:
+              - { label: "Pilt", name: image, widget: image }
+              - { label: "Pildiallkiri", name: caption, widget: string, required: false }
+              - { label: "Pildiallkiri (inglise keeles)", name: caption_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel eestikeelset allkirja." }
+              - { label: "Alt-tekst", name: alt, widget: string, required: false }
+          - label: "YouTube video"
+            name: video
+            summary: "{{fields.url}} {{fields.caption}}"
+            fields:
+              - { label: "YouTube link", name: url, widget: string, hint: "Nt https://www.youtube.com/watch?v=XXXXXXXXXXX või https://youtu.be/XXXXXXXXXXX. Galeriis kuvatakse video thumbnail, klõps avab video YouTube'is." }
+              - { label: "Allkiri", name: caption, widget: string, required: false }
+              - { label: "Allkiri (inglise keeles)", name: caption_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel eestikeelset allkirja." }
       - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle lehe galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }

@@ -4,8 +4,9 @@ date: 2012-06-11
 slug: "krahl"
 type: portfolio
 draft: false
-images:
-  - "/images/Krahl.jpg"
+gallery:
+  - type: image
+    image: /images/Krahl.jpg
 ---
 
 Keskeakriis

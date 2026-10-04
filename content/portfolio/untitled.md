@@ -4,35 +4,63 @@ date: 2014-08-24
 slug: "untitled"
 type: portfolio
 draft: false
-images:
-  - "/images/eva1_156x216a.jpg"
-  - "/images/ernest1_216x156.jpg"
-  - "/images/ernest2_216X156.jpg"
-  - "/images/eva1_156x216a1.jpg"
-  - "/images/eva2_216x156-.jpg"
-  - "/images/eve2_156x216.jpg"
-  - "/images/heino1_216x156.jpg"
-  - "/images/heino2_216x156.jpg"
-  - "/images/igor1_156x216.jpg"
-  - "/images/igor2_216x156.jpg"
-  - "/images/kaia1_216x156.jpg"
-  - "/images/kaia2_156x216.jpg"
-  - "/images/liidia1_216x156.jpg"
-  - "/images/liidia2_156x216.jpg"
-  - "/images/mari2_516x216.jpg"
-  - "/images/marko1_156x216.jpg"
-  - "/images/MARKO2_156X216.jpg"
-  - "/images/mati1_156x216.jpg"
-  - "/images/mati2_156x216.jpg"
-  - "/images/raivo1_156x216.jpg"
-  - "/images/raivo2_216x156.jpg"
-  - "/images/robbi1_156x216.jpg"
-  - "/images/robbi2_156x216.jpg"
-  - "/images/sandra1_156x216.jpg"
-  - "/images/sandra2_216x156.jpg"
-  - "/images/tambet2_216x156.jpg"
-  - "/images/triin-tasuja2_216x516.jpg"
-  - "/images/triintasuja1_216x156.jpg"
+gallery:
+  - type: image
+    image: /images/eva1_156x216a.jpg
+  - type: image
+    image: /images/ernest1_216x156.jpg
+  - type: image
+    image: /images/ernest2_216X156.jpg
+  - type: image
+    image: /images/eva1_156x216a1.jpg
+  - type: image
+    image: /images/eva2_216x156-.jpg
+  - type: image
+    image: /images/eve2_156x216.jpg
+  - type: image
+    image: /images/heino1_216x156.jpg
+  - type: image
+    image: /images/heino2_216x156.jpg
+  - type: image
+    image: /images/igor1_156x216.jpg
+  - type: image
+    image: /images/igor2_216x156.jpg
+  - type: image
+    image: /images/kaia1_216x156.jpg
+  - type: image
+    image: /images/kaia2_156x216.jpg
+  - type: image
+    image: /images/liidia1_216x156.jpg
+  - type: image
+    image: /images/liidia2_156x216.jpg
+  - type: image
+    image: /images/mari2_516x216.jpg
+  - type: image
+    image: /images/marko1_156x216.jpg
+  - type: image
+    image: /images/MARKO2_156X216.jpg
+  - type: image
+    image: /images/mati1_156x216.jpg
+  - type: image
+    image: /images/mati2_156x216.jpg
+  - type: image
+    image: /images/raivo1_156x216.jpg
+  - type: image
+    image: /images/raivo2_216x156.jpg
+  - type: image
+    image: /images/robbi1_156x216.jpg
+  - type: image
+    image: /images/robbi2_156x216.jpg
+  - type: image
+    image: /images/sandra1_156x216.jpg
+  - type: image
+    image: /images/sandra2_216x156.jpg
+  - type: image
+    image: /images/tambet2_216x156.jpg
+  - type: image
+    image: /images/triin-tasuja2_216x516.jpg
+  - type: image
+    image: /images/triintasuja1_216x156.jpg
 ---
 
 **Pealkirjata**

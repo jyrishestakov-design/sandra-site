@@ -6,16 +6,23 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/img_4990.webp
-images:
-  - /images/img_5302.webp
-  - /images/img_4990.webp
-  - /images/img_4987.webp
-  - /images/image0-2.webp
-  - /images/image2.webp
-  - /images/image3.webp
-  - /images/image4.webp
-  - /images/image5.webp
-youtube_videos: []
+gallery:
+  - type: image
+    image: /images/img_5302.webp
+  - type: image
+    image: /images/img_4990.webp
+  - type: image
+    image: /images/img_4987.webp
+  - type: image
+    image: /images/image0-2.webp
+  - type: image
+    image: /images/image2.webp
+  - type: image
+    image: /images/image3.webp
+  - type: image
+    image: /images/image4.webp
+  - type: image
+    image: /images/image5.webp
 mat_width_adjust: null
 ---
 

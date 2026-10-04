@@ -4,8 +4,9 @@ date: 2014-05-01
 slug: "kaja-kann"
 type: portfolio
 draft: false
-images:
-  - "/images/sandra_pilt_web3.jpg"
+gallery:
+  - type: image
+    image: /images/sandra_pilt_web3.jpg
 ---
 
 "Kaja Kann"

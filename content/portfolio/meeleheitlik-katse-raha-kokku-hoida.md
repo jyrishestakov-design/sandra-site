@@ -6,10 +6,11 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/meeleheitlik-katse-kaas-et.webp
-images:
-  - /images/meeleheitlik-katse-plakat-1-et.webp
-  - /images/meeleheitlik-katse-plakat-2-et.webp
-youtube_videos: []
+gallery:
+  - type: image
+    image: /images/meeleheitlik-katse-plakat-1-et.webp
+  - type: image
+    image: /images/meeleheitlik-katse-plakat-2-et.webp
 mat_width_adjust: null
 ---
 

@@ -6,7 +6,6 @@ slug: cv
 type: page
 draft: false
 text_style: cv
-images: []
 mat_width_adjust: null
 ---
 

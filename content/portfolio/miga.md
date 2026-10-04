@@ -6,20 +6,31 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/sandra-jõgeva-väike-1_large.webp
-images:
-  - /images/3573277hc2f9t24.webp
-  - /images/image0.webp
-  - /images/image01.webp
-  - /images/image02.webp
-  - /images/img_8354.webp
-  - /images/img_8355.webp
-  - /images/img_8356.webp
-  - /images/image0-1.webp
-  - /images/img_8362.webp
-  - /images/img_8385.webp
-  - /images/img_8402.webp
-  - /images/img_8400.webp
-youtube_videos: []
+gallery:
+  - type: image
+    image: /images/3573277hc2f9t24.webp
+  - type: image
+    image: /images/image0.webp
+  - type: image
+    image: /images/image01.webp
+  - type: image
+    image: /images/image02.webp
+  - type: image
+    image: /images/img_8354.webp
+  - type: image
+    image: /images/img_8355.webp
+  - type: image
+    image: /images/img_8356.webp
+  - type: image
+    image: /images/image0-1.webp
+  - type: image
+    image: /images/img_8362.webp
+  - type: image
+    image: /images/img_8385.webp
+  - type: image
+    image: /images/img_8402.webp
+  - type: image
+    image: /images/img_8400.webp
 mat_width_adjust: null
 ---
 

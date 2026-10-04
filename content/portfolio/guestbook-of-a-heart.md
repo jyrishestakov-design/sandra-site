@@ -4,9 +4,11 @@ date: 2005-08-01
 slug: "guestbook-of-a-heart"
 type: portfolio
 draft: false
-images:
-  - "/images/guestbooksuur_1.jpg"
-  - "/images/guestbook_suur_2.jpg"
+gallery:
+  - type: image
+    image: /images/guestbooksuur_1.jpg
+  - type: image
+    image: /images/guestbook_suur_2.jpg
 ---
 
 **Südame külalisraamat**

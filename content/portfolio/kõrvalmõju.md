@@ -6,25 +6,41 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/sandra_lisaleht28sept_scr.webp
-images:
-  - /images/korvalmoju-kostyymid-taustaga.webp
-  - /images/korvalmoju-spordiklubi-01.webp
-  - /images/korvalmoju-spordiklubi-02.webp
-  - /images/korvalmoju-spordiklubi-03.webp
-  - /images/korvalmoju-spordiklubi-04.webp
-  - /images/korvalmoju-spordiklubi-05.webp
-  - /images/korvalmoju-spordiklubi-06.webp
-  - /images/korvalmoju-spordiklubi-07.webp
-  - /images/korvalmoju-spordiklubi-08.webp
-  - /images/korvalmoju-spordiklubi-09.webp
-  - /images/korvalmoju-spordiklubi-10.webp
-  - /images/korvalmoju-spordiklubi-11.webp
-  - /images/korvalmoju-spordiklubi-12.webp
-  - /images/korvalmoju-spordiklubi-13.webp
-  - /images/korvalmoju-spordiklubi-14.webp
-  - /images/korvalmoju-spordiklubi-15.webp
-  - /images/sandra_lisaleht28sept_scr.webp
-youtube_videos: []
+gallery:
+  - type: image
+    image: /images/korvalmoju-kostyymid-taustaga.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-01.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-02.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-03.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-04.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-05.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-06.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-07.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-08.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-09.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-10.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-11.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-12.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-13.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-14.webp
+  - type: image
+    image: /images/korvalmoju-spordiklubi-15.webp
+  - type: image
+    image: /images/sandra_lisaleht28sept_scr.webp
 mat_width_adjust: null
 ---
 

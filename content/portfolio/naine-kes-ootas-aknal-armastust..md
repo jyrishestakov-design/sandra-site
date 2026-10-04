@@ -6,8 +6,9 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/IMG_1248.jpg
-images:
-  - /images/IMG_1248.jpg
+gallery:
+  - type: image
+    image: /images/IMG_1248.jpg
 mat_width_adjust: null
 ---
 

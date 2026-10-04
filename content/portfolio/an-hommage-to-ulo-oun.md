@@ -4,8 +4,9 @@ date: 2009-01-01
 slug: an-hommage-to-ulo-oun
 type: portfolio
 draft: false
-images:
-  - "/images/SandraLaudKana-046.jpg"
+gallery:
+  - type: image
+    image: /images/SandraLaudKana-046.jpg
 ---
 
 Karamell, kanakondid

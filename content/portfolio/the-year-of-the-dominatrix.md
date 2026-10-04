@@ -4,21 +4,35 @@ date: 2007-01-01
 slug: "the-year-of-the-dominatrix"
 type: portfolio
 draft: false
-images:
-  - "/images/01.jpg"
-  - "/images/02.jpg"
-  - "/images/03.jpg"
-  - "/images/04.jpg"
-  - "/images/05.jpg"
-  - "/images/06.jpg"
-  - "/images/07.jpg"
-  - "/images/08.jpg"
-  - "/images/09.jpg"
-  - "/images/10.jpg"
-  - "/images/11.jpg"
-  - "/images/12.jpg"
-  - "/images/human-touch-shokolaadid.jpg"
-  - "/images/sandrajõgeva.jpg"
+gallery:
+  - type: image
+    image: /images/01.jpg
+  - type: image
+    image: /images/02.jpg
+  - type: image
+    image: /images/03.jpg
+  - type: image
+    image: /images/04.jpg
+  - type: image
+    image: /images/05.jpg
+  - type: image
+    image: /images/06.jpg
+  - type: image
+    image: /images/07.jpg
+  - type: image
+    image: /images/08.jpg
+  - type: image
+    image: /images/09.jpg
+  - type: image
+    image: /images/10.jpg
+  - type: image
+    image: /images/11.jpg
+  - type: image
+    image: /images/12.jpg
+  - type: image
+    image: /images/human-touch-shokolaadid.jpg
+  - type: image
+    image: /images/sandrajõgeva.jpg
 ---
 
 Domina aasta

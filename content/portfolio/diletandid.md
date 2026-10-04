@@ -4,8 +4,9 @@ date: 2011-11-01
 slug: "diletandid"
 type: portfolio
 draft: false
-images:
-  - "/images/Diletandid.jpg"
+gallery:
+  - type: image
+    image: /images/Diletandid.jpg
 ---
 
 *Stand up* –tragöödia rahast ning Tallinna TV töötaja olemisest.

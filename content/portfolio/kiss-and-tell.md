@@ -4,8 +4,9 @@ date: 2011-01-01
 slug: "kiss-and-tell"
 type: portfolio
 draft: false
-images:
-  - "/images/kiss-and-tell.jpg"
+gallery:
+  - type: image
+    image: /images/kiss-and-tell.jpg
 ---
 
 Stand up-tragöödia kaasaegsest tantsust

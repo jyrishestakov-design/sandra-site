@@ -4,10 +4,13 @@ date: 2009-06-12
 slug: "human-touch-divine-touch"
 type: portfolio
 draft: false
-images:
-  - "/images/Human-touch-üldvaade.jpg"
-  - "/images/human-touch-avamisaktsioon.jpg"
-  - "/images/human-touch-shokolaadid1.jpg"
+gallery:
+  - type: image
+    image: /images/Human-touch-üldvaade.jpg
+  - type: image
+    image: /images/human-touch-avamisaktsioon.jpg
+  - type: image
+    image: /images/human-touch-shokolaadid1.jpg
 ---
 
 **Isiknäitus galeriis Grace Exhibition Space New Yorgis**

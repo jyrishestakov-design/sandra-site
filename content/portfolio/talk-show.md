@@ -4,8 +4,9 @@ date: 2008-01-01
 slug: "talk-show"
 type: portfolio
 draft: false
-images:
-  - "/images/Talk_show.jpg"
+gallery:
+  - type: image
+    image: /images/Talk_show.jpg
 ---
 
 Talk Show (koos grupiga Cnopt)

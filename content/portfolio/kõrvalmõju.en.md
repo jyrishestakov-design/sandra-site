@@ -2,7 +2,6 @@
 weight: 7
 title: Side effects
 date: 2026-09-25
-youtube_videos: []
 ---
 
 Preparing and carrying out the "Pied-à-terre" project in various settings has served as a sort of pretext for buying large quantities of shoes, stockings, and dresses.

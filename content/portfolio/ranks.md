@@ -4,12 +4,17 @@ date: 2008-01-01
 slug: "ranks"
 type: portfolio
 draft: false
-images:
-  - "/images/ranks-4.jpg"
-  - "/images/ranks-2.jpg"
-  - "/images/ranks-3.jpg"
-  - "/images/ranks-5.jpg"
-  - "/images/ranks-1.jpg"
+gallery:
+  - type: image
+    image: /images/ranks-4.jpg
+  - type: image
+    image: /images/ranks-2.jpg
+  - type: image
+    image: /images/ranks-3.jpg
+  - type: image
+    image: /images/ranks-5.jpg
+  - type: image
+    image: /images/ranks-1.jpg
 ---
 
 **Seisused**

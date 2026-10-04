@@ -4,10 +4,13 @@ date: 2009-08-01
 slug: "born-free-born-equal"
 type: portfolio
 draft: false
-images:
-  - "/images/GlobalContainer8-021.jpg"
-  - "/images/GlobalContainer8-040.jpg"
-  - "/images/GlobalContainer8-118.jpg"
+gallery:
+  - type: image
+    image: /images/GlobalContainer8-021.jpg
+  - type: image
+    image: /images/GlobalContainer8-040.jpg
+  - type: image
+    image: /images/GlobalContainer8-118.jpg
 ---
 
 ***P*erformance Kultuuritehase Festivalil, Global Containeril**

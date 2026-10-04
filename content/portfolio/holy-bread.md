@@ -4,13 +4,19 @@ date: 2008-01-01
 slug: "holy-bread"
 type: portfolio
 draft: false
-images:
-  - "/images/toast1.jpg"
-  - "/images/jaanuar08-168.jpg"
-  - "/images/jaanuar08-179.jpg"
-  - "/images/jaanuar08-182.jpg"
-  - "/images/jaanuar08-183.jpg"
-  - "/images/roster2.jpg"
+gallery:
+  - type: image
+    image: /images/toast1.jpg
+  - type: image
+    image: /images/jaanuar08-168.jpg
+  - type: image
+    image: /images/jaanuar08-179.jpg
+  - type: image
+    image: /images/jaanuar08-182.jpg
+  - type: image
+    image: /images/jaanuar08-183.jpg
+  - type: image
+    image: /images/roster2.jpg
 ---
 
 Installatsioon koosneb kahest röstrist, mis neisse asetatud saiaviiludele pilte “trükivad” – ikooniliste, kõigi poolt koheselt äratuntavate isikute portreesid – Jeesus, Lenin, Che Guevara, Charles Manson. Märtrid, pühakud, sektiliidrid, sümbolid ja ikoonid.

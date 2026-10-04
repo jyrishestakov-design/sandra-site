@@ -4,25 +4,43 @@ date: 2010-12-14
 slug: "feministic-identity-crisis"
 type: portfolio
 draft: false
-images:
-  - "/images/IMG_8059.jpg"
-  - "/images/sandra-4.jpg"
-  - "/images/IMG_8104.jpg"
-  - "/images/IMG_8098.jpg"
-  - "/images/IMG_8097.jpg"
-  - "/images/IMG_8071.jpg"
-  - "/images/IMG_8052.jpg"
-  - "/images/IMG_5334.jpg"
-  - "/images/IMG_5391.jpg"
-  - "/images/IMG_8033.jpg"
-  - "/images/IMG_8039.jpg"
-  - "/images/IMG_8041.jpg"
-  - "/images/IMG_8051.jpg"
-  - "/images/IMG_8037.jpg"
-  - "/images/IMG_5342.jpg"
-  - "/images/IMG_8022.jpg"
-  - "/images/IMG_8019.jpg"
-  - "/images/IMG_8008.jpg"
+gallery:
+  - type: image
+    image: /images/IMG_8059.jpg
+  - type: image
+    image: /images/sandra-4.jpg
+  - type: image
+    image: /images/IMG_8104.jpg
+  - type: image
+    image: /images/IMG_8098.jpg
+  - type: image
+    image: /images/IMG_8097.jpg
+  - type: image
+    image: /images/IMG_8071.jpg
+  - type: image
+    image: /images/IMG_8052.jpg
+  - type: image
+    image: /images/IMG_5334.jpg
+  - type: image
+    image: /images/IMG_5391.jpg
+  - type: image
+    image: /images/IMG_8033.jpg
+  - type: image
+    image: /images/IMG_8039.jpg
+  - type: image
+    image: /images/IMG_8041.jpg
+  - type: image
+    image: /images/IMG_8051.jpg
+  - type: image
+    image: /images/IMG_8037.jpg
+  - type: image
+    image: /images/IMG_5342.jpg
+  - type: image
+    image: /images/IMG_8022.jpg
+  - type: image
+    image: /images/IMG_8019.jpg
+  - type: image
+    image: /images/IMG_8008.jpg
 ---
 
 *2010*

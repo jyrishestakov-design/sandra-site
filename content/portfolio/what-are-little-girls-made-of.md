@@ -4,8 +4,9 @@ date: 2009-01-01
 slug: "what-are-little-girls-made-of"
 type: portfolio
 draft: false
-images:
-  - "/images/GlobalContainer8067.jpg"
+gallery:
+  - type: image
+    image: /images/GlobalContainer8067.jpg
 ---
 
 ***Millest on tehtud väikesed tüdrukud  / Volume I – Meghan,*****skulptuur želatiinist, 2009**

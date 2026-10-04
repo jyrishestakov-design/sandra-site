@@ -6,7 +6,6 @@ slug: bio
 type: page
 draft: false
 text_style: ''
-images: []
 mat_width_adjust: null
 ---
 

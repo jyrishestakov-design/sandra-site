@@ -6,7 +6,6 @@ slug: contact-4
 type: page
 draft: false
 text_style: tavaline
-images: []
 mat_width_adjust: null
 ---
 

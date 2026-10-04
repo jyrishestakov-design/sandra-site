@@ -4,8 +4,9 @@ date: 2007-01-01
 slug: "voice-of-god-karaoke"
 type: portfolio
 draft: false
-images:
-  - "/images/karaoke.jpg"
+gallery:
+  - type: image
+    image: /images/karaoke.jpg
 ---
 
 Jumala hääl

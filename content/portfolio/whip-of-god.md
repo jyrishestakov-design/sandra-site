@@ -4,9 +4,11 @@ date: 2007-01-01
 slug: "whip-of-god"
 type: portfolio
 draft: false
-images:
-  - "/images/whip-of-god-2.jpg"
-  - "/images/whip-of-god-1.jpg"
+gallery:
+  - type: image
+    image: /images/whip-of-god-2.jpg
+  - type: image
+    image: /images/whip-of-god-1.jpg
 ---
 
 Jumala roosk

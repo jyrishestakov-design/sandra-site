@@ -2,7 +2,6 @@
 weight: 6
 title: Field Notes
 date: 2026-01-01
-youtube_videos: []
 ---
 
 **English**

@@ -6,32 +6,45 @@ slug: ''
 type: portfolio
 draft: false
 cover: /images/screenshot-2026-09-24-at-09.05.30.webp
-youtube_videos:
-  - url: https://youtu.be/9Kl58-V0pTU
+gallery:
+  - type: video
+    url: https://youtu.be/9Kl58-V0pTU
     caption: SMS.WIFI.OK.
-  - url: https://www.youtube.com/watch?v=htcPB-nSHSI&t=39s
+  - type: video
+    url: https://www.youtube.com/watch?v=htcPB-nSHSI&t=39s
     caption: Voronja
-  - url: https://www.youtube.com/watch?v=Qm3jzG3k63Y&t=16s
+  - type: video
+    url: https://www.youtube.com/watch?v=Qm3jzG3k63Y&t=16s
     caption: Supiköök
-  - url: https://www.youtube.com/watch?v=TBJo5QTgxGA
+  - type: video
+    url: https://www.youtube.com/watch?v=TBJo5QTgxGA
     caption: Iseseisvus
-  - url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
+  - type: video
+    url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
     caption: Iseseisvus
-  - url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
+  - type: video
+    url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
     caption: Kirjavahetus supiköögi asjas
-  - url: https://www.youtube.com/watch?v=gBZdQvk7PxU&t=1606s
+  - type: video
+    url: https://www.youtube.com/watch?v=gBZdQvk7PxU&t=1606s
     caption: Metropol 20
-  - url: https://www.youtube.com/watch?v=aCXquCKvO_4&t=26s
+  - type: video
+    url: https://www.youtube.com/watch?v=aCXquCKvO_4&t=26s
     caption: Casanova jägedes 2
-  - url: https://www.youtube.com/watch?v=sUGkpCLhWCA&t=1673s
+  - type: video
+    url: https://www.youtube.com/watch?v=sUGkpCLhWCA&t=1673s
     caption: Casanova jägedes 1
-  - url: https://www.youtube.com/watch?v=8FcsbT1dHDQ&t=2s
+  - type: video
+    url: https://www.youtube.com/watch?v=8FcsbT1dHDQ&t=2s
     caption: Voronja Imelikud inimesed
-  - url: https://www.youtube.com/watch?v=E3B9jL7MDB4
+  - type: video
+    url: https://www.youtube.com/watch?v=E3B9jL7MDB4
     caption: Peeter Allik 60
-  - url: https://www.youtube.com/watch?v=KGr3Kio-NAY&t=321s
+  - type: video
+    url: https://www.youtube.com/watch?v=KGr3Kio-NAY&t=321s
     caption: KolkjaArt avamine
-  - url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
+  - type: video
+    url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
     caption: MiGa Narihiro Matsumoto
 mat_width_adjust: null
 ---

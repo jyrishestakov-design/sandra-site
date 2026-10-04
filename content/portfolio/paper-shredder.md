@@ -4,10 +4,13 @@ date: 2007-01-01
 slug: "paper-shredder"
 type: portfolio
 draft: false
-images:
-  - "/images/HIIR_04-IMG_93691.jpg"
-  - "/images/HIIR_02-IMG_93261.jpg"
-  - "/images/HIIR_03-IMG_93101.jpg"
+gallery:
+  - type: image
+    image: /images/HIIR_04-IMG_93691.jpg
+  - type: image
+    image: /images/HIIR_02-IMG_93261.jpg
+  - type: image
+    image: /images/HIIR_03-IMG_93101.jpg
 ---
 
 **Ökoloogiline paberihunt saladokumentide hävitamiseks**
