@@ -42,21 +42,43 @@
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
   <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
-  <div class="portfolio-images">
-    {{ range $imgPage.Params.images }}
+  {{- /* Galerii järjekord: pildid väljal "Pildid" oma järjekorras; videod
+         lisatakse sinna "Asukoht galeriis" numbri järgi (1 = esimene).
+         Ilma asukohata videod jäävad lõppu, oma omavahelises järjekorras. */ -}}
+  {{- $items := slice }}
+  {{- range $imgPage.Params.images }}
     {{- $img := partial "image-item.html" . }}
-    {{- if $img.url }}
+    {{- if $img.url }}{{ $items = $items | append (dict "kind" "image" "item" $img) }}{{ end }}
+  {{- end }}
+  {{- $placed := slice }}
+  {{- range $ytPage.Params.youtube_videos }}
+    {{- $yt := partial "youtube-item.html" . }}
+    {{- if $yt.id }}
+      {{- if gt $yt.position 0 }}
+        {{- $placed = $placed | append $yt }}
+      {{- else }}
+        {{- $items = $items | append (dict "kind" "video" "item" $yt) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- range sort $placed "position" }}
+    {{- $n := sub .position 1 }}
+    {{- $head := first $n $items }}
+    {{- $tail := after $n $items }}
+    {{- $items = $head | append (dict "kind" "video" "item" .) | append $tail }}
+  {{- end }}
+  <div class="portfolio-images">
+    {{ range $items }}
+    {{- if eq .kind "image" }}
+    {{- $img := .item }}
     <figure>
       <img src="{{ $img.url }}" alt="{{ $img.alt | default $.Title }}" loading="lazy">
       {{- with $img.caption }}
       <figcaption>{{ . }}</figcaption>
       {{- end }}
     </figure>
-    {{- end }}
-    {{ end }}
-    {{ range $ytPage.Params.youtube_videos }}
-    {{- $yt := partial "youtube-item.html" . }}
-    {{- if $yt.id }}
+    {{- else }}
+    {{- $yt := .item }}
     <figure class="portfolio-video">
       <a href="https://www.youtube.com/watch?v={{ $yt.id }}" target="_blank" rel="noopener" aria-label="Vaata YouTube'is">
         <img src="{{ $yt.thumb }}" alt="{{ $yt.caption | default $.Title }}" loading="lazy">
