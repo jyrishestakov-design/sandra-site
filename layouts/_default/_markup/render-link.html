@@ -33,5 +33,14 @@
     {{- with $caption }}<span class="inline-yt-title">{{ . }}</span>{{ end -}}
   </span>
 {{- else -}}
+{{- $thumb := index (hugo.Data.press_thumbs | default dict) $dest -}}
+{{- if $thumb -}}
+  {{- /* Pressilehe lingid: kui data/press_thumbs.yaml-is on lingile pilt, näidatakse kaarti pisipildiga. */ -}}
+  <span class="press-card">
+    <a href="{{ $dest | safeURL }}" target="_blank" rel="noopener"><img src="{{ $thumb }}" alt="" loading="lazy"></a>
+    <a class="press-card-title" href="{{ $dest | safeURL }}" target="_blank" rel="noopener">{{ .Text }}</a>
+  </span>
+{{- else -}}
   <a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text }}</a>
+{{- end -}}
 {{- end -}}
