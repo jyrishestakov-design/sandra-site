@@ -5,6 +5,8 @@ date: 2026-10-05
 cover: /images/bonjour-tristesse-kaas-en.webp
 gallery:
   - type: image
+    image: /images/bonjour-tristesse-loop.webp
+  - type: image
     image: /images/bonjour-tristesse-01-en.webp
   - type: image
     image: /images/bonjour-tristesse-02-en.webp

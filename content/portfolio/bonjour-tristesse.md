@@ -8,6 +8,8 @@ draft: false
 cover: /images/bonjour-tristesse-kaas-et.webp
 gallery:
   - type: image
+    image: /images/bonjour-tristesse-loop.webp
+  - type: image
     image: /images/bonjour-tristesse-01-et.webp
   - type: image
     image: /images/bonjour-tristesse-02-et.webp
