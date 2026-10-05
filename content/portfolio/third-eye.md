@@ -1,5 +1,5 @@
 ---
-title: "The Third Eye/ Kolmas silm"
+title: "The Third Eye / Kolmas silm"
 date: 2007-01-01
 slug: "third-eye"
 type: portfolio

@@ -19,8 +19,8 @@ gallery:
     image: /images/roster2.jpg
 ---
 
-Installatsioon koosneb kahest röstrist, mis neisse asetatud saiaviiludele pilte “trükivad” – ikooniliste, kõigi poolt koheselt äratuntavate isikute portreesid – Jeesus, Lenin, Che Guevara, Charles Manson. Märtrid, pühakud, sektiliidrid, sümbolid ja ikoonid.
-Idee pärineb aegajalt kollasepoolsest ajakirjandusest läbikäivatest uudistest röstsaiaviilule ilmuva Jeesuse näo kohta. Tavaliselt juhtub see mõnes katoliiklikus riigis või USA religioossemas piirkonnas, samamoodi nagu islamimades on aegajalt poolekslõigatud kurgil Koraanitsitaat. Sellised rutiinsed, igapäevased imed.
-Röstreid eksponeeritakse koos suure hulga saiaviiludega. Nii saavad näitusekülastajad endale “tõmmiseid” trükkida, et need kohapeale installatsiooni osaks jätta, sealsamas ära süüa või siis graafikateose koju kaasa võtta.
+Installatsioon koosneb kahest röstrist, mis neisse asetatud saiaviiludele pilte „trükivad“ – ikooniliste, kõigi poolt koheselt äratuntavate isikute portreesid – Jeesus, Lenin, Che Guevara, Charles Manson. Märtrid, pühakud, sektiliidrid, sümbolid ja ikoonid.
+Idee pärineb aeg-ajalt kollasepoolsest ajakirjandusest läbikäivatest uudistest röstsaiaviilule ilmuva Jeesuse näo kohta. Tavaliselt juhtub see mõnes katoliiklikus riigis või USA religioossemas piirkonnas, samamoodi nagu islamimaades on aeg-ajalt pooleks lõigatud kurgil Koraani tsitaat. Sellised rutiinsed, igapäevased imed.
+Röstreid eksponeeritakse koos suure hulga saiaviiludega. Nii saavad näitusekülastajad endale „tõmmiseid“ trükkida, et need kohapeale installatsiooni osaks jätta, sealsamas ära süüa või siis graafikateose koju kaasa võtta.
 2008
 Foto: Jaan Klõsheiko

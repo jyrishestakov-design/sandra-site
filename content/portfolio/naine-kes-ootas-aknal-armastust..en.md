@@ -1,5 +1,5 @@
 ---
-title: The Woman Who Waited for Love at the Window.
+title: The Woman Who Waited for Love at the Window
 weight: 1
 date: 2023-06-07
 ---

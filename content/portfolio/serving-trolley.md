@@ -1,5 +1,5 @@
 ---
-title: "Serving Trolley/ Serveerimislaud"
+title: "Serving Trolley / Serveerimislaud"
 date: 2009-01-01
 slug: "serving-trolley"
 type: portfolio

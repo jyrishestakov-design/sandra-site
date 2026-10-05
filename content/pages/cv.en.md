@@ -12,7 +12,7 @@ Website:
 2009 University of Tartu, Faculty of Education, teacher training course
 2002 Estonian Academy of Arts, Interdisciplinary Arts, MA
 2000 Estonian Academy of Arts, Painting, BA
-1995-96 Estonian Institute of Humanities
+1995–1996 Estonian Institute of Humanities
 
 **Memberships**
 
@@ -21,11 +21,11 @@ Website:
 
 **Art groups**
 
-2001 - 2006 Avangard (Sandra Jõgeva, Margus Tamm)
-2003 - 2006 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Margus Tamm)
-2006 - 2007 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Aino Ingrid Sepp, Kaarel Sammet)
-2009 - Kunstikonteiner/Art Container (Tanel Saar, Erik Alalooga, Sandra Jõgeva, Mai Sööt, Janno Bergmann, Kilian Ochs (Germany) et al.)
-2019 -- ... Kolm Punkti/Three Dots (Sandra Jõgeva, Teet Raudsepp, Rodrig Kokla)
+2001–2006 Avangard (Sandra Jõgeva, Margus Tamm)
+2003–2006 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Margus Tamm)
+2006–2007 Pink Punk (Sandra Jõgeva, Kristin Kalamees, Aino Ingrid Sepp, Kaarel Sammet)
+2009– Kunstikonteiner / Art Container (Tanel Saar, Erik Alalooga, Sandra Jõgeva, Mai Sööt, Janno Bergmann, Kilian Ochs (Germany) et al.)
+2019– Kolm Punkti / Three Dots (Sandra Jõgeva, Teet Raudsepp, Rodrig Kokla)
 
 **Documentary films**
 
@@ -63,9 +63,9 @@ Pärnu Museum
 2026 “Do You Know What Happened to Hanif Kureishi?”, Mikrogalerii opening exhibition, Tartu
 2026 “Big Blue”, Writers’ House, Tallinn
 2026 “Servant of the People”, Metropol Gallery, Tallinn
-2025 „Pied-à-terre“, Lai tn 36 studio, Tallinn
+2025 “Pied-à-terre”, Lai tn 36 studio, Tallinn
 2023 “Road to the Lost City” creative residency satellite gallery opening exhibition, Tallinn
-2023 “Paintings 1997-2004”, Haki Gallery, Tartu
+2023 “Paintings 1997–2004”, Haki Gallery, Tartu
 2022 “Twenty Years Later”, Jüri Culture Centre, Jüri
 2020 “Twenty Years Later”, Fahle Gallery
 2017 "Softcore", Avangard Gallery, Pärnu
@@ -94,7 +94,7 @@ Pärnu Museum
 **Curatorial projects**
 
 2025 Malle Leis 85. Memories from Travels, Vernissage Gallery
-2016 Andy Warhol: Life After the Soup Can. Film, video art and installations 1963-1987, curated exhibition with Marian Kivila; Pärnu Museum
+2016 Andy Warhol: Life After the Soup Can. Film, video art and installations 1963–1987, curated exhibition with Marian Kivila; Pärnu Museum
 2012 Dinner for Five, international performance event, Luunja Culture House, Tartu County
 2010 New Age, international curated exhibition, Pärnu Artists' House, Pärnu
 2009 New Age, international curated exhibition, Y-Gallery, Eclectica festival, Tartu
@@ -104,7 +104,7 @@ Pärnu Museum
 **Group exhibitions, festivals, fairs (selection)**
 
 2026 “Ebbs and Flows. Art and Sport in Dialogue”, curator Eneli Valge, ArtDepoo, Tallinn
-2024 “KOOS|KÕLA“, curator Mareli Reinhold, Pärnu Museum
+2024 “KOOS|KÕLA”, curator Mareli Reinhold, Pärnu Museum
 2022 “Art in the Comfort Zone? The Estonian 2000s”, curator Eha Komissarov, Kumu
 2022 “Woman & Woman”, curator Marian Grau, Pärnu City Gallery
 2020 “Pärnu Fotofest”, curator Marian Grau, Pärnu Central Library
@@ -127,9 +127,9 @@ Pärnu Museum
 
 **Performances (selection)**
 
-2022 “Talking Heads - Once in a Lifetime”, with Teet Raudsepp, Von Krahl
+2022 “Talking Heads – Once in a Lifetime”, with Teet Raudsepp, Von Krahl
 2021 “The Struggle for Resources”, ... (Kolm Punkti), Haihahtus, Finland
-2020 “Twenty-Two - The Last Taxi”, ArtDepoo Gallery
+2020 “Twenty-Two – The Last Taxi”, ArtDepoo Gallery
 2019 "The Chauvinist's Birthday", group ... (Kolm Punkti/Three Dots), New World Spectacle festival, Tampere, Finland
 2018 "Tit Show", 13th Baltic Triennial, kim?, Riga
 2017 "EV 100: Greek Edition", Prelude, Vilnius Contemporary Art Centre
@@ -144,14 +144,15 @@ Pärnu Museum
 
 **Other:**
 
-2026- “Välja sõit/Fieldnotes”, YouTube channel on art
-2025- „Pied-à-terre“, project on OnlyFans
+2026– “Välja sõit / Fieldnotes”, YouTube channel on art
+2025– “Pied-à-terre”, project on OnlyFans
 2023 Founding of the Molini di Triora creative grant (with Henrik Jõgeva and Triinu Keskpaik)
 2023 Founding of the “Road to the Lost City” creative residency satellite gallery in Tallinn's Old Town
 2023 Founding of the “Road to the Lost City” creative residency in the village of Molini di Triora, Imperia Province, Liguria, Northern Italy (with Henrik Jõgeva and Triinu Keskpaik)
 2021 “My Adventures in the Estonian Social System”, video project on YouTube with Teet Raudsepp (supported by the Cultural Endowment of Estonia)
 2020 Founding of the Malle Leis Prize with Henrik Jõgeva
 2018 Labour market web broadcasts (host and editor), CV.ee portal
-2014 Culture programme editor, art programme host and editor, Kanal 8; 2010-2012 art programme Kultuuritehas (host and editor), Tallinn TV
-2007-2014 Co-curator and co-organiser of the Culture Factory Festival and event series Global Container's workshop programme, Kultuuritehas Polymer
-1998- Contributions to media outlets (Eesti Ekspress, Delfi, Eesti Päevaleht, Postimees, Sirp, Kunst.ee, Teater Muusika Kino, etc.)
+2014 Culture programme editor, art programme host and editor, Kanal 8
+2010–2012 Art programme Kultuuritehas (host and editor), Tallinn TV
+2007–2014 Co-curator and co-organiser of the Culture Factory Festival and event series Global Container's workshop programme, Kultuuritehas Polymer
+1998– Contributions to media outlets (Eesti Ekspress, Delfi, Eesti Päevaleht, Postimees, Sirp, Kunst.ee, Teater Muusika Kino, etc.)

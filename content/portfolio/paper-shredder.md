@@ -1,5 +1,5 @@
 ---
-title: "Ecological Shredder/ Ökoloogiline paberihunt"
+title: "Ecological Shredder / Ökoloogiline paberihunt"
 date: 2007-01-01
 slug: "paper-shredder"
 type: portfolio
@@ -20,5 +20,5 @@ Kõrberott on varustatud erilise instinktiga – ta rebib erinevaid materjale
 pisikesteks tükkideks, mida kasutatakse Molotovi–Ribbentropi pakti paberkoopiate
 hävitamiseks – see on Teise maailmasõja aegne salajane dokument, millega jagati
 Ida-Euroopa, sealhulgas Eesti, Saksamaa ja Venemaa vahel.
-Metall, plastmass, antiikmööbel, Molotov-Ribbetropi pakti koopiad
+Metall, plastmass, antiikmööbel, Molotovi-Ribbentropi pakti koopiad
 2007

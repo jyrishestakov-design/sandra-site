@@ -30,9 +30,19 @@ Uudis.
 Uudis.
 [Garaažiboksi rajatud Mikrogalerii avab uksed Sandra Jõgeva näitusega](https://kultuur.err.ee/1610018584/garaaziboksi-rajatud-mikrogalerii-avab-uksed-sandra-jogeva-naitusega)
 
+**Mai 2026 — Mikrogalerii**
+Pressiteade.
+[Sandra Jõgeva „Kas sa tead, mis Hanif Kureishiga juhtus?“](https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus)
+
+**Mai 2026 — Mikrogalerii blogi**
+[An Echo of Venice in Tartu: Sandra Jõgeva's Exhibition](https://mikrogalerii.ee/blog/an-echo-of-venice-in-tartu-sandra-jogeva-exhibition)
+
 **3.03 2026 — Vikerraadio**
 Külalisena Vikerhommiku saates.
 [Sandra Jõgeva: kunstivaldkonnas on taotlused täis tarbetut bürokraatiat](https://vikerraadio.err.ee/1609956391/sandra-jogeva-kunstivaldkonnas-on-taotlused-tais-tarbetut-burokraatiat)
+
+**3.03 2026 — ERR**
+[Sandra Jõgeva: kunstivaldkond on tarbetut bürokraatiat täis](https://kultuur.err.ee/1609956629/sandra-jogeva-kunstivaldkond-on-tarbetut-burokraatiat-tais)
 
 **23.02 2026 — Delfi**
 Katrin Pautsi artikkel.
@@ -47,7 +57,7 @@ Pressiteade.
 [Sandra Jõgeva „RAHVA TEENER“](https://www.eaa.ee/sandra-jogeva-rahva-teener)
 
 **Veebruar 2026 — NOBA**
-[Sandra Jõgeva “SERVANT OF THE PEOPLE”](https://noba.ac/en/exhibition/sandra-jogeva-servant-of-the-people)
+[Sandra Jõgeva „RAHVA TEENER“](https://noba.ac/et/naitus/sandra-jogeva-rahva-teener)
 
 **04.11 2025 — Õpetajate Leht**
 Arvamus.
@@ -64,6 +74,10 @@ Uudis.
 **23.10 2025 — Postimees**
 Uudis.
 [Galerii: kunstnik päästab jalafetiši valla](https://kultuur.postimees.ee/8348301/galerii-kunstnik-paastab-jalafetisi-valla)
+
+**22.10 2025 — Eesti Kunstnike Liit**
+Pressiteade.
+[Sandra Jõgeva näitus „Pied-à-terre“](https://eaa.ee/sandra-jogeva-naitus-pied-terre)
 
 **22.10 2025 — NOBA**
 Margus Kiisi arvustus.
@@ -82,7 +96,7 @@ Mari Kartau. Kunstikonteiner ehitas Dresdenisse sauna — kultuur.err.ee, 15.09.
 
 Elin Kard, pressiteade näitusele „Meeleparandus“ Draakoni galeriis, 15.12.2010–30.12.2010
 
-„Human Touch. Divine Touch“ Grace Exhibition Space´is, 5.06.2009–10.07.2009
+„Human Touch. Divine Touch“ Grace Exhibition Space'is, 5.06.2009–10.07.2009
 
 „Ranks“, Sandra Jõgeva and Kaarel Sammet, Hobusepea gallery, 13.03.2008–24.03.2008
 
@@ -104,7 +118,7 @@ Siram. Täiesti normaalsed üksikud inimesed — Sirp, 24.04.2014
 
 Andri Ksenofontov. Kõrgmolekulaarne Kunstikonteiner — Sirp, 06.03.2014
 
-Keiu Virro. Sadomasohhism teadris ja elus — Müürileht, 27.02.2014
+Keiu Virro. Sadomasohhism teatris ja elus — Müürileht, 27.02.2014
 
 Mari Kartau. Artcontaineri Suur Kunst — kultuur.err.ee, 16.02.2014
 
@@ -134,7 +148,7 @@ Andri Ksenofontov. Kultuuripomm: Surma ilu olemus ON ELU — Postimees, 15.04.20
 
 Teet Veispak. Sure nagu daam, lahku nagu korjus — Postimees, 11.04.2006
 
-Markus Williams. In the de-militarized zone — KUNST.EE 2005, 2
+Marcus Williams. In the de-militarized zone — KUNST.EE 2005, 2
 
 Andrew Clifford. Lactic Acid on Streets — New Zealand Herald, 23.03.2005
 

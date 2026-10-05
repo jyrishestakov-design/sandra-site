@@ -1,6 +1,6 @@
 ---
 weight: 5
-title: '"Kas sa tead, mis Hanif Kureishiga juhtus?"'
+title: „Kas sa tead, mis Hanif Kureishiga juhtus?“
 date: 2026-05-10
 slug: ''
 type: portfolio
@@ -50,15 +50,15 @@ südamlikud kallistused. Tasuta proseccot haaravad käed ja võimaluste järele 
 
 Jutukatked mitmes keeles.
 
-Eraldi videod on projektist „Pied-à-terre”, mis tegeleb jalafetiši, teeloleku ja rändamiseteemadega. Kõik kokku moodustab kolmel ekraanil näidatava terviku.
+Eraldi videod on projektist „Pied-à-terre“, mis tegeleb jalafetiši, teeloleku ja rändamise teemadega. Kõik kokku moodustab kolmel ekraanil näidatava terviku.
 
-MiGa näituse avamine
+MIGA näituse avamine
 [https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii](https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii)
 
-MiGA pressiteade
+MIGA pressiteade
 [https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus](https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus)
 
-Miga Blogi
+MIGA blogi
 [https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam](https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam)
 
 Postimees

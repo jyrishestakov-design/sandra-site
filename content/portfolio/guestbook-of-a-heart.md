@@ -1,5 +1,5 @@
 ---
-title: "Guestbook of a Heart/ Südame külalisraamat"
+title: "Guestbook of a Heart / Südame külalisraamat"
 date: 2005-08-01
 slug: "guestbook-of-a-heart"
 type: portfolio
@@ -13,4 +13,4 @@ gallery:
 
 **Südame külalisraamat**
 2005
-"Südame külalisraamat" põhineb ideel, et olulised inimesed (ja sündmused) jätavad inimese hinge oma jälje. Miks ei võiks need jäljed ka ihul -- antud juhul nahal näha olla, näiteks vastavasse tabelisse tätoveeritud, südamesse läinud inimeste autogrammide näol. Südame külalisraamat tekkis mu vasakule rinnale samanimelise performance`i käigus, mis valmis koostööd koreograaf Peter Andersoniga Living Art Museumis Reykjavikis augustis 2005.
+„Südame külalisraamat“ põhineb ideel, et olulised inimesed (ja sündmused) jätavad inimese hinge oma jälje. Miks ei võiks need jäljed ka ihul – antud juhul nahal – näha olla, näiteks vastavasse tabelisse tätoveeritud, südamesse läinud inimeste autogrammide näol? Südame külalisraamat tekkis mu vasakule rinnale samanimelise performance'i käigus, mis valmis koostöös koreograaf Peter Andersoniga Living Art Museumis Reykjavikis augustis 2005.

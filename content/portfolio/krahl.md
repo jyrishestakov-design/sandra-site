@@ -15,4 +15,4 @@ Operaator: Peeter Ülevain (Tallinn TV)
 Montaaž: Tanel V Kulla
 Assistendid: Jane Jagna Paadimeister, Veronika Pikkas
 Erilised tänud: Katrin Essenson
-Eestikeelne stand up -tragöödia keskea kriisist ja näitlejate kui arvamusliidrite rollist Eesti meedias. Esitatud Von Krahli Teatris Tallinnas festivalil "Maikellukese päevad".
+Eestikeelne stand up -tragöödia keskeakriisist ja näitlejate kui arvamusliidrite rollist Eesti meedias. Esitatud Von Krahli Teatris Tallinnas festivalil „Maikellukese päevad“.

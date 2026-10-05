@@ -1,5 +1,5 @@
 ---
-title: "Untitled/ Nimeta"
+title: "Untitled / Nimeta"
 date: 2012-06-11
 slug: "genialistid"
 type: portfolio
@@ -36,5 +36,5 @@ gallery:
 ---
 
 *Stand up* -etendus *stand up* -komöödia ja -tragöödia erinevustest.
-Esitatud Genialistide Klubis 7.märtsil 2012
+Esitatud Genialistide Klubis 7. märtsil 2012
 Foto: Krõõt Tarkmeel

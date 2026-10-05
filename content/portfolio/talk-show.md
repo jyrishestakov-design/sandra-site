@@ -1,5 +1,5 @@
 ---
-title: " Talk show"
+title: "Talk show"
 date: 2008-01-01
 slug: "talk-show"
 type: portfolio

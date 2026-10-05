@@ -5,5 +5,5 @@ date: 2009-01-01
 
 Caramel, chicken bones
 2009
-A caramel copy of the bronze sculpture titled _A Short Story_ by recognized Estonian sculptor Ülo Õun (1940 - 1988)
+A caramel copy of the bronze sculpture titled _A Short Story_ by the renowned Estonian sculptor Ülo Õun (1940–1988)
 Photo: Tanel Saar

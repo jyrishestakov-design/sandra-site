@@ -1,5 +1,5 @@
 ---
-title: "The Gauntlet/ Kadalipp"
+title: "The Gauntlet / Kadalipp"
 date: 2007-02-01
 slug: "the-gauntlet"
 type: portfolio
@@ -46,6 +46,6 @@ gallery:
 ---
 
 Kadalipp
-Performance Kunstihoone näituse „Kehaturg / Sex Market“ avamisel 2007.a. veebruaris. Iga näitusele sisenenud meessoost isik sai piitsahoobi Kunstihoone trepil seisnud kaheksalt dominaks riietunud naiselt.
-Osalejad: Liivi Tantaal,Veronika Pikkas, Greetel Lee, Jaana Nõu, Liisi Lill, Katrin Piile, Sandra Jõgeva.
+Performance Kunstihoone näituse „Kehaturg / Sex Market“ avamisel 2007. aasta veebruaris. Iga näitusele sisenenud meessoost isik sai piitsahoobi Kunstihoone trepil seisnud kaheksalt dominaks riietunud naiselt.
+Osalejad: Liivi Tantaal, Veronika Pikkas, Greetel Lee, Jaana Nõu, Liisi Lill, Katrin Piile, Sandra Jõgeva.
 Foto: Jaan Klõsheiko

@@ -21,19 +21,16 @@ gallery:
     caption: Iseseisvus
   - type: video
     url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
-    caption: Iseseisvus
-  - type: video
-    url: https://www.youtube.com/watch?v=abUgie1nOfc&t=9s
     caption: Kirjavahetus supiköögi asjas
   - type: video
     url: https://www.youtube.com/watch?v=gBZdQvk7PxU&t=1606s
     caption: Metropol 20
   - type: video
     url: https://www.youtube.com/watch?v=aCXquCKvO_4&t=26s
-    caption: Casanova jägedes 2
+    caption: Casanova jälgedes 2
   - type: video
     url: https://www.youtube.com/watch?v=sUGkpCLhWCA&t=1673s
-    caption: Casanova jägedes 1
+    caption: Casanova jälgedes 1
   - type: video
     url: https://www.youtube.com/watch?v=8FcsbT1dHDQ&t=2s
     caption: Voronja Imelikud inimesed
@@ -42,10 +39,10 @@ gallery:
     caption: Peeter Allik 60
   - type: video
     url: https://www.youtube.com/watch?v=KGr3Kio-NAY&t=321s
-    caption: KolkjaArt avamine
+    caption: KolkjARTi avamine
   - type: video
     url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
-    caption: MiGa Narihiro Matsumoto
+    caption: MIGA, Narihiro Matsumoto
 mat_width_adjust: null
 ---
 

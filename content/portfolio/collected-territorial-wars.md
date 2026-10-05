@@ -1,5 +1,5 @@
 ---
-title: "Collected Territorial Wars "
+title: "Collected Territorial Wars"
 date: 2012-01-01
 slug: "collected-territorial-wars"
 type: portfolio

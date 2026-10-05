@@ -11,7 +11,7 @@ cover: /images/screenshot-2026-09-08-at-14.08.23.webp
 [https://www.youtube.com/watch?app=desktop&v=yk3Vrux6-z8](https://www.youtube.com/watch?app=desktop&v=yk3Vrux6-z8)
 Teet talk.
 Stand up tragöödia
-Loeng/perfomance kunstiturust & elu ning kunsti mõttest
+Loeng/performance kunstiturust & elu ning kunsti mõttest
 Salongiõhtu
 Hobi
 Von Krahli teatris

@@ -3,7 +3,7 @@ title: Fair Deal
 date: 2003-01-01
 ---
 
-By Pink Punk (Sandra Jogeva, Kristin Kalamees, Margus Tamm)
+By Pink Punk (Sandra Jõgeva, Kristin Kalamees, Margus Tamm)
 2003 Times Square, New York
 2004 Kiasma, Helsinki, Finland
 2004 Alexanderplatz, Berlin

@@ -23,9 +23,19 @@ News item.
 News item.
 [Mikrogalerii, built into a garage box, opens its doors with an exhibition by Sandra Jõgeva](https://kultuur.err.ee/1610018584/garaaziboksi-rajatud-mikrogalerii-avab-uksed-sandra-jogeva-naitusega)
 
+**May 2026 — Mikrogalerii**
+Press release.
+[Sandra Jõgeva “Do You Know What Happened to Hanif Kureishi?”](https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus)
+
+**May 2026 — Mikrogalerii blog**
+[An Echo of Venice in Tartu: Sandra Jõgeva's Exhibition](https://mikrogalerii.ee/blog/an-echo-of-venice-in-tartu-sandra-jogeva-exhibition)
+
 **3.03 2026 — Vikerraadio**
 Guest on the Vikerhommik radio programme.
 [Sandra Jõgeva: applications in the art field are full of unnecessary bureaucracy](https://vikerraadio.err.ee/1609956391/sandra-jogeva-kunstivaldkonnas-on-taotlused-tais-tarbetut-burokraatiat)
+
+**3.03 2026 — ERR**
+[Sandra Jõgeva: the art field is full of unnecessary bureaucracy](https://kultuur.err.ee/1609956629/sandra-jogeva-kunstivaldkond-on-tarbetut-burokraatiat-tais)
 
 **23.02 2026 — Delfi**
 Article by Katrin Pauts.
@@ -57,6 +67,10 @@ News item.
 **23.10 2025 — Postimees**
 News item.
 [Gallery: artist sets a foot fetish loose](https://kultuur.postimees.ee/8348301/galerii-kunstnik-paastab-jalafetisi-valla)
+
+**22.10 2025 — Estonian Artists' Association**
+Press release.
+[Sandra Jõgeva's exhibition “Pied-à-terre”](https://eaa.ee/sandra-jogeva-naitus-pied-terre)
 
 **22.10 2025 — NOBA**
 Review by Margus Kiis.

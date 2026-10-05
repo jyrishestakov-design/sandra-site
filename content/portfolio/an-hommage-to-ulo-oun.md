@@ -1,5 +1,5 @@
 ---
-title: An Hommage to Ülo Õun/ Austusavaldus Ülo Õunale
+title: An Hommage to Ülo Õun / Austusavaldus Ülo Õunale
 date: 2009-01-01
 slug: an-hommage-to-ulo-oun
 type: portfolio
@@ -11,5 +11,5 @@ gallery:
 
 Karamell, kanakondid
 2009
-Tuntud Eesti kunstniku Ülo Õuna (1940 – 1988) pronksskuptuuri „Novell“ karamellist koopia
+Tuntud Eesti kunstniku Ülo Õuna (1940–1988) pronksskulptuuri „Novell“ karamellist koopia
 Foto: Tanel Saar

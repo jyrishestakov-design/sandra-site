@@ -13,8 +13,8 @@ gallery:
     image: /images/GlobalContainer8-118.jpg
 ---
 
-***P*erformance Kultuuritehase Festivalil, Global Containeril**
+**Performance Kultuuritehase Festivalil, Global Containeril**
 August 2009
-Kolm maskis autentset masohhisti (leidsin sadomaso-internetifoorumi ) koristasid läbi kuuetunnise Global Containeri  Kultuuritehases Polymer kõigi esinejate järel, pesid põrandaid jne.
+Kolm maskis autentset masohhisti (leidsin sadomaso-internetifoorumist) koristasid läbi kuuetunnise Global Containeri Kultuuritehases Polymer kõigi esinejate järel, pesid põrandaid jne.
 
 Foto: Tanel Saar
