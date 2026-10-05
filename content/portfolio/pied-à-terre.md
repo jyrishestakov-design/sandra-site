@@ -7,6 +7,34 @@ type: portfolio
 draft: false
 cover: /images/image0-1-_0.webp
 gallery:
+  - type: video
+    url: https://youtu.be/BES3ddBLOp0
+    caption: Raul Meel annab nõu jalafetiši video asjus
+    caption_en: Raul Meel gives advice on the foot fetish video
+  - type: video
+    url: https://youtu.be/eoHBhZoj218
+    caption: Meekärg
+    caption_en: Honeycomb
+  - type: video
+    url: https://youtu.be/lEDnZKqaQmg
+    caption: Kingad
+    caption_en: Shoes
+  - type: video
+    url: https://youtu.be/7G2JW4_d2Kg
+    caption: Nizza
+    caption_en: Nice
+  - type: video
+    url: https://youtu.be/xdZZ-5MybwY
+    caption: Monte Carlo
+    caption_en: Monte Carlo
+  - type: video
+    url: https://youtu.be/6mTUeasoXv8
+    caption: Sukad
+    caption_en: Stockings
+  - type: video
+    url: https://youtu.be/_JVws91Y8LA
+    caption: Kärjeloop
+    caption_en: Honeycomb loop
   - type: image
     image: /images/hispaania.webp
   - type: image
