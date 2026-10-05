@@ -4,6 +4,10 @@ title: PRESS
 
 ## PRESS RELEASES AND MEDIA COVERAGE
 
+**1.10 2026 — Delfi**
+Review by Margus Kiis.
+[SERIES OF THE WEEK | The eternal rebel’s own television. Sandra Jõgeva’s YouTube art series is in no way inferior to ERR’s cultural programmes](https://kultuur.delfi.ee/artikkel/120613451/nadala-sari-igavese-massaja-oma-televisioon-sandra-jogeva-youtube-i-kunstisari-ei-jaa-kuidagi-erri-kultuurisaadetele-alla)
+
 **25.09 2026 — Mikrogalerii blog**
 Interview by Raul Oreskin.
 [Mikrogalerii – #66 What Do You Make of Art, Too?](https://mikrogalerii.ee/blogi/66-mida-teie-ka-kunstist-taipate)

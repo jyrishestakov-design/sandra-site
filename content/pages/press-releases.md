@@ -11,6 +11,10 @@ mat_width_adjust: null
 
 ## PRESSITEATED JA MEEDIAKAJASTUSED
 
+**1.10 2026 — Delfi**
+Margus Kiisi arvustus.
+[NÄDALA SARI | Igavese mässaja oma televisioon. Sandra Jõgeva YouTube’i kunstisari ei jää kuidagi ERRi kultuurisaadetele alla](https://kultuur.delfi.ee/artikkel/120613451/nadala-sari-igavese-massaja-oma-televisioon-sandra-jogeva-youtube-i-kunstisari-ei-jaa-kuidagi-erri-kultuurisaadetele-alla)
+
 **25.09 2026 — Mikrogalerii blogi**
 Raul Oreskini intervjuu.
 [Mikrogalerii – #66 Mida teie ka kunstist taipate?](https://mikrogalerii.ee/blogi/66-mida-teie-ka-kunstist-taipate)
