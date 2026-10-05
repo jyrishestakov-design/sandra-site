@@ -138,3 +138,6 @@ footer { background: var(--footer-bg, #f5f4f0); padding: 2rem 3rem; border-top: 
   footer { padding: 1.5rem; }
   .portfolio-grid { grid-template-columns: 1fr 1fr; }
 }
+
+.page-content img { display: block; max-width: 100%; height: auto; margin: 1rem 0; border-radius: 2px; }
+.page-content a:hover img { opacity: .9; }
