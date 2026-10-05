@@ -8,6 +8,9 @@ draft: false
 cover: /images/screenshot-2026-09-24-at-09.05.30.webp
 gallery:
   - type: video
+    url: https://youtu.be/NV3_HNEUvRU
+    caption: Cabaret Voltá
+  - type: video
     url: https://youtu.be/9Kl58-V0pTU
     caption: SMS.WIFI.OK.
   - type: video
