@@ -6,3 +6,6 @@ resources/_gen/
 # Local Netlify folder
 .netlify
 .wrangler/
+scripts/.uuenda.log
+*.command alias
+Sandrasite*les

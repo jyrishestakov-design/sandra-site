@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 cd "$(dirname "$0")"
-if bash scripts/salvesta.sh; then
+if bash scripts/uuenda.sh; then
   bash scripts/close-terminal.sh
 else
-  echo
-  echo "!! Midagi läks valesti (vaata ülevalt veateadet)."
   read -r -p "Vajuta Enter, et aken sulgeda..." _
 fi
