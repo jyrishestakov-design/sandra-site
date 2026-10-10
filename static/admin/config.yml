@@ -60,6 +60,31 @@ collections:
           - { label: "Galeriipiltide valge äär (paspartuu)", name: gallery_mat_width, widget: string, required: false, hint: "Pildi ja selle serva vahele jääv valge ääris, nagu pildiraami paspartuu. Kehtib kõikide lehtede galeriidele. nt 16px. Tühjaks jättes või 0px puudub." }
           - { label: "Galeriipildi suurenemine hiire all", name: gallery_hover_zoom, widget: number, value_type: float, min: 1, max: 3, step: 0.05, required: false, hint: "Kui palju pilt hiirega üle liikudes suureneb. 1 = ei suurene, 1.5 = 50% suurem, 2 = kahekordne. Kehtib kõikide lehtede galeriidele." }
 
+  # ------- AVALEHT -------
+  - name: avaleht
+    label: "Avaleht (taustavideo)"
+    preview_path: "/"
+    description: "Avalehe ülaosas korduvad taustavideod. Videod mängivad järjest ja sulanduvad üksteiseks. Salvestamisel ehitatakse sait uuesti (paar minutit)."
+    files:
+      - name: home
+        label: "Taustavideo seaded"
+        file: "data/home.yaml"
+        fields:
+          - { label: "Näita taustavideot", name: hero_enabled, widget: boolean, default: true, hint: "Välja lülitades on avalehel nagu varem ainult nimi ja tagline." }
+          - label: "Videod"
+            name: hero_videos
+            widget: list
+            summary: "{{fields.title}} – {{fields.video}}"
+            hint: "Lohistades saab järjekorda muuta. Videod mängivad selles järjekorras ja kordavad lõputult. Heli ei mängita."
+            fields:
+              - { label: "Nimi (enda jaoks)", name: title, widget: string, required: false }
+              - { label: "Videofail (MP4)", name: video, widget: file, accept: "video/mp4", hint: "MP4 (H.264), soovitavalt lühike (5-20 s), laius 1600-1920 px ja alla 10 MB - mida väiksem fail, seda kiiremini avaleht avaneb. Heli eemaldatakse/ei mängita." }
+              - { label: "Eelvaatepilt (poster)", name: poster, widget: image, required: false, hint: "Näidatakse enne video laadimist ja siis, kui külastaja on arvutis animatsioonid välja lülitanud. Soovitavalt video esimene kaader." }
+              - { label: "Fookuspunkt", name: position, widget: string, required: false, hint: "Milline osa videost jääb kitsal ekraanil (telefonis) nähtavale. Nt center (vaikimisi), left, right, 30% 50%." }
+          - { label: "Kõrgus (% ekraani kõrgusest)", name: hero_height, widget: number, value_type: int, min: 40, max: 100, default: 72 }
+          - { label: "Tumendus (0 = puudub, 0.6 = tume)", name: hero_overlay, widget: number, value_type: float, min: 0, max: 0.8, step: 0.05, default: 0.3, hint: "Tumendab videot, et valge nimi oleks loetav." }
+          - { label: "Üleminek videote vahel (sekundites)", name: hero_fade, widget: number, value_type: float, min: 0, max: 4, step: 0.1, default: 1.2 }
+
   # ------- SAIDI SEADED -------
   - name: seaded
     label: "Saidi seaded"

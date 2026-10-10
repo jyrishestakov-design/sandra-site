@@ -1,12 +1,43 @@
 {{ define "main" }}
+{{- $s := hugo.Data.settings | default dict }}
+{{- $h := hugo.Data.home | default dict }}
+{{- $vids := slice }}
+{{- range $h.hero_videos | default slice }}{{ if .video }}{{ $vids = $vids | append . }}{{ end }}{{ end }}
 <section class="home">
+  {{- if and $h.hero_enabled (gt (len $vids) 0) }}
+  {{- $height := $h.hero_height | default 72 }}
+  {{- $dim := $h.hero_overlay | default 0.3 }}
+  {{- $fade := $h.hero_fade | default 1.2 }}
+  <div class="hero" style="--hero-h: {{ $height }}; --hero-dim: {{ $dim }}; --hero-fade: {{ $fade }}s;" data-fade="{{ $fade }}">
+    <div class="hero-media" aria-hidden="true">
+      {{- range $i, $v := $vids }}
+      <video class="hero-video{{ if eq $i 0 }} is-active{{ end }}" muted playsinline
+        preload="{{ if eq $i 0 }}auto{{ else }}metadata{{ end }}"
+        {{- with $v.poster }} poster="{{ . }}"{{ end }}
+        {{- with $v.position }} style="object-position: {{ . | safeCSS }}"{{ end }}
+        {{- if eq (len $vids) 1 }} loop{{ end }}>
+        <source src="{{ $v.video }}" type="video/mp4">
+      </video>
+      {{- end }}
+    </div>
+    <div class="hero-text">
+      <h1>{{ $s.site_title | default site.Title }}</h1>
+      {{- with $s.tagline | default "Artist · Writer · Curator" }}
+      <p class="tagline">{{ . }}</p>
+      {{- end }}
+    </div>
+    <button class="hero-toggle" type="button" aria-label="{{ if eq site.Language.Lang "en" }}Pause video{{ else }}Peata video{{ end }}" aria-pressed="false"><span class="hero-toggle-icon"></span></button>
+  </div>
+  {{- $js := resources.Get "js/hero.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer></script>
+  {{- else }}
   <div class="home-intro">
-    {{- $s := hugo.Data.settings | default dict }}
     <h1>{{ $s.site_title | default site.Title }}</h1>
     {{- with $s.tagline | default "Artist · Writer · Curator" }}
     <p class="tagline">{{ . }}</p>
     {{- end }}
   </div>
+  {{- end }}
   {{ partial "portfolio-grid.html" (where .Site.RegularPages "Type" "portfolio") }}
 </section>
 {{ end }}
