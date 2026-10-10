@@ -3,6 +3,7 @@ hero_videos:
   - title: Jõgeva
     video: /images/hero-jogeva.mp4
     poster: /images/hero-jogeva.webp
+    position: center bottom
   - title: Ülekäigurada
     video: /images/hero-ylekaik.mp4
     poster: /images/hero-ylekaik.webp
