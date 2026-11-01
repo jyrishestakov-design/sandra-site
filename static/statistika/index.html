@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>VÄLJASÕIT statistika</title>
+<meta name="theme-color" content="#0c0c0d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Väljasõit">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="/statistika/icon-180.png">
+<link rel="icon" href="/statistika/icon-180.png">
+<link rel="manifest" href="/statistika/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Üks tume veerg nagu Maci vidin: logo, kokkuvõte, videote nimekiri. */
+:root{
+  --bg:#0c0c0d; --panel:#161618; --line:#2a2a2d; --hover:#1c1c1f;
+  --fg:#f3f0ea; --dim:#9a968f; --gold:#e3a857; --up:#62d18f; --warn:#f0a35a;
+  --logo:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --body:"Source Sans 3", -apple-system, "Segoe UI", sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.4;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));
+  padding-top:calc(28px + env(safe-area-inset-top, 0px));padding-bottom:calc(40px + env(safe-area-inset-bottom, 0px));
+  -webkit-font-smoothing:antialiased}
+[hidden]{display:none!important}
+.wrap{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+a{color:inherit;text-decoration:none}
+
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.logo{display:flex;flex-direction:column;gap:7px;align-items:flex-start}
+.logo .w1{font-family:var(--logo);font-weight:800;font-size:clamp(26px,7vw,38px);letter-spacing:.32em;
+  padding-bottom:8px;border-bottom:2px solid var(--gold);margin-right:-.32em}
+.logo .w2{font-family:var(--logo);font-weight:300;font-size:clamp(12px,3.2vw,15px);letter-spacing:.42em;opacity:.85}
+.logo .ch{font-size:14px;color:var(--dim);margin-top:4px}
+.refresh{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:999px;
+  font:600 14px var(--body);padding:9px 16px;cursor:pointer;white-space:nowrap}
+.refresh:disabled{opacity:.5}
+.refresh:focus-visible,.seg button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+.sum{display:flex;flex-wrap:wrap;gap:14px 34px;align-items:flex-end;padding:18px 20px;background:var(--panel);
+  border:1px solid var(--line);border-radius:14px;min-height:94px}
+.m{display:flex;flex-direction:column;gap:2px;min-width:0}
+.m b{font-weight:700;font-size:24px;font-variant-numeric:tabular-nums}
+.m.big b{font-size:clamp(34px,9vw,44px);line-height:1}
+.m span{font-size:13px;color:var(--dim)}
+.m.up b{color:var(--up)}
+
+.bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.bar h2{margin:0;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{appearance:none;border:0;background:none;color:var(--dim);font:600 14px var(--body);padding:7px 14px;border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+li a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;padding:13px 6px;border-top:1px solid var(--line)}
+li:first-child a{border-top:0}
+li a:hover,li a:focus-visible{background:var(--hover);outline:none;border-radius:8px}
+.t{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.d{font-size:13px;color:var(--dim)}
+.v{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.v i{font-style:normal;color:var(--up);font-weight:600;font-size:13px;margin-right:6px}
+.r{text-align:right;font-size:13px;color:var(--dim);white-space:nowrap;font-variant-numeric:tabular-nums}
+.empty{color:var(--dim);padding:20px 4px}
+
+.hint{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px dashed var(--gold);border-radius:12px;font-size:15px}
+.hint p{margin:0;flex:1}
+.hint button{appearance:none;border:0;background:none;color:var(--dim);font:600 14px var(--body);cursor:pointer;padding:2px 4px}
+footer{font-size:13px;color:var(--dim);display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
+footer .warn{color:var(--warn)}
+@media (max-width:420px){ .sum{padding:16px} .t{white-space:normal} }
+@media (prefers-reduced-motion:no-preference){ .sum,.list-wrap{transition:opacity .2s} }
+.loading .sum,.loading ol{opacity:.55}
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <div class="top">
+    <header class="logo">
+      <div class="w1">VÄLJASÕIT</div>
+      <div class="w2">fieldnotes</div>
+      <div class="ch" id="ch">Mida teie ka kunstist taipate?</div>
+    </header>
+    <button type="button" class="refresh" id="refresh">Värskenda</button>
+  </div>
+
+  <section class="sum" id="sum" aria-live="polite"><div class="m"><span>Laen andmeid…</span></div></section>
+
+  <div class="hint" id="hint" hidden>
+    <p>Et see leht oleks iPadis nagu äpp: vajuta Safaris üleval <b>Jaga</b> (ruut noolega) ja vali <b>Lisa avakuvale</b>.</p>
+    <button type="button" id="hintx" aria-label="Peida vihje">Peida</button>
+  </div>
+
+  <div class="bar">
+    <h2>Videod</h2>
+    <div class="seg" role="group" aria-label="Järjestus">
+      <button type="button" id="s-new" aria-pressed="true">Uuemad</button>
+      <button type="button" id="s-top" aria-pressed="false">Vaadatumad</button>
+    </div>
+  </div>
+  <ol id="list"></ol>
+
+  <footer><span id="upd"></span><span id="src"></span></footer>
+</div>
+
+<script>
+(function(){
+  var nf = new Intl.NumberFormat("et-EE");
+  var df = new Intl.DateTimeFormat("et-EE", {day:"numeric", month:"short", year:"numeric"});
+  var tf = new Intl.DateTimeFormat("et-EE", {day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"});
+  function n(x){ return x == null ? "–" : nf.format(x); }
+  function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function lsGet(k){ try { return localStorage.getItem(k); } catch(e) { return null; } }
+  function lsSet(k, v){ try { localStorage.setItem(k, v); } catch(e) {} }
+
+  var D = null, delta = {}, mode = lsGet("kv-sort") || "new", errMsg = null;
+
+  // Vaatamiste ajalugu hoitakse selles seadmes, et näidata viimase ööpäeva juurdekasvu.
+  function updateHistory(data){
+    var H = []; try { H = JSON.parse(lsGet("kv-hist") || "[]"); } catch(e) {}
+    var now = data.fetched || Date.now();
+    var last = H[H.length-1];
+    if (!last || now - last.t > 20*60e3) {
+      var snap = {t: now, v: {}};
+      data.videos.forEach(function(v){ snap.v[v.id] = v.views; });
+      H.push(snap);
+    } else {
+      data.videos.forEach(function(v){ last.v[v.id] = v.views; });
+    }
+    H = H.filter(function(h){ return h.t >= now - 8*86400e3; });
+    lsSet("kv-hist", JSON.stringify(H));
+    delta = {};
+    if (H.length < 2) return;
+    var cut = now - 24*3600e3;
+    data.videos.forEach(function(v){
+      var base = null;
+      for (var i = 0; i < H.length - 1; i++) { if (H[i].t >= cut && H[i].v[v.id] != null) { base = H[i]; break; } }
+      if (!base) for (var j = H.length - 2; j >= 0; j--) { if (H[j].v[v.id] != null) { base = H[j]; break; } }
+      if (base) delta[v.id] = Math.max(0, v.views - base.v[v.id]);
+    });
+  }
+
+  function render(){
+    if (!D) return;
+    document.getElementById("ch").textContent = D.channelTitle || "Mida teie ka kunstist taipate?";
+    var sum = document.getElementById("sum"); sum.textContent = "";
+    function metric(val, label, cls){ var m = el("div", "m" + (cls ? " " + cls : "")); m.appendChild(el("b", null, val)); m.appendChild(el("span", null, label)); sum.appendChild(m); }
+    var total = (D.stats && D.stats.totalViews != null) ? D.stats.totalViews : D.videos.reduce(function(a,v){ return a + v.views; }, 0);
+    metric(n(total), D.stats && D.stats.totalViews != null ? "vaatamist kokku" : "vaatamist " + D.videos.length + " viimasel videol", "big");
+    var keys = Object.keys(delta);
+    if (keys.length) {
+      var dt = keys.reduce(function(a,k){ return a + delta[k]; }, 0);
+      metric("+" + n(dt), "viimase ööpäeva jooksul", dt > 0 ? "up" : "");
+    }
+    if (D.stats && D.stats.subs != null) metric(n(D.stats.subs), "tellijat");
+    metric(n(D.videos.length), D.source === "API" ? "videot kanalil" : "viimast videot");
+
+    document.getElementById("s-new").setAttribute("aria-pressed", mode === "new");
+    document.getElementById("s-top").setAttribute("aria-pressed", mode === "top");
+    var vids = D.videos.slice().sort(mode === "top"
+      ? function(a,b){ return b.views - a.views; }
+      : function(a,b){ return new Date(b.published) - new Date(a.published); });
+    var list = document.getElementById("list"); list.textContent = "";
+    vids.forEach(function(v){
+      var li = el("li"), a = el("a");
+      a.href = "https://www.youtube.com/watch?v=" + v.id; a.target = "_blank"; a.rel = "noopener";
+      a.appendChild(el("div", "t", v.title));
+      var vv = el("div", "v");
+      if (delta[v.id] > 0) vv.appendChild(el("i", null, "+" + n(delta[v.id])));
+      vv.appendChild(document.createTextNode(n(v.views)));
+      a.appendChild(vv);
+      a.appendChild(el("div", "d", df.format(new Date(v.published))));
+      var meta = [];
+      if (v.likes != null) meta.push("👍 " + n(v.likes));
+      if (v.comments != null) meta.push("💬 " + n(v.comments));
+      a.appendChild(el("div", "r", meta.join("   ")));
+      li.appendChild(a); list.appendChild(li);
+    });
+
+    var upd = document.getElementById("upd");
+    upd.className = errMsg || D.error ? "warn" : "";
+    upd.textContent = errMsg ? errMsg : (D.error ? "⚠︎ " + D.error : "Uuendatud " + tf.format(new Date(D.fetched)));
+    document.getElementById("src").textContent = D.source === "API" ? "Kõik kanali videod" : "15 viimast videot";
+  }
+
+  function load(){
+    var btn = document.getElementById("refresh"), app = document.getElementById("app");
+    btn.disabled = true; btn.textContent = "Laen…"; app.classList.add("loading");
+    fetch("/api/kanal", {cache: "no-cache"})
+      .then(function(r){ return r.json().then(function(j){ if (!r.ok) throw new Error(j.error || ("HTTP " + r.status)); return j; }); })
+      .then(function(j){
+        D = j; errMsg = null;
+        updateHistory(D);
+        lsSet("kv-last", JSON.stringify(D));
+      })
+      .catch(function(e){
+        if (!D) { try { D = JSON.parse(lsGet("kv-last") || "null"); } catch(x) {} }
+        if (D) { updateHistory(D); errMsg = "Ei saanud uusi andmeid kätte, näitan viimati salvestatud seisu."; }
+        else document.getElementById("sum").innerHTML = '<div class="m"><span>Andmeid ei õnnestunud laadida. Kontrolli internetiühendust ja vajuta Värskenda.</span></div>';
+      })
+      .then(function(){
+        btn.disabled = false; btn.textContent = "Värskenda"; app.classList.remove("loading");
+        render();
+      });
+  }
+
+  function setMode(m){ mode = m; lsSet("kv-sort", m); render(); }
+  document.getElementById("s-new").addEventListener("click", function(){ setMode("new"); });
+  document.getElementById("s-top").addEventListener("click", function(){ setMode("top"); });
+  document.getElementById("refresh").addEventListener("click", load);
+  // uuenda, kui avakuvalt avatud äpp tuleb uuesti ette
+  document.addEventListener("visibilitychange", function(){
+    if (document.visibilityState === "visible" && D && Date.now() - (D.fetched || 0) > 15*60e3) load();
+  });
+
+  var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  if (ios && !navigator.standalone && lsGet("kv-hint") !== "1") document.getElementById("hint").hidden = false;
+  document.getElementById("hintx").addEventListener("click", function(){ document.getElementById("hint").hidden = true; lsSet("kv-hint", "1"); });
+
+  load();
+})();
+</script>
+</body>
+</html>
