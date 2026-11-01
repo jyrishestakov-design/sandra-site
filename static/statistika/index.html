@@ -104,6 +104,7 @@ footer .warn{color:var(--warn)}
     <div class="seg" role="group" aria-label="Järjestus">
       <button type="button" id="s-new" aria-pressed="true">Uuemad</button>
       <button type="button" id="s-top" aria-pressed="false">Vaadatumad</button>
+      <button type="button" id="s-like" aria-pressed="false">Meeldivamad</button>
     </div>
   </div>
   <ol id="list"></ol>
@@ -161,13 +162,19 @@ footer .warn{color:var(--warn)}
       metric("+" + n(dt), "viimase ööpäeva jooksul", dt > 0 ? "up" : "");
     }
     if (D.stats && D.stats.subs != null) metric(n(D.stats.subs), "tellijat");
+    var likes = D.videos.reduce(function(a,v){ return a + (v.likes || 0); }, 0);
+    if (D.videos.some(function(v){ return v.likes != null; })) metric("👍 " + n(likes), "meeldimist");
     metric(n(D.videos.length), D.source === "API" ? "videot kanalil" : "viimast videot");
 
     document.getElementById("s-new").setAttribute("aria-pressed", mode === "new");
     document.getElementById("s-top").setAttribute("aria-pressed", mode === "top");
-    var vids = D.videos.slice().sort(mode === "top"
-      ? function(a,b){ return b.views - a.views; }
-      : function(a,b){ return new Date(b.published) - new Date(a.published); });
+    document.getElementById("s-like").setAttribute("aria-pressed", mode === "like");
+    var sorters = {
+      top: function(a,b){ return b.views - a.views; },
+      like: function(a,b){ return (b.likes || 0) - (a.likes || 0) || b.views - a.views; },
+      "new": function(a,b){ return new Date(b.published) - new Date(a.published); }
+    };
+    var vids = D.videos.slice().sort(sorters[mode] || sorters["new"]);
     var list = document.getElementById("list"); list.textContent = "";
     vids.forEach(function(v){
       var li = el("li"), a = el("a");
@@ -215,6 +222,7 @@ footer .warn{color:var(--warn)}
   function setMode(m){ mode = m; lsSet("kv-sort", m); render(); }
   document.getElementById("s-new").addEventListener("click", function(){ setMode("new"); });
   document.getElementById("s-top").addEventListener("click", function(){ setMode("top"); });
+  document.getElementById("s-like").addEventListener("click", function(){ setMode("like"); });
   document.getElementById("refresh").addEventListener("click", function(){ load(true); });
   // uuenda, kui avakuvalt avatud äpp tuleb uuesti ette
   document.addEventListener("visibilitychange", function(){
