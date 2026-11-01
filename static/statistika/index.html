@@ -191,10 +191,10 @@ footer .warn{color:var(--warn)}
     document.getElementById("src").textContent = D.source === "API" ? "Kõik kanali videod" : "15 viimast videot";
   }
 
-  function load(){
+  function load(force){
     var btn = document.getElementById("refresh"), app = document.getElementById("app");
     btn.disabled = true; btn.textContent = "Laen…"; app.classList.add("loading");
-    fetch("/api/kanal", {cache: "no-cache"})
+    fetch("/api/kanal" + (force === true ? "?fresh=1" : ""), {cache: "no-cache"})
       .then(function(r){ return r.json().then(function(j){ if (!r.ok) throw new Error(j.error || ("HTTP " + r.status)); return j; }); })
       .then(function(j){
         D = j; errMsg = null;
@@ -215,7 +215,7 @@ footer .warn{color:var(--warn)}
   function setMode(m){ mode = m; lsSet("kv-sort", m); render(); }
   document.getElementById("s-new").addEventListener("click", function(){ setMode("new"); });
   document.getElementById("s-top").addEventListener("click", function(){ setMode("top"); });
-  document.getElementById("refresh").addEventListener("click", load);
+  document.getElementById("refresh").addEventListener("click", function(){ load(true); });
   // uuenda, kui avakuvalt avatud äpp tuleb uuesti ette
   document.addEventListener("visibilitychange", function(){
     if (document.visibilityState === "visible" && D && Date.now() - (D.fetched || 0) > 15*60e3) load();

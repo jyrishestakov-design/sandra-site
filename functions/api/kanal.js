@@ -1,9 +1,11 @@
 // Kanali "Mida teie ka kunstist taipate?" (VÄLJASÕIT / fieldnotes) statistika
 // lehe /statistika/ jaoks. Aadress: /api/kanal
 //
+// Cloudflare Pages Function (kaust functions/ → aadress /api/kanal).
 // Ilma võtmeta: YouTube'i RSS-voog (15 viimast videot).
-// Netlify keskkonnamuutujaga YT_API_KEY: kõik videod, tellijad, koguvaatamised, kommentaarid.
-// Netlify CDN hoiab vastust 30 min, nii et funktsioon käivitub harva.
+// Cloudflare Pages'i keskkonnamuutujaga YT_API_KEY (Settings → Variables and Secrets):
+// kõik videod, tellijad, koguvaatamised, kommentaarid.
+// Vastust hoitakse Cloudflare'i vahemälus 30 min, nii et YouTube'i poole pöördutakse harva.
 
 const CHANNEL_ID = "UC_sWsL0FT6ppF0Te1BMh0dQ";
 
@@ -69,8 +71,25 @@ async function api(key) {
   };
 }
 
-export default async () => {
-  const key = (process.env.YT_API_KEY || "").trim();
+const CACHE_SECONDS = 1800;
+
+export async function onRequest(context) {
+  const { request, env } = context;
+  const fresh = new URL(request.url).searchParams.has("fresh");
+  const cacheKey = new Request(new URL("/api/kanal", request.url).toString());
+  const cache = caches.default;
+
+  if (!fresh) {
+    const hit = await cache.match(cacheKey);
+    if (hit) return hit;
+  }
+
+  const res = await build((env.YT_API_KEY || "").trim());
+  if (res.ok) context.waitUntil(cache.put(cacheKey, res.clone()));
+  return res;
+}
+
+async function build(key) {
   let data, error = null;
   try {
     if (key) {
@@ -85,11 +104,6 @@ export default async () => {
   data.fetched = Date.now();
   if (error) data.error = error;
   return Response.json(data, {
-    headers: {
-      "cache-control": "public, max-age=300",
-      "netlify-cdn-cache-control": "public, s-maxage=1800, stale-while-revalidate=3600",
-    },
+    headers: { "cache-control": `public, max-age=${CACHE_SECONDS}` },
   });
-};
-
-export const config = { path: "/api/kanal" };
+}
