@@ -84,8 +84,27 @@ export async function onRequest(context) {
     if (hit) return hit;
   }
 
+  // Viimane õnnestunud seis (hoitakse 7 päeva), kui YouTube parasjagu ei vasta.
+  const lastGoodKey = new Request(new URL("/api/kanal-viimane", request.url).toString());
+
   const res = await build((env.YT_API_KEY || "").trim());
-  if (res.ok) context.waitUntil(cache.put(cacheKey, res.clone()));
+  if (res.ok) {
+    const body = await res.clone().text();
+    context.waitUntil(Promise.all([
+      cache.put(cacheKey, res.clone()),
+      cache.put(lastGoodKey, new Response(body, {
+        headers: { "content-type": "application/json", "cache-control": "public, max-age=604800" },
+      })),
+    ]));
+    return res;
+  }
+  const last = await cache.match(lastGoodKey);
+  if (last) {
+    const data = await last.json();
+    data.stale = true;
+    data.error = (await res.json()).error;
+    return Response.json(data, { headers: { "cache-control": "no-store" } });
+  }
   return res;
 }
 

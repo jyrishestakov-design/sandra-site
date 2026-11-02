@@ -76,6 +76,7 @@ li a:hover,li a:focus-visible{background:var(--hover);outline:none;border-radius
 .hint button{appearance:none;border:0;background:none;color:var(--dim);font:600 14px var(--body);cursor:pointer;padding:2px 4px}
 footer{font-size:13px;color:var(--dim);display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between}
 footer .warn{color:var(--warn)}
+.stale{padding:12px 16px;border-radius:12px;background:rgba(240,163,90,.12);border:1px solid rgba(240,163,90,.45);color:var(--warn);font-size:15px;font-weight:600}
 @media (max-width:420px){ .sum{padding:16px} .t{white-space:normal} }
 @media (prefers-reduced-motion:no-preference){ .sum,.list-wrap{transition:opacity .2s} }
 .loading .sum,.loading ol{opacity:.55}
@@ -91,6 +92,8 @@ footer .warn{color:var(--warn)}
     </header>
     <button type="button" class="refresh" id="refresh">Värskenda</button>
   </div>
+
+  <div class="stale" id="stale" role="status" hidden></div>
 
   <section class="sum" id="sum" aria-live="polite"><div class="m"><span>Laen andmeid…</span></div></section>
 
@@ -193,8 +196,17 @@ footer .warn{color:var(--warn)}
     });
 
     var upd = document.getElementById("upd");
-    upd.className = errMsg || D.error ? "warn" : "";
-    upd.textContent = errMsg ? errMsg : (D.error ? "⚠︎ " + D.error : "Uuendatud " + tf.format(new Date(D.fetched)));
+    upd.className = "";
+    upd.textContent = "Andmed seisuga " + tf.format(new Date(D.fetched));
+
+    // Selgelt nähtav teade, kui numbrid pole värsked
+    var stale = document.getElementById("stale"), ageMin = (Date.now() - (D.fetched || 0)) / 60000;
+    var msg = null;
+    if (errMsg || D.stale) msg ="YouTube ei vasta praegu. Näitan seisu " + tf.format(new Date(D.fetched)) + " – YouTube'is võivad numbrid olla suuremad.";
+    else if (ageMin > 120) msg = "Need numbrid on " + tf.format(new Date(D.fetched)) + " seisuga. Vajuta Värskenda.";
+    else if (D.source !== "API") msg = "YouTube'i lihtvoog uueneb aeglaselt, nii et YouTube'is võivad numbrid olla veidi suuremad.";
+    stale.hidden = !msg;
+    stale.textContent = msg || "";
     document.getElementById("src").textContent = D.source === "API" ? "Kõik kanali videod" : "15 viimast videot";
   }
 
