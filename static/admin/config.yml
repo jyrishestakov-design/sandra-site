@@ -173,6 +173,7 @@ collections:
               - { label: "Allkiri", name: caption, widget: string, required: false }
               - { label: "Allkiri (inglise keeles)", name: caption_en, widget: string, required: false, hint: "Tühjaks jättes kasutatakse inglisekeelsel lehel eestikeelset allkirja." }
       - { label: "Valge ääre kohandus (+/- pikslites)", name: mat_width_adjust, widget: number, value_type: int, required: false, hint: "Liidetakse üldisele paspartuu paksusele (Kujundus paneel) ainult selle töö galeriis. Nt -20 kitsamaks/olematuks, 10 laiemaks. Tühi = kasuta üldist väärtust muutmata." }
+      - { label: "Lisa kanali uued videod automaatselt", name: youtube_sync, widget: boolean, required: false, default: false, hint: "Sisse lülitatult lisatakse galerii algusesse automaatselt kõik kanali \"Mida teie ka kunstist taipate?\" videod, mida galeriis veel pole (allkirjaks YouTube'i pealkiri). Käsitsi lisatud videod jäävad nagu on." }
       - { label: "Kirjeldus", name: body, widget: markdown, i18n: true }
 
   # ------- LEHED -------

@@ -36,7 +36,7 @@
   {{- $matPx := add $generalPx $adjust }}
   {{- if lt $matPx 0 }}{{ $matPx = 0 }}{{ end }}
   <style>:root { --gallery-mat-width: {{ $matPx }}px; }</style>
-  <div class="portfolio-images">
+  <div class="portfolio-images"{{ if $etPage.Params.youtube_sync }} data-youtube-sync{{ end }}>
     {{ range $gPage.Params.gallery }}
     {{- if eq (.type | default "image") "video" }}
     {{- $yt := partial "youtube-item.html" . }}
@@ -68,6 +68,10 @@
     {{- end }}
     {{ end }}
   </div>
+  {{- if $etPage.Params.youtube_sync }}
+  {{- $sync := resources.Get "js/youtube-sync.js" | minify | fingerprint }}
+  <script src="{{ $sync.RelPermalink }}" defer></script>
+  {{- end }}
   {{ end }}
 </article>
 {{ end }}

@@ -47,6 +47,7 @@ gallery:
     url: https://www.youtube.com/watch?v=WrZ0Hf3M1cQ&t=603s
     caption: MIGA, Narihiro Matsumoto
 mat_width_adjust: null
+youtube_sync: true
 ---
 
 **Eesti keeles**
