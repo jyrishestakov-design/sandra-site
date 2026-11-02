@@ -1,7 +1,8 @@
 // Hoiab galerii sünkroonis YouTube'i kanaliga "Mida teie ka kunstist taipate?".
-// Lehe galeriis olevad videod jäävad nagu adminis paika pandud (oma allkirjad,
-// järjekord, algusajad). Kanali videod, mida galeriis veel pole, lisatakse
-// automaatselt galerii algusesse, uuemad eespool, allkirjaks YouTube'i pealkiri.
+// Adminis lisatud videod jäävad oma allkirjade ja algusaegadega. Kanali videod,
+// mida galeriis veel pole, lisatakse
+// automaatselt (allkirjaks YouTube'i pealkiri) ja kogu galerii pannakse
+// avaldamise järjekorda, uuemad eespool.
 // Andmed tulevad sama saidi funktsioonist /api/kanal (functions/api/kanal.js).
 (function () {
   var gallery = document.querySelector(".portfolio-images[data-youtube-sync]");
@@ -51,6 +52,22 @@
         }
         gallery.insertBefore(fig, first);
       });
+
+      // Kogu galerii avaldamise järjekorda (uuemad eespool). Videod, mida
+      // kanalil pole (ja pildid), jäävad oma järjekorras lõppu.
+      var published = {};
+      data.videos.forEach(function (v) { published[v.id] = new Date(v.published).getTime(); });
+      var figs = Array.prototype.slice.call(gallery.children);
+      var dated = [], rest = [];
+      figs.forEach(function (f, i) {
+        var a = f.querySelector(".portfolio-video a[href], a[href]");
+        var id = a && f.classList.contains("portfolio-video") ? idFromHref(a.getAttribute("href")) : null;
+        if (id && published[id]) dated.push({ f: f, t: published[id], i: i });
+        else rest.push(f);
+      });
+      dated.sort(function (x, y) { return y.t - x.t || x.i - y.i; });
+      dated.forEach(function (d) { gallery.appendChild(d.f); });
+      rest.forEach(function (f) { gallery.appendChild(f); });
     })
     .catch(function () { /* kui kanal ei vasta, jääb galerii nagu adminis */ });
 })();

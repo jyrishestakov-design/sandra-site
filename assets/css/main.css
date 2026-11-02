@@ -58,6 +58,9 @@ main { flex: 1; }
    väheneb ise, kui ekraan on kitsam. */
 .portfolio-images { margin-top: 3rem; columns: 3 210px; column-gap: 0.6rem; }
 .portfolio-images figure { break-inside: avoid; margin: 0 0 0.6rem; }
+/* Kanaliga sünkroonis videogalerii (nt Välja sõit): read vasakult paremale,
+   et avaldamise järjekord (uuemad eespool) oleks loetav ridade kaupa. */
+.portfolio-images[data-youtube-sync] { columns: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0 0.6rem; }
 .portfolio-images img {
   width: 100%; height: auto; display: block; cursor: zoom-in;
   padding: var(--gallery-mat-width, 0px); background: #fff;
