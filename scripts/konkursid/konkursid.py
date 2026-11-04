@@ -645,16 +645,16 @@ class Bayes:
 
 
 def load_labels() -> dict[str, str]:
-    """Staatused lehelt (Cloudflare KV kaudu). Ilma võtmeta tühi."""
-    url, token = os.environ.get("KONKURSID_API"), os.environ.get("KONKURSID_TOKEN")
+    """Staatused lehelt (Cloudflare KV kaudu, lugemine on avalik)."""
+    url = os.environ.get("KONKURSID_API", "https://sandrajogeva.artcontainer.ee/api/konkursid")
     labels: dict[str, str] = {}
     if SEED.exists():
         for it in json.loads(SEED.read_text()).get("items", []):
             if it.get("status"):
                 labels[it["id"]] = it["status"]
-    if url and token:
+    if url:
         try:
-            req = urllib.request.Request(url, headers={"Authorization": "Bearer " + token, "User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=20) as r:
                 data = json.loads(r.read().decode())
             for k, v in (data.get("statuses") or {}).items():
