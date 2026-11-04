@@ -9,3 +9,4 @@ resources/_gen/
 scripts/.uuenda.log
 *.command alias
 Sandrasite*les
+scripts/konkursid/__pycache__/

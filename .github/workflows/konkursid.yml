@@ -1,0 +1,45 @@
+# Iganädalane konkursiotsing lehele /konkursid/.
+# Käivitub esmaspäeviti ~08:00 Eesti aja järgi; käsitsi: Actions → Konkursid → Run workflow.
+name: Konkursid
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: konkursid
+  cancel-in-progress: false
+
+jobs:
+  otsi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Otsi konkursse
+        env:
+          KONKURSID_API: https://sandrajogeva.artcontainer.ee/api/konkursid
+          KONKURSID_TOKEN: ${{ secrets.KONKURSID_TOKEN }}
+        run: python3 -I scripts/konkursid/konkursid.py
+
+      - name: Salvesta tulemus
+        run: |
+          git config user.name "konkursid-bot"
+          git config user.email "konkursid-bot@users.noreply.github.com"
+          git add static/konkursid/data.json scripts/konkursid/cache.json
+          if git diff --cached --quiet; then
+            echo "Muutusi pole."
+          else
+            git commit -m "Konkursid: nädala uuendus $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash origin main
+            git push origin main
+          fi

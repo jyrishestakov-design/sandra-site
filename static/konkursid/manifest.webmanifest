@@ -1,0 +1,13 @@
+{
+  "name": "Sandra konkursid",
+  "short_name": "Konkursid",
+  "start_url": "/konkursid/",
+  "scope": "/konkursid/",
+  "display": "standalone",
+  "background_color": "#F2F1F4",
+  "theme_color": "#C8205A",
+  "icons": [
+    { "src": "/konkursid/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/konkursid/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Sandra konkursid</title>
+<meta name="theme-color" content="#C8205A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Konkursid">
+<link rel="apple-touch-icon" href="/konkursid/icon-180.png">
+<link rel="icon" href="/konkursid/icon-180.png">
+<link rel="manifest" href="/konkursid/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Tähtaegade tahvel: iga kaart algab tähtajaribaga; valikuriba koostab kirja Sandrale. */
+:root{
+  --bg:#F2F1F4; --surface:#FFFFFF; --fg:#1C1A22; --muted:#686474; --line:#DCD9E2;
+  --accent:#C8205A; --accent-soft:#F7DCE6; --warn:#B4231F; --warn-soft:#FBE1DE; --ok:#2F6B4A; --ok-soft:#DDEFE4; --info:#5B4A00; --info-soft:#F6EDC4;
+  --display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#141319; --surface:#1D1C24; --fg:#ECEAF2; --muted:#A29EAE; --line:#34323E;
+  --accent:#FF6A97; --accent-soft:#3D1D2A; --warn:#FF8A80; --warn-soft:#3E1F1D; --ok:#7FD1A2; --ok-soft:#1C3227; --info:#F2D675; --info-soft:#3A3315; color-scheme:dark}}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-top:max(32px,env(safe-area-inset-top,0px));padding-bottom:calc(120px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+[hidden]{display:none!important}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,6vw,58px);line-height:1;margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:22px;margin:0}
+.lede{color:var(--muted);max-width:64ch;margin:0}
+.meta{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.banner{font-size:14px;padding:10px 12px;border-radius:4px;background:var(--info-soft);color:var(--info)}
+.controls{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:14px}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group>span{font-size:12px;color:var(--muted);margin-right:4px;text-transform:uppercase;letter-spacing:.06em}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--fg);padding:4px 11px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+label.toggle{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
+.month{font-family:var(--display);font-weight:500;font-size:20px;margin:8px 0 0;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:10px}
+.item{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:16px 18px;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;padding:0 16px 16px}
+.item.dim{opacity:.55}
+.item.picked{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.due{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0 -16px;padding:12px 16px;background:var(--accent-soft)}
+.due.urgent{background:var(--warn-soft)}
+.due .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.due.urgent .lbl,.due.urgent .left{color:var(--warn)}
+.due .d{font-family:var(--display);font-weight:800;font-size:26px;line-height:1.1}
+.due .left{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap}
+.pick{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;cursor:pointer;padding:4px 10px;border-radius:4px;background:var(--surface);border:1px solid var(--line)}
+.pick input{width:18px;height:18px;accent-color:var(--accent);margin:0}
+.body{display:flex;flex-direction:column;gap:6px;min-width:0}
+.body h3{margin:0;font-family:var(--display);font-weight:500;font-size:19px;line-height:1.2;text-wrap:balance}
+.tags{display:flex;flex-wrap:wrap;gap:6px;font-size:12px}
+.tag{padding:1px 8px;border-radius:3px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.tag.type{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.tag.partner{background:var(--warn-soft);color:var(--warn);border-color:transparent;font-weight:600}
+.tag.check{background:var(--info-soft);color:var(--info);border-color:transparent;font-weight:600}
+.tag.sent{background:var(--ok-soft);color:var(--ok);border-color:transparent;font-weight:600}
+.body p{margin:0;max-width:66ch;overflow-wrap:anywhere}
+.side{display:flex;flex-direction:column;gap:8px;align-items:stretch;min-width:0}
+select,input[type=text],input[type=email],textarea{font:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%}
+textarea{min-height:80px;resize:vertical}
+.side select{font-size:13px;padding:6px 8px}
+.side a{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;overflow-wrap:anywhere}
+.side a:hover{text-decoration:underline}
+.amount{font-family:var(--mono);font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:6px;padding:28px;color:var(--muted)}
+.st-taotlen select{border-color:var(--accent)}
+.st-saadetud select{border-color:var(--ok);color:var(--ok)}
+.err{color:var(--warn)}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;max-width:70ch}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--fg);color:var(--bg);
+  padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.tray-in{max-width:980px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.tray strong{font-family:var(--display);font-size:18px;font-weight:800}
+.tray .sp{flex:1}
+.btn{font:inherit;font-size:14px;font-weight:600;border-radius:4px;padding:8px 16px;cursor:pointer;border:1px solid transparent;text-decoration:none;display:inline-block}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.ghost{background:transparent;color:inherit;border-color:currentColor}
+.btn:disabled{opacity:.5;cursor:default}
+.compose{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:16px}
+.fields{display:grid;grid-template-columns:120px minmax(0,1fr);gap:10px 14px;align-items:center}
+.fields label{font-size:13px;color:var(--muted)}
+.preview-wrap{border:1px solid var(--line);border-radius:6px;overflow:auto;max-height:520px;background:#F2F1F4}
+.preview-cap{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.actions .btn.ghost{color:var(--fg)}
+.notice{font-size:14px;padding:10px 12px;border-radius:4px}
+.notice.ok{background:var(--ok-soft);color:var(--ok)}
+.notice.bad{background:var(--warn-soft);color:var(--warn)}
+ol.howto{margin:0;padding-left:20px;font-size:14px;color:var(--muted)}
+@media (max-width:640px){
+  .item{grid-template-columns:minmax(0,1fr)}
+  .side{flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px}
+  .side select{width:auto}
+  .due .d{font-size:22px}
+  .pick{margin-left:0}
+  .fields{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:no-preference){.item{transition:opacity .2s,border-color .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Avatud konkursid · Eesti ja rahvusvaheliselt</div>
+    <h1>Sandra konkursid</h1>
+    <p class="lede">Näituste open call'id, residentuurid ja toetused, mis sobivad Sandra Jõgeva praktikaga: maal, performance, installatsioon, video ja foto. Eelistatud on näitusepaigad, mis katavad kulud või maksavad kunstnikutasu. Osalustasuga kutsed ja üle 3 nädala pikkused residentuurid jäävad välja. „Kontrolli üle“ tähendab, et mõni tingimus jäi lehelt kindlalt välja lugemata.</p>
+    <div class="meta" id="meta">Laen andmeid…</div>
+    <div class="banner" id="keynote" hidden></div>
+  </header>
+
+  <section class="compose" id="compose" hidden aria-labelledby="compose-h">
+    <h2 id="compose-h">Kiri Sandrale</h2>
+    <div class="fields">
+      <label for="c-to">Saaja</label><input type="email" id="c-to" value="sandrajogeva@gmail.com">
+      <label for="c-subj">Teema</label><input type="text" id="c-subj" value="Konkursid ja tähtajad">
+      <label for="c-intro">Sissejuhatus</label><textarea id="c-intro">Siin on mõned konkursid, mis võiksid sulle sobida.</textarea>
+    </div>
+    <div class="preview-cap">Eelvaade</div>
+    <div class="preview-wrap"><div id="c-preview"></div></div>
+    <ol class="howto">
+      <li>Vajuta „Kopeeri kiri“.</li>
+      <li>Vajuta „Ava Gmailis“ – avaneb uus kiri, kus saaja ja teema on juba täidetud.</li>
+      <li>Kleebi kirja sisse (Cmd+V / Ctrl+V) ja saada. Kujundus tuleb kaasa.</li>
+    </ol>
+    <div id="c-msg" hidden></div>
+    <div class="actions">
+      <button class="btn primary" id="c-copy" type="button">Kopeeri kiri</button>
+      <a class="btn primary" id="c-gmail" href="#" target="_blank" rel="noopener">Ava Gmailis</a>
+      <button class="btn ghost" id="c-mark" type="button">Märgi saadetuks</button>
+      <button class="btn ghost" id="c-cancel" type="button">Tagasi nimekirja</button>
+    </div>
+  </section>
+
+  <div class="controls" role="group" aria-label="Filtrid" id="controls">
+    <div class="group" id="f-type"><span>Liik</span></div>
+    <div class="group" id="f-region"><span>Kus</span></div>
+    <label class="toggle"><input type="checkbox" id="hide-done"> Peida „ei sobi“ ja möödunud</label>
+  </div>
+
+  <div id="out" class="list">
+    <div class="empty">Konkursid laaditakse. Uued lisanduvad igal esmaspäeval.</div>
+  </div>
+
+  <footer>Nimekiri uueneb iga esmaspäeva hommikul. Tähtajad ja tingimused tasub konkursi enda lehelt üle kontrollida: need on loetud avalikelt lehtedelt automaatselt.</footer>
+</div>
+
+<div class="tray" id="tray" hidden>
+  <div class="tray-in">
+    <strong id="tray-n">0 valitud</strong>
+    <span class="sp"></span>
+    <button class="btn ghost" id="tray-clear" type="button">Tühjenda</button>
+    <button class="btn primary" id="tray-go" type="button">Koosta kiri Sandrale</button>
+  </div>
+</div>
+
+<script>
+const TYPES=["Kõik","Näitus","Residentuur","Toetus"];
+const REGIONS=["Kõik","Eesti","Põhjamaad ja Baltikum","Euroopa","Maailm"];
+const STATUSES=[["uus","Uus"],["kaalun","Kaalun"],["taotlen","Taotlen"],["saadetud","Saadetud"],["ei-sobi","Ei sobi"]];
+const MONTHS_LONG=["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"];
+const API="/api/konkursid";
+const $=id=>document.getElementById(id);
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+// võti: ?k=… lingist meelde, siis aadressiribalt ära
+(()=>{const u=new URL(location.href);const k=u.searchParams.get("k");if(k){ls.set("sk-token",k);u.searchParams.delete("k");history.replaceState(null,"",u.pathname+u.search+u.hash)}})();
+const TOKEN=ls.get("sk-token","");
+
+let state=Object.assign({type:"Kõik",region:"Kõik",hide:true},ls.get("sk-filters",{}));
+let picked=new Set(ls.get("sk-picked",[]));
+let items=[];let statuses={};let remote=false;
+
+function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function save(){ls.set("sk-filters",state);ls.set("sk-picked",[...picked])}
+function today(){const d=new Date();d.setHours(0,0,0,0);return d}
+function parse(s){if(!s)return null;const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
+function daysLeft(dt){return Math.round((dt-today())/864e5)}
+function longDate(dt){return dt.getDate()+". "+MONTHS_LONG[dt.getMonth()]+" "+dt.getFullYear()}
+function leftLabel(n){return n<0?"möödas":n===0?"täna":n===1?"homme":n+" päeva"}
+function fmtSent(iso){const d=new Date(iso);return isNaN(d)?"":d.getDate()+"."+(d.getMonth()+1)+"."}
+function st(id){return (statuses[id]&&statuses[id].status)||"uus"}
+
+/* ---------- staatused: server (võtmega) või selle brauseri mälu ---------- */
+async function loadStatuses(){
+  if(TOKEN){
+    try{
+      const r=await fetch(API,{headers:{Authorization:"Bearer "+TOKEN},cache:"no-store"});
+      if(r.ok){statuses=(await r.json()).statuses||{};remote=true;return}
+      note(r.status===401?"Võti ei kehti. Ava leht uuesti õige võtmega lingiga. Seni salvestuvad märked ainult selles brauseris.":"Staatuste server ei vasta ("+r.status+"). Märked salvestuvad praegu ainult selles brauseris.");
+    }catch(e){note("Staatuste server pole kättesaadav. Märked salvestuvad praegu ainult selles brauseris.")}
+  }else{
+    note("Märked salvestuvad ainult selles brauseris. Et need oleks ühised ja et otsing nendest õpiks, ava leht üks kord võtmega lingiga.");
+  }
+  statuses=ls.get("sk-statuses",{});
+}
+async function saveStatus(ids,patch){
+  ids.forEach(id=>{statuses[id]=Object.assign({},statuses[id],patch.status?{status:patch.status}:{},patch.sentToSandra?{sentToSandra:new Date().toISOString()}:{})});
+  if(!remote){ls.set("sk-statuses",statuses);return true}
+  try{
+    const r=await fetch(API,{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+TOKEN},body:JSON.stringify(Object.assign({ids},patch))});
+    if(!r.ok)throw new Error(r.status);
+    return true;
+  }catch(e){note("Märget ei saanud serverisse salvestada. Proovi hiljem uuesti.");return false}
+}
+function note(t){const k=$("keynote");k.hidden=false;k.textContent=t}
+
+/* ---------- filtrid ---------- */
+function chips(id,list,key){
+  const g=$(id);
+  list.forEach(v=>{const b=el("button","chip",v);b.type="button";
+    b.setAttribute("aria-pressed",String(state[key]===v));
+    b.onclick=()=>{state[key]=v;save();g.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.textContent===v)));render()};
+    g.appendChild(b)});
+}
+chips("f-type",TYPES,"type");chips("f-region",REGIONS,"region");
+const hd=$("hide-done");hd.checked=state.hide;hd.onchange=()=>{state.hide=hd.checked;save();render()};
+
+function sortByDeadline(list){return list.sort((a,b)=>(a._dt?a._dt.getTime():9e15)-(b._dt?b._dt.getTime():9e15))}
+
+function render(){
+  const out=$("out");out.textContent="";
+  let list=items.filter(r=>(state.type==="Kõik"||r.type===state.type)&&(state.region==="Kõik"||r.region===state.region));
+  if(state.hide)list=list.filter(r=>st(r.id)!=="ei-sobi"&&(!r._dt||daysLeft(r._dt)>=0));
+  sortByDeadline(list);
+  if(!list.length){out.appendChild(el("div","empty",items.length?"Nende filtritega konkursse ei ole.":"Siin pole veel ühtegi konkurssi. Uued lisanduvad igal esmaspäeval."));updateTray();return}
+  let lastMonth=null;
+  for(const r of list){
+    const mk=r._dt?r._dt.getFullYear()+"-"+r._dt.getMonth():"none";
+    if(mk!==lastMonth){lastMonth=mk;const t=r._dt?MONTHS_LONG[r._dt.getMonth()]+" "+r._dt.getFullYear():"Jooksev tähtaeg";out.appendChild(el("h2","month",t.charAt(0).toUpperCase()+t.slice(1)))}
+    const s0=st(r.id);
+    const it=el("article","item st-"+s0);
+    if(s0==="ei-sobi")it.classList.add("dim");
+    if(picked.has(r.id))it.classList.add("picked");
+    const dc=el("div","due");
+    dc.appendChild(el("span","lbl","Tähtaeg"));
+    if(r._dt){dc.appendChild(el("span","d",longDate(r._dt)));
+      const n=daysLeft(r._dt);if(n>=0&&n<=14)dc.classList.add("urgent");
+      dc.appendChild(el("span","left",leftLabel(n)))}
+    else dc.appendChild(el("span","d","jooksev"));
+    const pl=el("label","pick");const cb=el("input");cb.type="checkbox";cb.id="pick-"+r.id;cb.checked=picked.has(r.id);
+    cb.onchange=()=>{cb.checked?picked.add(r.id):picked.delete(r.id);it.classList.toggle("picked",cb.checked);save();updateTray()};
+    pl.append(cb,document.createTextNode("Saada"));dc.appendChild(pl);
+    const b=el("div","body");
+    b.appendChild(el("h3",null,r.title||"Nimetu"));
+    const tg=el("div","tags");
+    if(r.type)tg.appendChild(el("span","tag type",r.type));
+    if(r.org)tg.appendChild(el("span","tag",r.org));
+    if(r.region)tg.appendChild(el("span","tag",r.region));
+    if(r.needsPartner)tg.appendChild(el("span","tag partner","Vajab partnerit / kollektiivi"));
+    if(r.check)tg.appendChild(el("span","tag check","Kontrolli üle"));
+    const sent=statuses[r.id]&&statuses[r.id].sentToSandra;
+    if(sent)tg.appendChild(el("span","tag sent","Sandrale saadetud "+fmtSent(sent)));
+    b.appendChild(tg);
+    if(r.summary)b.appendChild(el("p",null,r.summary));
+    const s=el("div","side");
+    const sel=el("select");sel.id="st-"+r.id;sel.setAttribute("aria-label","Staatus: "+(r.title||""));
+    STATUSES.forEach(([v,l])=>{const o=el("option",null,l);o.value=v;if(s0===v)o.selected=true;sel.appendChild(o)});
+    sel.onchange=async()=>{sel.disabled=true;await saveStatus([r.id],{status:sel.value});sel.disabled=false;render()};
+    s.appendChild(sel);
+    if(r.amount)s.appendChild(el("span","amount",r.amount));
+    if(r.url){const a=el("a",null,"Ava kutse ↗");a.href=r.url;a.target="_blank";a.rel="noopener";s.appendChild(a)}
+    if(r.infoUrl){const a=el("a",null,(r.infoLabel||"Tingimused")+" ↗");a.href=r.infoUrl;a.target="_blank";a.rel="noopener";s.appendChild(a)}
+    it.append(dc,b,s);out.appendChild(it);
+  }
+  updateTray();
+}
+
+/* ---------- valik ja kiri ---------- */
+function selectedRows(){return sortByDeadline(items.filter(r=>picked.has(r.id)))}
+function updateTray(){
+  if(items.length){for(const id of [...picked]) if(!items.some(r=>r.id===id)) picked.delete(id)}
+  const n=picked.size;$("tray").hidden=n===0||!$("compose").hidden;
+  $("tray-n").textContent=n+" valitud";
+}
+$("tray-clear").onclick=()=>{picked.clear();save();render()};
+$("tray-go").onclick=()=>openCompose();
+$("c-cancel").onclick=()=>closeCompose();
+["c-to","c-subj","c-intro"].forEach(id=>$(id).addEventListener("input",()=>renderPreview()));
+
+function openCompose(){
+  $("compose").hidden=false;$("controls").hidden=true;$("out").hidden=true;$("c-msg").hidden=true;
+  renderPreview();updateTray();window.scrollTo({top:0});
+}
+function closeCompose(){$("compose").hidden=true;$("controls").hidden=false;$("out").hidden=false;render()}
+
+const F_D="'Bricolage Grotesque','Arial Narrow',Arial,sans-serif",F_B="'IBM Plex Sans',Helvetica,Arial,sans-serif",F_M="'IBM Plex Mono',Menlo,Consolas,monospace";
+function tagH(t,kind){
+  const s=kind==="type"?"background:#F7DCE6;color:#C8205A;border:1px solid #F7DCE6;":kind==="partner"?"background:#FBE1DE;color:#B4231F;border:1px solid #FBE1DE;font-weight:600;":"background:#F2F1F4;color:#686474;border:1px solid #DCD9E2;";
+  return '<span style="display:inline-block;margin:0 6px 6px 0;padding:1px 8px;border-radius:3px;font-size:12px;font-family:'+F_B+';'+s+'">'+esc(t)+'</span>';
+}
+function linkH(href,label){return '<a href="'+esc(href)+'" style="color:#C8205A;font-weight:600;text-decoration:none;font-size:14px;margin-right:14px;">'+esc(label)+' &#8599;</a>'}
+function cardH(r){
+  const n=r._dt?daysLeft(r._dt):null;const urgent=n!=null&&n>=0&&n<=14;
+  const band=urgent?"#FBE1DE":"#F7DCE6",lc=urgent?"#B4231F":"#C8205A";
+  let tags="";if(r.type)tags+=tagH(r.type,"type");if(r.org)tags+=tagH(r.org);if(r.region)tags+=tagH(r.region);if(r.needsPartner)tags+=tagH("Vajab partnerit / kollektiivi","partner");
+  return '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF;border:1px solid #DCD9E2;border-radius:6px;border-collapse:separate;margin:0 0 12px 0;">'
+   +'<tr><td style="background:'+band+';padding:12px 16px;border-radius:6px 6px 0 0;">'
+   +'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>'
+   +'<td style="vertical-align:middle;"><span style="font-family:'+F_M+';font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:'+lc+';">TÄHTAEG</span>&nbsp;&nbsp;<span style="font-family:'+F_D+';font-size:26px;font-weight:800;line-height:1.1;color:#1C1A22;">'+esc(r._dt?longDate(r._dt):"jooksev")+'</span></td>'
+   +(n!=null?'<td align="right" style="vertical-align:middle;font-family:'+F_M+';font-size:13px;font-weight:600;color:'+lc+';white-space:nowrap;">'+esc(leftLabel(n))+'</td>':'')
+   +'</tr></table></td></tr>'
+   +'<tr><td style="padding:16px;font-family:'+F_B+';color:#1C1A22;">'
+   +'<div style="font-family:'+F_D+';font-size:19px;font-weight:500;line-height:1.2;margin:0 0 8px 0;">'+esc(r.title||"")+'</div>'
+   +'<div style="margin:0 0 4px 0;">'+tags+'</div>'
+   +(r.summary?'<div style="font-size:15px;line-height:1.5;margin:0 0 10px 0;">'+esc(r.summary)+'</div>':'')
+   +(r.amount?'<div style="font-family:'+F_M+';font-size:12px;color:#686474;margin:0 0 10px 0;">'+esc(r.amount)+'</div>':'')
+   +(r.url?linkH(r.url,"Ava kutse"):'')+(r.infoUrl?linkH(r.infoUrl,r.infoLabel||"Tingimused"):'')
+   +'</td></tr></table>';
+}
+function emailHtml(){
+  const intro=esc($("c-intro").value).replace(/\n/g,"<br>");
+  return '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F2F1F4;"><tr><td align="center" style="padding:32px 16px;">'
+   +'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px;"><tr><td style="font-family:'+F_B+';color:#1C1A22;">'
+   +'<div style="font-family:'+F_M+';font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#C8205A;margin:0 0 8px 0;">AVATUD KONKURSID</div>'
+   +'<div style="font-family:'+F_D+';font-size:40px;font-weight:800;line-height:1;letter-spacing:-.02em;color:#1C1A22;margin:0 0 16px 0;">Sandra konkursid</div>'
+   +(intro?'<div style="font-size:15px;line-height:1.5;margin:0 0 20px 0;">'+intro+'</div>':'')
+   +selectedRows().map(cardH).join("")
+   +'<div style="border-top:1px solid #DCD9E2;margin-top:16px;padding-top:14px;font-size:13px;color:#686474;">Tähtajad tasub konkursi enda lehelt üle kontrollida.</div>'
+   +'</td></tr></table></td></tr></table>';
+}
+function emailText(){
+  const lines=[$("c-intro").value.trim(),""];
+  selectedRows().forEach((r,i)=>{
+    lines.push("TÄHTAEG: "+(r._dt?longDate(r._dt)+" ("+leftLabel(daysLeft(r._dt))+")":"jooksev"));
+    lines.push((i+1)+") "+(r.title||""));
+    if(r.needsPartner)lines.push("VAJAB PARTNERIT / KOLLEKTIIVI");
+    if(r.summary)lines.push(r.summary);
+    if(r.amount)lines.push(r.amount);
+    if(r.url)lines.push(r.url);
+    if(r.infoUrl)lines.push((r.infoLabel||"Tingimused")+": "+r.infoUrl);
+    lines.push("");
+  });
+  lines.push("Tähtajad tasub konkursi enda lehelt üle kontrollida.");
+  return lines.join("\n");
+}
+function renderPreview(){
+  const p=$("c-preview");
+  if(!picked.size){p.innerHTML='<div class="empty">Ühtegi konkurssi pole valitud.</div>';return}
+  p.innerHTML=emailHtml(); // kõik väärtused on esc() kaudu
+  const g="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent($("c-to").value.trim())+"&su="+encodeURIComponent($("c-subj").value.trim());
+  $("c-gmail").href=g;
+}
+function msg(kind,text){const m=$("c-msg");m.hidden=false;m.className="notice "+kind;m.textContent=text}
+$("c-copy").onclick=async()=>{
+  const html=emailHtml(),text=emailText();
+  try{
+    if(window.ClipboardItem&&navigator.clipboard&&navigator.clipboard.write){
+      await navigator.clipboard.write([new ClipboardItem({"text/html":new Blob([html],{type:"text/html"}),"text/plain":new Blob([text],{type:"text/plain"})})]);
+    }else{
+      const p=$("c-preview");const r=document.createRange();r.selectNodeContents(p);const s=getSelection();s.removeAllRanges();s.addRange(r);
+      if(!document.execCommand("copy"))throw new Error("copy");
+      s.removeAllRanges();
+    }
+    msg("ok","Kiri on kopeeritud. Ava Gmail ja kleebi see kirja sisse.");
+  }catch(e){
+    const p=$("c-preview");const r=document.createRange();r.selectNodeContents(p);const s=getSelection();s.removeAllRanges();s.addRange(r);
+    msg("bad","Automaatne kopeerimine ei õnnestunud. Eelvaade on nüüd valitud – vajuta Cmd+C / Ctrl+C.");
+  }
+};
+$("c-mark").onclick=async()=>{
+  const ids=[...picked];if(!ids.length)return;
+  const ok=await saveStatus(ids,{sentToSandra:true});
+  if(ok){msg("ok","Märgitud: "+ids.length+(ids.length===1?" konkurss":" konkurssi")+" said märke „Sandrale saadetud“.");picked.clear();save()}
+};
+
+/* ---------- käivitus ---------- */
+(async()=>{
+  try{
+    const [r]=await Promise.all([fetch("data.json",{cache:"no-store"}),loadStatuses()]);
+    const d=await r.json();
+    items=(d.items||[]).map(x=>Object.assign({},x,{_dt:parse(x.deadline)}));
+    $("meta").textContent="Uuendatud "+(d.updated?parse(d.updated).toLocaleDateString("et-EE"):"—")+" · "+items.length+" konkurssi"+(d.candidates?" ("+d.candidates+" läbi vaadatud)":"");
+  }catch(e){
+    $("meta").textContent="Andmeid ei saanud laadida. Laadi leht uuesti.";$("meta").classList.add("err");
+  }
+  render();
+})();
+</script>
+</body>
+</html>
