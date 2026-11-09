@@ -1,97 +1,30 @@
 {
- "updated": "2026-11-04",
- "candidates": 147,
- "count": 20,
+ "updated": "2026-11-09",
+ "candidates": 153,
+ "count": 21,
  "items": [
   {
-   "id": "art4mental-art-technology-and-mental-health-project-poland-u-195e64",
-   "title": "Art4Mental: Art, Technology and Mental Health Project (Poland, Ukraine)",
-   "org": "Art4Mental",
+   "id": "festival-opera-prima-2027-experimental-theatre-and-performin-9827e5",
+   "title": "Festival Opera Prima 2027 Experimental Theatre and Performing Arts Projects (Italy)",
+   "org": "festivaloperaprima.it",
    "source": "On the Move",
-   "type": "Toetus",
-   "region": "Euroopa",
-   "deadline": "2026-11-11",
-   "summary": "ART4MENTAL, a Creative Europe-funded initiative exploring how immersive art and Virtual Reality can support mental well-being across Europe and Ukraine, is looking for 20 artists from Ukraine, Czech Republic, Estonia, Sweden and Austria who are curious about what happens when creativity meets mental health, technology and real human need.",
-   "amount": "A sub-grant of up to 5,000 EUR for each artist; Up to €5,000 individual grant for VR content creation",
-   "url": "https://www.art4mental.com/application",
-   "infoUrl": "https://on-the-move.org/news/art4mental-art-technology-and-mental-health-project-poland-ukraine",
-   "infoLabel": "Kuulutus: On the Move",
-   "needsPartner": false,
-   "check": true,
-   "score": 4,
-   "reasons": [
-    "kunstnikutasu",
-    "avatud rahvusvaheliselt / Eestile"
-   ],
-   "added": "2026-11-04"
-  },
-  {
-   "id": "artist-open-call-10000-supergraphics-commission-at-marlborou-2091cb",
-   "title": "Artist Open Call: £10,000 Supergraphics Commission at Marlborough Sports Garden, London",
-   "org": "bost.org.uk",
-   "source": "ArtRabbit",
    "type": "Näitus",
    "region": "Euroopa",
-   "deadline": "2026-11-13",
-   "summary": "Artist Open Call: £10,000 Supergraphics Commission at Marlborough Sports Garden, London",
-   "amount": "The selected artist will receive a £10,000 artist fee to develop and deliver a major public art commission at Marlborough Sports Garden in central London.; A separate…",
-   "url": "https://bost.org.uk/artist-open-call",
-   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/november/artist-open-call-10000-supergraphics-commission-at-marlborough-sports-garden-london",
-   "infoLabel": "Kuulutus: ArtRabbit",
-   "needsPartner": false,
-   "check": true,
-   "score": 5,
-   "reasons": [
-    "kunstnikutasu",
-    "meedium sobib"
-   ],
-   "added": "2026-11-04"
-  },
-  {
-   "id": "democracy-foundation-democracy-residency-european-dream-2027-163cf2",
-   "title": "Democracy Foundation: Democracy Residency ‘European Dream’ 2027 (Latvia)",
-   "org": "Democracy Foundation",
-   "source": "On the Move",
-   "type": "Residentuur",
-   "region": "Põhjamaad ja Baltikum",
-   "deadline": "2026-11-15",
-   "summary": "The Democracy Foundation, based in Kuldīga, Latvia, invites applications for the international Democracy Residency ‘European Dream’, organised as part of the Liepāja – European Capital of Culture 2027 programme. The residency will take place in Kuldīga, Latvia, from 3 to 23 August 2027.",
-   "amount": "A 1,000 EUR stipend per participant to cover expenses during the residency, including travel costs; A separate budget of up to 1,000 EUR per participant for developing…",
-   "url": "https://liepaja2027.lv/en/news/kuldiga-invites-europe-to-reimagine-democracy-applications-open-for-the-international-democracy-residency-european-dream/",
-   "infoUrl": "https://on-the-move.org/news/democracy-foundation-democracy-residency-european-dream-2027-latvia",
+   "deadline": "2026-11-21",
+   "summary": "This call for entries is opened to international groups or artists that practice experimental theatre or experimentation on scenic languages, to perform at Festival Opera Prima, 9–13 June 2027, in Rovigo, Italy.",
+   "amount": "Kaetud: tootmiseelarve, sõit",
+   "url": "https://www.festivaloperaprima.it/images/2027/Inglese%20-%20Bando%20opera%20prima%202026%201.pdf",
+   "infoUrl": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
    "infoLabel": "Kuulutus: On the Move",
    "needsPartner": false,
    "check": true,
-   "score": 9,
+   "score": 6,
    "reasons": [
-    "kunstnikutasu",
-    "lühike residentuur (~21 p)",
-    "avatud rahvusvaheliselt / Eestile",
+    "tootmiseelarve",
+    "sõit",
     "meedium sobib"
    ],
-   "added": "2026-11-04"
-  },
-  {
-   "id": "sixi-museum-sixi-international-artist-residence-2027-china-2a0a49",
-   "title": "Sixi Museum: Sixi International Artist-In-Residence 2027 (China)",
-   "org": "Sixi Museum",
-   "source": "On the Move",
-   "type": "Residentuur",
-   "region": "Maailm",
-   "deadline": "2026-11-15",
-   "summary": "Sixi AiR Project is calling for applications from international artists for a residency in Nanjing, China, from March–May and September–November 2027.",
-   "amount": "",
-   "url": "https://siximuseum.com/en/residency/",
-   "infoUrl": "https://on-the-move.org/news/sixi-museum-sixi-international-artist-residence-2027-china",
-   "infoLabel": "Kuulutus: On the Move",
-   "needsPartner": false,
-   "check": true,
-   "score": 2,
-   "reasons": [
-    "kestus teadmata",
-    "meedium sobib"
-   ],
-   "added": "2026-11-04"
+   "added": "2026-11-09"
   },
   {
    "id": "talents-contemporains-eau-2026",
@@ -299,6 +232,48 @@
    "added": "2026-11-04"
   },
   {
+   "id": "associazione-manifestazioni-ascona-festival-artisti-di-strad-953b8a",
+   "title": "Associazione Manifestazioni Ascona: Festival Artisti di Strada Ascona 2027 for Street Artists (Switzerland)",
+   "org": "Associazione Manifestazioni Ascona",
+   "source": "On the Move",
+   "type": "Näitus",
+   "region": "Euroopa",
+   "deadline": "2026-12-15",
+   "summary": "Associazione Manifestazioni Ascona is calling for applications from street artists for the Festival Artisti di Strada Ascona, 14–16 May 2027.",
+   "amount": "Each artist will receive a travel reimbursement of 500 EUR, including possible overnight stays along the way for those coming from further afield.",
+   "url": "https://form.jotform.com/242621680189359",
+   "infoUrl": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-09"
+  },
+  {
+   "id": "g-a-mamidakis-foundation-art-prize-2027-e07b8f",
+   "title": "G. & A. Mamidakis Foundation Art Prize 2027",
+   "org": "gnamamidakisfoundation.org",
+   "source": "ArtRabbit",
+   "type": "Toetus",
+   "region": "Maailm",
+   "deadline": "2026-12-30",
+   "summary": "Mamidakis Foundation invites international artists to propose a large-scale, site-specific sculptural installation for permanent outdoor display in Agios Nikolaos, Crete. The winning work will become part of the Foundation’s art collection and local cultural heritage.",
+   "amount": "",
+   "url": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/december/g-a-mamidakis-foundation-art-prize-2027",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 3,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-09"
+  },
+  {
    "id": "telliskivi-galeriid-open-call",
    "title": "Telliskivi Loomelinnaku galeriide avatud kutse",
    "org": "Telliskivi Loomelinnak, Tallinn",
@@ -356,6 +331,28 @@
    "added": "2026-11-04"
   },
   {
+   "id": "public-art-commission-220-blackfriars-road-687ff8",
+   "title": "Public Art Commission: 220 Blackfriars Road",
+   "org": "southwarkcharities.co.uk",
+   "source": "ArtRabbit",
+   "type": "Residentuur",
+   "region": "Euroopa",
+   "deadline": "2027-01-04",
+   "summary": "Calling artists, designers, makers and interdisciplinary teams to send expressions of interest for a major new public artwork at our new almshouse. The artwork will sit in a new public garden on the corner of SE1.",
+   "amount": "We anticipate an overall budget in the region of £200,000 £300,000, appropriate to the scale and ambition of the opportunity.",
+   "url": "https://www.southwarkcharities.co.uk/public-art/",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/january/public-art-commission-220-blackfriars-road",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "kestus teadmata",
+    "meedium sobib"
+   ],
+   "added": "2026-11-09"
+  },
+  {
    "id": "schwabach-ortung-15-2027",
    "title": "ortung 15 – Schwabachi kunstipreis 2027",
    "org": "Schwabachi linn, Kulturamt",
@@ -369,6 +366,29 @@
    "added": "2026-11-02",
    "source": "käsitsi",
    "check": false
+  },
+  {
+   "id": "202627-spector-craft-prize-for-emerging-artists-009ead",
+   "title": "2026–27 Spector Craft Prize for Emerging Artists",
+   "org": "spectorcraftprize.org",
+   "source": "ArtRabbit",
+   "type": "Toetus",
+   "region": "Maailm",
+   "deadline": "2027-02-12",
+   "summary": "The Spector Craft Prize invites emerging makers to apply for an award supporting the development of their studio practices. Five artists will receive financial support, professional development and mentorship to help advance the next generation of American craft.",
+   "amount": "Five recipients receive a US$10,000 award, professional development, mentorship and participation in the annual Spector Craft Summit.; The Spector Craft Prize for…",
+   "url": "https://spectorcraftprize.org/emerging-artists-prize",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/february/202627-spector-craft-prize-for-emerging-artists",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 3,
+   "reasons": [
+    "kunstnikutasu",
+    "meedium sobib",
+    "alustavatele kunstnikele"
+   ],
+   "added": "2026-11-09"
   },
   {
    "id": "apexart-international-2027",
