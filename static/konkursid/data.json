@@ -1,31 +1,8 @@
 {
- "updated": "2026-11-09",
- "candidates": 153,
- "count": 21,
+ "updated": "2026-11-16",
+ "candidates": 122,
+ "count": 23,
  "items": [
-  {
-   "id": "festival-opera-prima-2027-experimental-theatre-and-performin-9827e5",
-   "title": "Festival Opera Prima 2027 Experimental Theatre and Performing Arts Projects (Italy)",
-   "org": "festivaloperaprima.it",
-   "source": "On the Move",
-   "type": "Näitus",
-   "region": "Euroopa",
-   "deadline": "2026-11-21",
-   "summary": "This call for entries is opened to international groups or artists that practice experimental theatre or experimentation on scenic languages, to perform at Festival Opera Prima, 9–13 June 2027, in Rovigo, Italy.",
-   "amount": "Kaetud: tootmiseelarve, sõit",
-   "url": "https://www.festivaloperaprima.it/images/2027/Inglese%20-%20Bando%20opera%20prima%202026%201.pdf",
-   "infoUrl": "https://on-the-move.org/news/festival-opera-prima-2027-experimental-theatre-and-performing-arts-projects-italy",
-   "infoLabel": "Kuulutus: On the Move",
-   "needsPartner": false,
-   "check": true,
-   "score": 6,
-   "reasons": [
-    "tootmiseelarve",
-    "sõit",
-    "meedium sobib"
-   ],
-   "added": "2026-11-09"
-  },
   {
    "id": "talents-contemporains-eau-2026",
    "title": "Talents Contemporains 16: konkurss teemal \"Vesi\"",
@@ -40,28 +17,6 @@
    "added": "2026-11-02",
    "source": "käsitsi",
    "check": false
-  },
-  {
-   "id": "busan-metropolitan-city-land-and-ecological-art-south-korea-9dadf4",
-   "title": "Busan Metropolitan City: Land and Ecological Art (South Korea)",
-   "org": "Busan Metropolitan City",
-   "source": "On the Move",
-   "type": "Näitus",
-   "region": "Maailm",
-   "deadline": "2026-11-22",
-   "summary": "Busan Metropolitan City invites individuals and teams from around the world to propose a site-responsive work of land and ecological art for Eulsukdo, an estuarine island at the mouth of the Nakdong River, South Korea’s longest river.",
-   "amount": "Kaetud: kunstnikutasu",
-   "url": "https://eulsukdo-ecoart.com/en/",
-   "infoUrl": "https://on-the-move.org/news/busan-metropolitan-city-land-and-ecological-art-south-korea",
-   "infoLabel": "Kuulutus: On the Move",
-   "needsPartner": false,
-   "check": true,
-   "score": 6,
-   "reasons": [
-    "kunstnikutasu",
-    "meedium sobib"
-   ],
-   "added": "2026-11-04"
   },
   {
    "id": "art-in-manufacturing-open-call-artistic-residencies-c42e7b",
@@ -167,6 +122,49 @@
    "added": "2026-11-04"
   },
   {
+   "id": "miniatures-af3148",
+   "title": "Miniatures",
+   "org": "secondactgallery.co.uk",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Euroopa",
+   "deadline": "2026-11-30",
+   "summary": "The Second Act / Uncultured Creatives is inviting applications from artists with a meaningful connection to Blackburn with Darwen for a micro commission exploring the theme of Miniatures. The commission is offered through the Creative Alliance scheme for the Place Based Partnership, with funded by Arts Council England.",
+   "amount": "Each will receive a fee of £1,000 to develop a new body of work in dialogue with the curator and the other commissioned artist.; ARTIST FEE: £1,000 per artist; Each will…",
+   "url": "https://www.secondactgallery.co.uk/copy-of-about",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/november/miniatures",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 6,
+   "reasons": [
+    "kunstnikutasu",
+    "meedium sobib"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "id": "be-open-regional-art-east-asia-2026-09ec01",
+   "title": "BE OPEN Regional Art East Asia 2026",
+   "org": "art.beopenfuture.com",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Maailm",
+   "deadline": "2026-11-30",
+   "summary": "BE OPEN Foundation invites emerging artists from East Asia to participate in BE OPEN Regional Art East Asia 2026. The programme showcases art reflecting regional, cultural and ethnic identities through the BE OPEN Art online gallery.",
+   "amount": "€500 Artist of the Region award, presented to the overall regional winner following the final selection.; €300 Founder’s Favourite award, presented to an artist selected…",
+   "url": "https://art.beopenfuture.com/regional-art/",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/november/be-open-regional-art-east-asia-2026",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-16"
+  },
+  {
    "id": "2-minutes-for-peace-international-open-call-for-short-videos-ecffe8",
    "title": "2 Minutes for Peace – International Open Call for Short Videos",
    "org": "storytellersforpeace.com",
@@ -186,6 +184,27 @@
     "meedium sobib"
    ],
    "added": "2026-11-04"
+  },
+  {
+   "id": "whitney-museum-of-american-art-curatorial-research-associate-c4d1c5",
+   "title": "Whitney Museum of American Art: Curatorial Research Associate",
+   "org": "jobs.whitney.org",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Maailm",
+   "deadline": "2026-12-05",
+   "summary": "The Whitney Museum of American Art seeks a part-time Curatorial Research Associate to support a publication accompanying a mid-career survey of a living artist. Responsibilities include archival and secondary research, image permissions, bibliography preparation, checklist management and coordination with partner institutions.",
+   "amount": "",
+   "url": "https://jobs.whitney.org/apply/844uHexOTW/Curatorial-Research-Associate",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/december/whitney-museum-of-american-art-curatorial-research-associate",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 3,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-16"
   },
   {
    "id": "material-works-art-award-2o26-fce9ad",
@@ -210,47 +229,47 @@
    "added": "2026-11-04"
   },
   {
-   "id": "zmina-rebuilding-international-showcasing-co-creation-projec-e82e22",
-   "title": "ZMINA: Rebuilding International Showcasing of Co-creation Projects Ukraine–Creative Europe Countries",
-   "org": "ZMINA",
-   "source": "On the Move",
-   "type": "Toetus",
-   "region": "Euroopa",
-   "deadline": "2026-12-14",
-   "summary": "IZOLYATSIA Foundation (UA) and Malý Berlín (SK) together with Trans Europe Halles (SE) announces the rolling open call for cultural and arts organisations within the ZMINA: Resilience project, strand ‘Support for international showcasing of co-creation projects’.",
-   "amount": "Grant amount: up to 50,000 EUR, covering up to 90% of total project costs (which can include travel costs); Grant amount: up to 50,000 €, covering up to 90% of total…",
-   "url": "https://platform.izolyatsia.org/en/contest/zmina-resilience-showcasing-1",
-   "infoUrl": "https://on-the-move.org/news/zmina-rebuilding-international-showcasing-co-creation-projects-ukraine-creative-europe",
-   "infoLabel": "Kuulutus: On the Move",
+   "id": "tuwaiq-sculpture-2027-open-call-for-artists-337e7d",
+   "title": "Tuwaiq Sculpture 2027 | Open Call for Artists",
+   "org": "riyadhart.rcrc.gov.sa",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Maailm",
+   "deadline": "2026-12-06",
+   "summary": "Riyadh Art invites artists from Saudi Arabia and around the world to apply for Tuwaiq Sculpture 2027, taking place in Riyadh in January 2027 under the curatorial theme Where Roots Run Deep. The eighth edition will bring together 20 artists to create large-scale sculptures during a live, three-week symposium, followed by an exhibition.",
+   "amount": "Kaetud: kunstnikutasu",
+   "url": "https://riyadhart.rcrc.gov.sa/en/opencall/tuwaiq-sculpture-2027-open-call/?utm_source=artrabbit&utm_medium=listing&utm_campaign=ts27",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/december/tuwaiq-sculpture-2027-open-call-for-artists",
+   "infoLabel": "Kuulutus: ArtRabbit",
    "needsPartner": false,
    "check": true,
-   "score": 3,
+   "score": 5,
    "reasons": [
-    "sõit",
-    "avatud rahvusvaheliselt / Eestile"
+    "kunstnikutasu",
+    "meedium sobib"
    ],
-   "added": "2026-11-04"
+   "added": "2026-11-16"
   },
   {
-   "id": "associazione-manifestazioni-ascona-festival-artisti-di-strad-953b8a",
-   "title": "Associazione Manifestazioni Ascona: Festival Artisti di Strada Ascona 2027 for Street Artists (Switzerland)",
-   "org": "Associazione Manifestazioni Ascona",
-   "source": "On the Move",
+   "id": "european-media-art-festival-emaf-2027-international-open-cal-ebb279",
+   "title": "i Light Singapore 2027: International Open Call",
+   "org": "emaf.filmchief.com",
+   "source": "ArtRabbit",
    "type": "Näitus",
    "region": "Euroopa",
    "deadline": "2026-12-15",
-   "summary": "Associazione Manifestazioni Ascona is calling for applications from street artists for the Festival Artisti di Strada Ascona, 14–16 May 2027.",
-   "amount": "Each artist will receive a travel reimbursement of 500 EUR, including possible overnight stays along the way for those coming from further afield.",
-   "url": "https://form.jotform.com/242621680189359",
-   "infoUrl": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
-   "infoLabel": "Kuulutus: On the Move",
+   "summary": "The European Media Art Festival invites submissions of recent works for its Film, Installation and Expanded sections. Entries are free and will close once 2,200 submissions are received, or by 15 December 2026 at the latest.",
+   "amount": "",
+   "url": "https://emaf.filmchief.com/entry-forms",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/december/european-media-art-festival-emaf-2027-international-open-call",
+   "infoLabel": "Kuulutus: ArtRabbit",
    "needsPartner": false,
    "check": true,
    "score": 2,
    "reasons": [
     "meedium sobib"
    ],
-   "added": "2026-11-09"
+   "added": "2026-11-16"
   },
   {
    "id": "g-a-mamidakis-foundation-art-prize-2027-e07b8f",
@@ -368,6 +387,27 @@
    "check": false
   },
   {
+   "id": "open-call-12th-international-art-prize-druck-german-pressure-11d50f",
+   "title": "Open call: 12th International Art Prize “Druck” (German for pressure), deadline January 31, 2027",
+   "org": "EKL",
+   "source": "EKL",
+   "type": "Toetus",
+   "region": "Eesti",
+   "deadline": "2027-01-31",
+   "summary": "Open call: 12th International Art Prize “Druck” (German for pressure), deadline January 31, 2027 | Eesti Kunstnike Liit Open call: 12th International Art Prize “Druck” (German for pressure), deadline January 31, 2027",
+   "amount": "",
+   "url": "https://qqtec.art/kunstpreis#ausschreibung",
+   "infoUrl": "https://eaa.ee/en/open-call-12th-international-art-prize-druck-german-pressure-deadline-january-31-2027",
+   "infoLabel": "Kuulutus: EKL",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-16"
+  },
+  {
    "id": "202627-spector-craft-prize-for-emerging-artists-009ead",
    "title": "2026–27 Spector Craft Prize for Emerging Artists",
    "org": "spectorcraftprize.org",
@@ -408,26 +448,27 @@
    "check": false
   },
   {
-   "id": "international-mute-photo-festival-2027-call-photography-gree-9ac970",
-   "title": "International Mute Photo Festival: 2027 Call for Photography (Greece)",
-   "org": "International Mute Photo Festival",
-   "source": "On the Move",
+   "id": "international-mute-photo-festival-85f41a",
+   "title": "International Mute Photo Festival",
+   "org": "linktr.ee",
+   "source": "ArtRabbit",
    "type": "Näitus",
    "region": "Euroopa",
    "deadline": "2027-04-30",
-   "summary": "The International Mute Photo Festival (IMPhF) 2027 is calling for submissions made on children’s thermal printer camera in the theme Nature ate the pixels. The exhibition will be held in Karlovasi, Samos, Greece, in July 2027.",
-   "amount": "Kaetud: sõit",
-   "url": "https://drive.google.com/file/d/1h8TdcgL9GO-gKWc3VmX4saFE-FhQOSnd/view",
-   "infoUrl": "https://on-the-move.org/news/international-mute-photo-festival-2027-call-photography-greece",
-   "infoLabel": "Kuulutus: On the Move",
+   "summary": "Photonisos Arts & Culture NPO announces the 1st International Mute Photo Festival (IMPhF 2027) under the theme \"Nature ate the pixels\". We invite photographers worldwide to submit series taken exclusively with children's thermal print cameras.",
+   "amount": "Kaetud: tootmiseelarve",
+   "url": "https://linktr.ee/mutephotofestival",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/april/international-mute-photo-festival",
+   "infoLabel": "Kuulutus: ArtRabbit",
    "needsPartner": false,
-   "check": true,
-   "score": 4,
+   "check": false,
+   "score": 6,
    "reasons": [
-    "sõit",
+    "osalustasu puudub",
+    "tootmiseelarve",
     "meedium sobib"
    ],
-   "added": "2026-11-04"
+   "added": "2026-11-16"
   }
  ]
 }
