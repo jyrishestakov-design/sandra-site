@@ -1,67 +1,8 @@
 {
- "updated": "2026-11-16",
- "candidates": 122,
- "count": 23,
+ "updated": "2026-11-23",
+ "candidates": 173,
+ "count": 31,
  "items": [
-  {
-   "id": "talents-contemporains-eau-2026",
-   "title": "Talents Contemporains 16: konkurss teemal \"Vesi\"",
-   "org": "Fondation François Schneider, Wattwiller",
-   "type": "Näitus",
-   "region": "Euroopa",
-   "deadline": "2026-11-22",
-   "summary": "Rahvusvaheline konkurss igas vanuses professionaalsetele kunstnikele (maal, joonistus, skulptuur, installatsioon, foto, video); teos või projekt peab käsitlema ainult vett. Esitada CV, portfoolio (kuni 20 lk), kavatsuskiri, 3–5 pilti ja vajadusel tootmiseelarve. Laureaadid saavad näituse Wattwilleri kunstikeskuses; performance ei ole lubatud.",
-   "amount": "Kuni 7 laureaati, igaüks 15 000 € (preemia + teose ost); installatsiooniprojektile tootmiseelarve kuni 50 000 €; fond katab laureaatide näituse kulud",
-   "url": "https://www.fondationfrancoisschneider.org/en/contemporary-talents-competition/contemporary-talents-competition-water-wattwiller/",
-   "needsPartner": false,
-   "added": "2026-11-02",
-   "source": "käsitsi",
-   "check": false
-  },
-  {
-   "id": "art-in-manufacturing-open-call-artistic-residencies-c42e7b",
-   "title": "Art in Manufacturing Open Call: Artistic Residencies",
-   "org": "festivalofmaking.co.uk",
-   "source": "ArtRabbit",
-   "type": "Residentuur",
-   "region": "Euroopa",
-   "deadline": "2026-11-23",
-   "summary": "The National Festival of Making invites applications for two paid artist residencies with manufacturers in Lancashire, Crown Paints and Fox’s Burton’s Companies UK, as part of Art in Manufacturing, its headline commissioning programme. Who can apply: Applications are welcome from UK and Ireland based artists and makers working in any art form, as individuals or collectives.",
-   "amount": "What you get: Each residency has a commission budget of £8,000 covering artist fees and the making of the work, plus VAT where applicable, with an additional allowance…",
-   "url": "https://festivalofmaking.co.uk/news/art-in-manufacturing-open-call-crown-paints-foxs-burtons-companies-uk/",
-   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/november/art-in-manufacturing-open-call-artistic-residencies",
-   "infoLabel": "Kuulutus: ArtRabbit",
-   "needsPartner": false,
-   "check": true,
-   "score": 5,
-   "reasons": [
-    "kunstnikutasu",
-    "kestus teadmata",
-    "meedium sobib"
-   ],
-   "added": "2026-11-04"
-  },
-  {
-   "id": "shoeburyness-commission-call-for-proposals-97397e",
-   "title": "Shoeburyness Commission: Call for Proposals",
-   "org": "essexcdp.com",
-   "source": "ArtRabbit",
-   "type": "Näitus",
-   "region": "Euroopa",
-   "deadline": "2026-11-24",
-   "summary": "We invite proposals for a new project to creatively respond to Shoeburyness near Southend, to celebrate the area, explore its military past and enable local people to tell their own stories in their own words. Who can apply: Open to all creative professionals working in any media, at any stage in their career.",
-   "amount": "What you get: Commission budget of £10,000.; Budget: £10,000; A short, estimated and basic budget outline, showing how you would utilise the £10,000 (we suggest 4-6…",
-   "url": "https://essexcdp.com/commission/shoeburynesscallforproposals/",
-   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/november/shoeburyness-commission-call-for-proposals",
-   "infoLabel": "Kuulutus: ArtRabbit",
-   "needsPartner": false,
-   "check": true,
-   "score": 2,
-   "reasons": [
-    "meedium sobib"
-   ],
-   "added": "2026-11-04"
-  },
   {
    "id": "culture-moves-europe-2026-11",
    "title": "Culture Moves Europe: individuaalne mobiilsus",
@@ -78,8 +19,76 @@
    "check": false
   },
   {
+   "id": "stockholm-fringe-festival-2027-outdoor-performances-sweden-f4719a",
+   "title": "Stockholm Fringe Festival 2027 Outdoor Performances (Sweden)",
+   "org": "stockholmfringe.com",
+   "source": "On the Move",
+   "type": "Näitus",
+   "region": "Põhjamaad ja Baltikum",
+   "deadline": "2026-11-30",
+   "summary": "Stockholm Fringe is looking for artists, companies and collectives with innovative work for two outdoor stages in Stockholm during the opening weeks of Stockholm Fringe Festival, August–September 2027. All proposed work must be suitable for public audiences of all ages.",
+   "amount": "Fee 2,000 EUR per performance.; Fee 900 EUR per performance.; Performance fee: €2,000",
+   "url": "https://stockholmfringe.com/fringe-x-outdoor",
+   "infoUrl": "https://on-the-move.org/news/stockholm-fringe-festival-2027-outdoor-performances-sweden",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 6,
+   "reasons": [
+    "sõit",
+    "avatud rahvusvaheliselt / Eestile",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "id": "turba-festival-2027-call-south-american-performing-artists-a-1380e4",
+   "title": "TURBA Festival: 2027 Call for South American Performing Artists (Argentina)",
+   "org": "TURBA Festival",
+   "source": "On the Move",
+   "type": "Näitus",
+   "region": "Maailm",
+   "deadline": "2026-11-30",
+   "summary": "The International Performing Arts Festival of Ushuaia TURBA invites applications from artists from South American countries (excluding Argentina) working in the field of movement arts – dance, performance and related practices – for its third edition, taking place from 15 to 25 April 2027 in Ushuaia, Tierra del Fuego, Argentina.",
+   "amount": "Kaetud: kunstnikutasu",
+   "url": "https://drive.google.com/file/d/1GEdeo90JWdh_Km9z_aVGIsKofxoIhJOu/view",
+   "infoUrl": "https://on-the-move.org/news/turba-festival-2027-call-south-american-performing-artists-argentina",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 4,
+   "reasons": [
+    "kunstnikutasu",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "id": "sharjah-art-foundation-collection-research-fellowship-2027-2-96482a",
+   "title": "Sharjah Art Foundation: Collection Research Fellowship 2027–2029 (UAE, Remote)",
+   "org": "Sharjah Art Foundation",
+   "source": "On the Move",
+   "type": "Toetus",
+   "region": "Maailm",
+   "deadline": "2026-11-30",
+   "summary": "Sharjah Art Foundation is accepting applications for the Sharjah Art Foundation Collection Research Fellowship, a two-year programme (March 2027–March 2029) supporting sustained research into the Foundation’s collection and archives.",
+   "amount": "Kaetud: kunstnikutasu, sõit",
+   "url": "https://www.sharjahart.org/en/open-calls/details/sharjah-art-foundation-announces-open-call-for-collection-research-fellowship",
+   "infoUrl": "https://on-the-move.org/news/sharjah-art-foundation-collection-research-fellowship-2027-2029-uae-remote",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 8,
+   "reasons": [
+    "kunstnikutasu",
+    "sõit",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "id": "les-rencontres-darles-curatorial-research-grant-2027-2bc006",
-   "title": "Les Rencontres d’Arles Curatorial Research Grant 2027",
+   "title": "Grant: Les Rencontres d’Arles Curatorial Research Grant 2027",
    "org": "rencontres-arles.com",
    "source": "ArtRabbit",
    "type": "Toetus",
@@ -186,6 +195,28 @@
    "added": "2026-11-04"
   },
   {
+   "id": "zmina-resilience-co-creation-funding-international-cooperati-006c1e",
+   "title": "ZMINA: Resilience Co-creation Funding of International Cooperation Projects Call #2 Ukraine–Creative Europe Countries",
+   "org": "ZMINA",
+   "source": "On the Move",
+   "type": "Toetus",
+   "region": "Euroopa",
+   "deadline": "2026-12-04",
+   "summary": "The IZOLYATSIA Foundation (UA) and Malý Berlín (SK), together with Trans Europe Halles (SE), have announced the second call for proposals for the co-creation funding of international cooperation projects.",
+   "amount": "Amounts per grant are up to 25,000 EUR, covering up to 90% of project costs.; Eligible costs include travel (65–350 EUR, related to organisational, rehearsal, artistic,…",
+   "url": "https://platform.izolyatsia.org/en/contest/zmina-resilience-cocreation-two",
+   "infoUrl": "https://on-the-move.org/news/zmina-resilience-co-creation-funding-international-cooperation-projects-call-2-ukraine",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 4,
+   "reasons": [
+    "kunstnikutasu",
+    "avatud rahvusvaheliselt / Eestile"
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "id": "whitney-museum-of-american-art-curatorial-research-associate-c4d1c5",
    "title": "Whitney Museum of American Art: Curatorial Research Associate",
    "org": "jobs.whitney.org",
@@ -205,6 +236,27 @@
     "meedium sobib"
    ],
    "added": "2026-11-16"
+  },
+  {
+   "id": "asymmetry-2027-curatorial-fellowship-sculpturecenter-usa-e6ae7d",
+   "title": "Asymmetry: 2027 Curatorial Fellowship at the SculptureCenter (USA)",
+   "org": "Asymmetry",
+   "source": "On the Move",
+   "type": "Toetus",
+   "region": "Maailm",
+   "deadline": "2026-12-06",
+   "summary": "Asymmetry is calling for applications for their 2027 Asymmetry Curatorial Fellowship at SculptureCenter, New York, from 9 August 2027 – 9 August 2029.",
+   "amount": "",
+   "url": "https://www.asymmetryart.org/fellowships/open-calls/2027-asymmetry-curatorial-fellowship-sculpturecenter-new-york",
+   "infoUrl": "https://on-the-move.org/news/asymmetry-2027-curatorial-fellowship-sculpturecenter-usa",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 3,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
   },
   {
    "id": "material-works-art-award-2o26-fce9ad",
@@ -251,6 +303,72 @@
    "added": "2026-11-16"
   },
   {
+   "id": "archaive-residency-ai-and-cultural-memory-2027-germany-italy-ddee99",
+   "title": "ARCHAIVE: Residency on AI and Cultural Memory 2027 (Germany, Italy, Netherlands, Portugal, Spain, Remote)",
+   "org": "ARCHAIVE",
+   "source": "On the Move",
+   "type": "Residentuur",
+   "region": "Euroopa",
+   "deadline": "2026-12-07",
+   "summary": "ARCHAIVE invites emerging and mid-career artists to critically engage with generative AI through the lens of cultural memory. Six media art archives, held by five European partners and spanning the 1960s to today, provide the starting point. These partners are in Germany, Italy, Netherlands, Portugal, and Spain, and the residencies have different dates throughout 2027.",
+   "amount": "Each selected artist receives a 5,000 EUR artist fee.",
+   "url": "https://archaive.eu/news/international-open-call-for-artists/",
+   "infoUrl": "https://on-the-move.org/news/archaive-residency-ai-and-cultural-memory-2027-germany-italy-netherlands-portugal-spain-remote",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 9,
+   "reasons": [
+    "kunstnikutasu",
+    "lühike residentuur (~21 p)",
+    "avatud rahvusvaheliselt / Eestile",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "id": "interim-creative-director-5757b2",
+   "title": "Interim Creative Director",
+   "org": "creativecrawley.com",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Euroopa",
+   "deadline": "2026-12-14",
+   "summary": "The Interim Creative Director is responsible for securing and shaping Creative Crawley’s future. We are looking for a self-motivated, entrepreneurial leader to support the charity into a new chapter, building on the business model to 2029 to create a sustainable, thriving future.",
+   "amount": "Remuneration: £30,000 fee.",
+   "url": "https://creativecrawley.com/get_involved/interim-creative-director/",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2026/december/interim-creative-director",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "id": "associazione-manifestazioni-ascona-festival-artisti-di-strad-953b8a",
+   "title": "Associazione Manifestazioni Ascona: Festival Artisti di Strada Ascona 2027 for Street Artists (Switzerland)",
+   "org": "Associazione Manifestazioni Ascona",
+   "source": "On the Move",
+   "type": "Näitus",
+   "region": "Euroopa",
+   "deadline": "2026-12-15",
+   "summary": "Associazione Manifestazioni Ascona is calling for applications from street artists for the Festival Artisti di Strada Ascona, 14–16 May 2027.",
+   "amount": "Each artist will receive a travel reimbursement of 500 EUR, including possible overnight stays along the way for those coming from further afield.",
+   "url": "https://form.jotform.com/242621680189359",
+   "infoUrl": "https://on-the-move.org/news/associazione-manifestazioni-ascona-festival-artisti-di-strada-ascona-2027-street-artists",
+   "infoLabel": "Kuulutus: On the Move",
+   "needsPartner": false,
+   "check": true,
+   "score": 2,
+   "reasons": [
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "id": "european-media-art-festival-emaf-2027-international-open-cal-ebb279",
    "title": "i Light Singapore 2027: International Open Call",
    "org": "emaf.filmchief.com",
@@ -270,6 +388,27 @@
     "meedium sobib"
    ],
    "added": "2026-11-16"
+  },
+  {
+   "id": "wyn-edition-iii-open-call-for-an-artist-commission-8798aa",
+   "title": "Wyn Edition III: Open Call for an Artist Commission",
+   "org": "artrabbit.com",
+   "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Euroopa",
+   "deadline": "2026-12-20",
+   "summary": "Focal Point Gallery (Southend-on-Sea) and Wyn invite an artist to create Wyn Edition III, an original artwork spanning 100 bottles of still wine grown and produced in Essex's Crouch Valley. As vineyards reshape the county's landscape, the commission explores Essex's changing identity and turns the bottle into both artwork and record of place.",
+   "amount": "A £3,000 artist fee, plus a production budget, to create an artwork for 100 wine bottles.",
+   "url": "https://www.artrabbit.com/artist-opportunities/2026/december/wyn-edition-iii-open-call-for-an-artist-commission",
+   "needsPartner": false,
+   "check": true,
+   "score": 7,
+   "reasons": [
+    "kunstnikutasu",
+    "tootmiseelarve",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
   },
   {
    "id": "g-a-mamidakis-foundation-art-prize-2027-e07b8f",
@@ -372,6 +511,29 @@
    "added": "2026-11-09"
   },
   {
+   "id": "artist-callout-large-scale-participatory-game-5c5e37",
+   "title": "Artist Callout: Large-Scale Participatory Game",
+   "org": "creativecrawley.com",
+   "source": "ArtRabbit",
+   "type": "Residentuur",
+   "region": "Euroopa",
+   "deadline": "2027-01-06",
+   "summary": "We are looking to work with an Artist or Creative Practitioner to work with us to design, develop and produce a large-scale participatory game. An important part of the process is working in collaboration with local residents to shape, inform and produce the game.",
+   "amount": "What you get: Artist fee of £5,000.; Fee: £5k (incl.",
+   "url": "https://creativecrawley.com/get_involved/artist-callout-large-scale-participatory-game/",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/january/artist-callout-large-scale-participatory-game",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 5,
+   "reasons": [
+    "kunstnikutasu",
+    "kestus teadmata",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
    "id": "schwabach-ortung-15-2027",
    "title": "ortung 15 – Schwabachi kunstipreis 2027",
    "org": "Schwabachi linn, Kulturamt",
@@ -448,27 +610,48 @@
    "check": false
   },
   {
-   "id": "international-mute-photo-festival-85f41a",
-   "title": "International Mute Photo Festival",
-   "org": "linktr.ee",
+   "id": "viewpoint-international-video-art-open-call-98c479",
+   "title": "VIEW:POINT — International Video Art Open Call",
+   "org": "utopos-biennale.net",
    "source": "ArtRabbit",
+   "type": "Näitus",
+   "region": "Maailm",
+   "deadline": "2027-03-15",
+   "summary": "VIEW:POINT invites artists to create a new 30-second to 3-minute video for one of 20 specific locations in Avallon, France. Each location is documented with GPS coordinates and a short reference video.",
+   "amount": "Kaetud: kunstnikutasu",
+   "url": "https://utopos-biennale.net/viewpoint.html",
+   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/march/viewpoint-international-video-art-open-call",
+   "infoLabel": "Kuulutus: ArtRabbit",
+   "needsPartner": false,
+   "check": true,
+   "score": 6,
+   "reasons": [
+    "kunstnikutasu",
+    "meedium sobib"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "id": "international-mute-photo-festival-2027-call-photography-gree-9ac970",
+   "title": "International Mute Photo Festival: 2027 Call for Photography (Greece)",
+   "org": "International Mute Photo Festival",
+   "source": "On the Move",
    "type": "Näitus",
    "region": "Euroopa",
    "deadline": "2027-04-30",
-   "summary": "Photonisos Arts & Culture NPO announces the 1st International Mute Photo Festival (IMPhF 2027) under the theme \"Nature ate the pixels\". We invite photographers worldwide to submit series taken exclusively with children's thermal print cameras.",
-   "amount": "Kaetud: tootmiseelarve",
-   "url": "https://linktr.ee/mutephotofestival",
-   "infoUrl": "https://www.artrabbit.com/artist-opportunities/2027/april/international-mute-photo-festival",
-   "infoLabel": "Kuulutus: ArtRabbit",
+   "summary": "The International Mute Photo Festival (IMPhF) 2027 is calling for submissions made on children’s thermal printer camera in the theme Nature ate the pixels. The exhibition will be held in Karlovasi, Samos, Greece, in July 2027.",
+   "amount": "Kaetud: sõit",
+   "url": "https://drive.google.com/file/d/1h8TdcgL9GO-gKWc3VmX4saFE-FhQOSnd/view",
+   "infoUrl": "https://on-the-move.org/news/international-mute-photo-festival-2027-call-photography-greece",
+   "infoLabel": "Kuulutus: On the Move",
    "needsPartner": false,
-   "check": false,
-   "score": 6,
+   "check": true,
+   "score": 4,
    "reasons": [
-    "osalustasu puudub",
-    "tootmiseelarve",
+    "sõit",
     "meedium sobib"
    ],
-   "added": "2026-11-16"
+   "added": "2026-11-23"
   }
  ]
 }
