@@ -11,8 +11,8 @@ mat_width_adjust: null
 
 ## PRESSITEATED JA MEEDIAKAJASTUSED
 
-**November 2026 — ERR**
-Intervjuu.
+**8.11 2026 — ERR**
+Mari Peegli intervjuu (sari ID).
 [Sandra Jõgeva: saan kunsti teha tänu sellele, et mu ema oli erakordselt produktiivne kunstnik](https://kultuur.err.ee/1610182738/sandra-jogeva-saan-kunsti-teha-tanu-sellele-et-mu-ema-oli-erakordselt-produktiivne-kunstnik)
 
 **1.10 2026 — Delfi**

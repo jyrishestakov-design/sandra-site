@@ -4,8 +4,8 @@ title: PRESS
 
 ## PRESS RELEASES AND MEDIA COVERAGE
 
-**November 2026 — ERR**
-Interview.
+**8.11 2026 — ERR**
+Interview by Mari Peegel (ID series).
 [Sandra Jõgeva: I can make art thanks to the fact that my mother was an exceptionally productive artist](https://kultuur.err.ee/1610182738/sandra-jogeva-saan-kunsti-teha-tanu-sellele-et-mu-ema-oli-erakordselt-produktiivne-kunstnik)
 
 **1.10 2026 — Delfi**
