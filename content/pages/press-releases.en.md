@@ -4,6 +4,10 @@ title: PRESS
 
 ## PRESS RELEASES AND MEDIA COVERAGE
 
+**November 2026 — ERR**
+Interview.
+[Sandra Jõgeva: I can make art thanks to the fact that my mother was an exceptionally productive artist](https://kultuur.err.ee/1610182738/sandra-jogeva-saan-kunsti-teha-tanu-sellele-et-mu-ema-oli-erakordselt-produktiivne-kunstnik)
+
 **1.10 2026 — Delfi**
 Review by Margus Kiis.
 [SERIES OF THE WEEK | The eternal rebel’s own television. Sandra Jõgeva’s YouTube art series is in no way inferior to ERR’s cultural programmes](https://kultuur.delfi.ee/artikkel/120613451/nadala-sari-igavese-massaja-oma-televisioon-sandra-jogeva-youtube-i-kunstisari-ei-jaa-kuidagi-erri-kultuurisaadetele-alla)

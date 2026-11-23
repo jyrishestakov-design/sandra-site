@@ -4,13 +4,17 @@ title: Do You Know What Happened to Hanif Kureishi?
 date: 2026-05-10
 ---
 
-[https://youtu.be/vMVbwxjxUSE](https://youtu.be/vMVbwxjxUSE)
+**Video no. 1 shown at the exhibition**
+[Venice](https://youtu.be/vMVbwxjxUSE)
 
-[https://youtu.be/1ftZ9aUZRkw](https://youtu.be/1ftZ9aUZRkw)
+**Video no. 2 shown at the exhibition**
+[Monuments](https://youtu.be/1ftZ9aUZRkw)
 
-[https://youtu.be/j6sJucuxJPQ](https://youtu.be/j6sJucuxJPQ)
+**Video no. 3 shown at the exhibition**
+[Foreign Woman](https://youtu.be/j6sJucuxJPQ)
 
-Do You Know What Happened to Hanif Kureishi?
+**Do You Know What Happened to Hanif Kureishi?**
+
 The exhibition's theme is the art world as such, its power relations and how they play out at one of the most important events in the contemporary art world, where everyone who thinks they're somebody shows up.
 
 The opening of the Venice Biennale, of course. Extravagant costumes, the eternal question of who's worth talking to and who isn't, artfully vacant expressions, and feigned warm embraces. Hands grabbing free prosecco and eyes hungry for opportunity.
@@ -19,14 +23,14 @@ Snatches of conversation in several languages.
 
 Separate videos come from the project “Pied-à-terre”, which deals with themes of foot fetishism, being on the road, and travel. Together they form a whole shown across three screens.
 
-MIGA opening
+**MIGA opening**
 [https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii](https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii)
 
-MIGA press release
+**MIGA press release**
 [https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus](https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus)
 
-MIGA blog
+**MIGA blog**
 [https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam](https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam)
 
-View of the exhibition.
+**View of the exhibition**
 [https://www.youtube.com/watch?v=7du4aT-4UW4](https://www.youtube.com/watch?v=7du4aT-4UW4)

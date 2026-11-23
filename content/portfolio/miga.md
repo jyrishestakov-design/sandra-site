@@ -34,13 +34,17 @@ gallery:
 mat_width_adjust: null
 ---
 
-[https://youtu.be/vMVbwxjxUSE](https://youtu.be/vMVbwxjxUSE)
+**Näitusel eksponeeritud video nr 1**
+[Veneetsia](https://youtu.be/vMVbwxjxUSE)
 
-[https://youtu.be/1ftZ9aUZRkw](https://youtu.be/1ftZ9aUZRkw)
+**Näitusel eksponeeritud video nr 2**
+[Monumendid](https://youtu.be/1ftZ9aUZRkw)
 
-[https://youtu.be/j6sJucuxJPQ](https://youtu.be/j6sJucuxJPQ)
+**Näitusel eksponeeritud video nr 3**
+[Välismaa naine](https://youtu.be/j6sJucuxJPQ)
 
-Kas sa tead, mis Hanif Kureishiga juhtus?
+**„Kas sa tead, mis Hanif Kureishiga juhtus?“**
+
 Näituse teema on kunstimaailm kui selline, selle võimusuhted ja nende väljendumine
 kaasaegse kunsti maailma ühel olulisemal sündmusel, kus on kohal kõik, kes endast midagi arvavad. 
 
@@ -52,17 +56,17 @@ Jutukatked mitmes keeles.
 
 Eraldi videod on projektist „Pied-à-terre“, mis tegeleb jalafetiši, teeloleku ja rändamise teemadega. Kõik kokku moodustab kolmel ekraanil näidatava terviku.
 
-MIGA näituse avamine
+**MIGA näituse avamine**
 [https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii](https://kultuur.err.ee/1610019499/galerii-tartus-avati-sandra-jogeva-naitusega-miga-galerii)
 
-MIGA pressiteade
+**MIGA pressiteade**
 [https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus](https://mikrogalerii.ee/kunstiprogramm/sandra-jogeva-kas-sa-tead-mis-hanif-kureishiga-juhtus)
 
-MIGA blogi
+**MIGA blogi**
 [https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam](https://mikrogalerii.ee/blogi/58-sandra-jogeva-naitus-migas-platvormist-on-saanud-uus-raam)
 
-Postimees
+**Postimees**
 [https://tartu.postimees.ee/8465573/vanas-garaazilinnakus-avatakse-sandra-jogeva-naitus](https://tartu.postimees.ee/8465573/vanas-garaazilinnakus-avatakse-sandra-jogeva-naitus)
 
-Vaade näitusele.
+**Vaade näitusele**
 [https://www.youtube.com/watch?v=7du4aT-4UW4](https://www.youtube.com/watch?v=7du4aT-4UW4)
