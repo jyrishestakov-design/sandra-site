@@ -13,6 +13,20 @@
       {{- if eq .Language.Lang "et" }}{{ $textStyle = .Params.text_style }}{{ end }}
     {{- end }}
   {{- end }}
+  {{- /* Otse kodulehel hoitav videofail (front matter: video_file). Käivitub
+         ise ilma helita ja loopib; heli saab mängija nuppudest sisse lülitada.
+         Väli on keelte vahel jagatud - kui tõlkes pole, võetakse eesti lehelt. */ -}}
+  {{- $videoFile := .Params.video_file }}
+  {{- if not $videoFile }}
+    {{- range .Translations }}
+      {{- if eq .Language.Lang "et" }}{{ $videoFile = .Params.video_file }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- with $videoFile }}
+  <figure class="portfolio-video-file">
+    <video src="{{ . }}" autoplay muted loop playsinline controls preload="metadata"></video>
+  </figure>
+  {{- end }}
   <div class="page-content{{ with $textStyle }}{{ if ne . "tavaline" }} text-{{ . }}{{ end }}{{ end }}">
     {{ .Content }}
   </div>

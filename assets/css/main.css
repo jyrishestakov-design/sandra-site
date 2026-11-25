@@ -93,6 +93,10 @@ main { flex: 1; }
 }
 .portfolio-video a:hover .play-icon { background: rgba(0, 0, 0, 0.8); }
 
+/* Otse kodulehel hoitav video (front matter video_file) - vt single.html. */
+.portfolio-video-file { margin: 0 0 1.5rem; }
+.portfolio-video-file video { display: block; width: 100%; height: auto; background: #000; }
+
 /* Teksti sees olev YouTube link asendatakse thumbnailiga (+ pealkiri
    YouTube'ist selle all) - vt layouts/_default/_markup/render-link.html.
    Kompaktne suurus, et sobiks nii lõikude vahele kui ka tabelisse
